@@ -105,84 +105,6 @@ S.PRJ.AppLanguage EQU 'en' ;Preferred language for applications
 S.PRJ.LibLanguage EQU 'en' ;Preferred language for libraries
 S.PRJ.ANSICodePage EQU 1252 ;PC's Windows ANSI code page
 
-;S-Bus Station Numbers for project
-S.PRJ.FrontEnd_R3_60_EUL_anlegg.SbusStation EQU 0
-S.PRJ.Master_R60_korr.SbusStation EQU 0
-S.PRJ.Rom_1.SbusStation EQU 1
-S.PRJ.Rom_2.SbusStation EQU 2
-S.PRJ.Rom_3.SbusStation EQU 3
-S.PRJ.Rom_4.SbusStation EQU 4
-S.PRJ.Rom_5.SbusStation EQU 5
-S.PRJ.Rom_6.SbusStation EQU 6
-S.PRJ.Rom_313.SbusStation EQU 1
-S.PRJ.Rom_361.SbusStation EQU 10
-S.PRJ.Rom_362.SbusStation EQU 11
-S.PRJ.Rom_363.SbusStation EQU 37
-S.PRJ.Rom_364.SbusStation EQU 13
-S.PRJ.Rom_365.SbusStation EQU 14
-S.PRJ.Rom_366.SbusStation EQU 15
-S.PRJ.Rom_367.SbusStation EQU 16
-S.PRJ.Rom_368.SbusStation EQU 17
-S.PRJ.Rom_369.SbusStation EQU 18
-S.PRJ.Rom_370.SbusStation EQU 19
-S.PRJ.Rom_371.SbusStation EQU 20
-S.PRJ.Rom_372.SbusStation EQU 21
-S.PRJ.Rom_373.SbusStation EQU 22
-S.PRJ.Rom_374.SbusStation EQU 23
-S.PRJ.Rom_376.SbusStation EQU 24
-S.PRJ.Rom_461.SbusStation EQU 25
-S.PRJ.Rom_462.SbusStation EQU 26
-S.PRJ.Rom_463.SbusStation EQU 27
-S.PRJ.Rom_464.SbusStation EQU 28
-S.PRJ.Rom_465.SbusStation EQU 29
-S.PRJ.Rom_466.SbusStation EQU 30
-S.PRJ.Rom_467.SbusStation EQU 31
-S.PRJ.Rom_468.SbusStation EQU 32
-S.PRJ.Rom_469.SbusStation EQU 33
-S.PRJ.Rom_470.SbusStation EQU 34
-S.PRJ.Rom_471.SbusStation EQU 35
-S.PRJ.Rom_472.SbusStation EQU 36
-S.PRJ.Rom_473.SbusStation EQU 37
-S.PRJ.Rom_474.SbusStation EQU 38
-S.PRJ.Rom_475.SbusStation EQU 39
-S.PRJ.Rom_476.SbusStation EQU 40
-S.PRJ.Rom_561.SbusStation EQU 10
-S.PRJ.Rom_562.SbusStation EQU 11
-S.PRJ.Rom_563.SbusStation EQU 12
-S.PRJ.Rom_564.SbusStation EQU 13
-S.PRJ.Rom_565.SbusStation EQU 14
-S.PRJ.Rom_566.SbusStation EQU 15
-S.PRJ.Rom_567.SbusStation EQU 16
-S.PRJ.Rom_568.SbusStation EQU 17
-S.PRJ.Rom_569.SbusStation EQU 18
-S.PRJ.Rom_570.SbusStation EQU 19
-S.PRJ.Rom_571.SbusStation EQU 20
-S.PRJ.Rom_572.SbusStation EQU 21
-S.PRJ.Rom_573.SbusStation EQU 22
-S.PRJ.Rom_574.SbusStation EQU 23
-S.PRJ.Rom_575.SbusStation EQU 24
-S.PRJ.Rom_576.SbusStation EQU 25
-S.PRJ.Rom_661.SbusStation EQU 26
-S.PRJ.Rom_662.SbusStation EQU 27
-S.PRJ.Rom_663.SbusStation EQU 28
-S.PRJ.Rom_664.SbusStation EQU 29
-S.PRJ.Rom_665.SbusStation EQU 30
-S.PRJ.Rom_666.SbusStation EQU 31
-S.PRJ.Rom_667.SbusStation EQU 32
-S.PRJ.Rom_668.SbusStation EQU 33
-S.PRJ.Rom_669.SbusStation EQU 34
-S.PRJ.Rom_670.SbusStation EQU 35
-S.PRJ.Rom_671.SbusStation EQU 36
-S.PRJ.Rom_672.SbusStation EQU 37
-S.PRJ.Rom_673.SbusStation EQU 38
-S.PRJ.Rom_674.SbusStation EQU 39
-S.PRJ.Rom_675.SbusStation EQU 40
-S.PRJ.Rom_676.SbusStation EQU 41
-
-;Server symbols
-S.PRJ.FrontEnd_R3_60_EUL_anlegg.IPNode EQU 79
-S.PRJ.FrontEnd_R3_60_EUL_anlegg.IPChannel EQU 9
-
 ;System Strings
 S.STR.PG5Licensee EQU STR "Malthe Winje Automasjon AS"
 S.STR.PG5DeveloperName EQU STR "Erik Ola Ulvestad"
@@ -190,11 +112,11 @@ S.STR.PG5DeveloperID EQU STR "NO_UlEr1071"
 S.STR.PCName EQU STR "PC-EUL-W8"
 S.STR.PCUserName EQU STR "EUL"
 S.STR.PG5Version EQU STR "V2.3.165"
-S.STR.ProjectName EQU STR "KlimaControl BRISTOL R60"
+S.STR.ProjectName EQU STR "repo_BRISTOL"
 S.STR.DeviceName EQU STR "FrontEnd_R3_60_EUL"
 S.STR.PcdType EQU STR "PCD3.M5560"
 S.STR.ProgramVersion EQU STR "1.0"
-S.STR.ProgramID EQU STR "B3507C626E18C3A7"
+S.STR.ProgramID EQU STR "0534D1A2014A6473"
 S.STR.AppLanguage EQU STR "en"
 S.STR.LibLanguage EQU STR "en"
 S.STR.ANSICodePage EQU STR "1252"

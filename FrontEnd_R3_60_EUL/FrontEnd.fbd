@@ -214,6 +214,7 @@ __EOPP___SG_COB_SBus1_00		EQU		$;Mark Page end position
 _PageProbe(		__EOP___SG_COB_SBus1_00)			;;Mark end of page.
 ;; Block: COB COB_SBus1
 ;; Page: 2/47 ResetOffset
+__PAGE_ID__	DEF	STR	""
 ;;
 $if 1
 __FBL_C000001_01___SG_COB_SBus1			EQU		$;; Mark Page position
@@ -1500,6 +1501,7 @@ __EOPP___SG_COB_SBus1_07		EQU		$;Mark Page end position
 _PageProbe(		__EOP___SG_COB_SBus1_07)			;;Mark end of page.
 ;; Block: COB COB_SBus1
 ;; Page: 9/47 Stn_04
+__PAGE_ID__	DEF	STR	""
 ;;
 $if 0
 __FBL_C000001_08___SG_COB_SBus1			EQU		$;; Mark Page position
@@ -1693,6 +1695,7 @@ __EOPP___SG_COB_SBus1_09		EQU		$;Mark Page end position
 _PageProbe(		__EOP___SG_COB_SBus1_09)			;;Mark end of page.
 ;; Block: COB COB_SBus1
 ;; Page: 11/47 Stn_06
+__PAGE_ID__	DEF	STR	""
 ;;
 $if 0
 __FBL_C000001_0A___SG_COB_SBus1			EQU		$;; Mark Page position
@@ -3555,12 +3558,19 @@ _COMSTN2B(     3,                                    ;;Version Indicator.
                600,                               ;;Init variable (Long reconnect time).
                1,                                 ;;Init variable (Reconnect Now ).
                SBus1)                                ;;FBox reference.
-;; Position: Receive Integer Quick - Rx_Stn_25 - 25,24
+;; Position: And -  - 44,26
+__fbl_C000001_1D_350___SG_COB_SBus1	EQU	$ ;Mark FBox position
+__FBOX_ID__	DEF	848	;
+__FBOX_NAME__	DEF	STR	"And"
+_BAND(		SBus1.Stn_25.f_rx_enable,	;;Input #1 ()
+		SBus1.Stn_25.f_ConS,,,,,,,,,	;;Input #2 ()
+               ___FlgDyn_C000001___SG_COB_SBus1+1)              ;;Output #1 ()
+;; Position: Receive Integer Quick - Rx_Stn_25 - 53,24
 __fbl_C000001_1D_14C___SG_COB_SBus1	EQU	$ ;Mark FBox position
 __FBOX_ID__	DEF	332	;Rx_Stn_25
 __FBOX_NAME__	DEF	STR	"Receive Integer Quick"
 _COMRXI4Q(     7,                                    ;;Version Indicator.
-		SBus1.Stn_25.f_rx_enable,	;;Input #1 (En)
+		___FlgDyn_C000001___SG_COB_SBus1+1,	;;Input #1 (En)
                ___FlgSta_C000001___SG_COB_SBus1+88,              ;;Output #1 (Err)
                SBus1.Stn_25.data_rx_base,              ;;Constant #1
                SBus1.Stn_25.data_rx_num,              ;;Constant #2
@@ -3575,12 +3585,19 @@ _COMRXI4Q(     7,                                    ;;Version Indicator.
                1,                                 ;;Init variable (Manual receive ).
                Rx_Stn_25,                            ;;FBox user name.
                SBus1)                                ;;FBox reference.
-;; Position: Transmit Integer Quick - Tx_Stn_25 - 25,39
+;; Position: And -  - 44,41
+__fbl_C000001_1D_352___SG_COB_SBus1	EQU	$ ;Mark FBox position
+__FBOX_ID__	DEF	850	;
+__FBOX_NAME__	DEF	STR	"And"
+_BAND(		SBus1.Stn_25.f_tx_enable,	;;Input #1 ()
+		SBus1.Stn_25.f_ConS,,,,,,,,,	;;Input #2 ()
+               ___FlgDyn_C000001___SG_COB_SBus1+2)              ;;Output #1 ()
+;; Position: Transmit Integer Quick - Tx_Stn_25 - 53,39
 __fbl_C000001_1D_14D___SG_COB_SBus1	EQU	$ ;Mark FBox position
 __FBOX_ID__	DEF	333	;Tx_Stn_25
 __FBOX_NAME__	DEF	STR	"Transmit Integer Quick"
 _COMTXI4Q(     9,                                    ;;Version Indicator.
-		SBus1.Stn_25.f_tx_enable,	;;Input #1 (En)
+		___FlgDyn_C000001___SG_COB_SBus1+2,	;;Input #1 (En)
                ___FlgSta_C000001___SG_COB_SBus1+89,              ;;Output #1 (Err)
                SBus1.Stn_25.data_tx_base,              ;;Constant #1
                SBus1.Stn_25.data_tx_num,              ;;Constant #2

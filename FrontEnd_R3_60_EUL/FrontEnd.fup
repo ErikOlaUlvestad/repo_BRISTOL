@@ -8,7 +8,7 @@ UpdateGlobals=0
 DnldInRun=0
 AdjustLog=0
 FuplaVersion=V2.3.165
-MacroID=847
+MacroID=850
 Author=
 Comment=
 [BLOCK]
@@ -4787,6 +4787,8 @@ ConditionalValue=0
 _COMRXI4Q 332=
 _COMTXI4Q 333=
 _COMSTN2B 334=
+_BAND 848=
+_BAND 850=
 [_COMRXI4Q 332]
 Fam=sfupcomm
 Face=RCV
@@ -4809,7 +4811,7 @@ av7=b Fs 0 %s =1 \wax=0
 AcceptName=3
 aRef=1
 Ref=SBus1
-Posi=25 24
+Posi=53 24
 uName=Rx_Stn_25
 [_COMTXI4Q 333]
 Fam=sfupcomm
@@ -4865,7 +4867,7 @@ av39=b Fs 0 %s =1 \wax=0
 AcceptName=3
 aRef=1
 Ref=SBus1
-Posi=25 39
+Posi=53 39
 uName=Tx_Stn_25
 [_COMSTN2B 334]
 Fam=sfupcomm
@@ -4884,18 +4886,44 @@ av2=b Fs 0 %s =1 \wax=0
 aRef=2
 Ref=SBus1
 Posi=25 6
+[_BAND 848]
+Fam=sfupbina
+Face=&&
+FacePosi=c
+Width=2
+Init=n
+Stretch=1 9 1 1
+In=_NB 
+Out=_B 
+Posi=44 26
+[_BAND 850]
+Fam=sfupbina
+Face=&&
+FacePosi=c
+Width=2
+Init=n
+Stretch=1 9 1 1
+In=_NB 
+Out=_B 
+Posi=44 41
 [HLINE]
 H0=9 24 25
 H1=11 39 43
 H2=13 39 43
-H3=27 24 25
-H4=42 24 25
+H3=27 24 44)46 53
+H4=28 42 44
+H5=42 24 44)46 53
+H6=43 42 44
+[VLINE]
+V0=42 11 28)28 43
 [NETWORK]
-N0=Bo 24 42)if 25 42
-N1=Bo 24 9)if 25 9
-N2=Bo 24 27)if 25 27
-N3=Bof 39 13)i 43 13
-N4=Bof 39 11)i 43 11
+N0=Bo 24 9)if 25 9
+N1=Bof 39 13)i 43 13
+N2=Bof 39 11)i 43 11)if 44 28)if 44 43
+N3=Bo 24 27)if 44 27
+N4=Bof 46 27)if 53 27
+N5=Bo 24 42)if 44 42
+N6=Bof 46 42)if 53 42
 [CONNS]
 Conn0=24 27 734 34 8
 Conn1=24 42 735 34 8

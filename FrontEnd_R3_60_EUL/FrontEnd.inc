@@ -8,6 +8,7 @@ $include "sfupindi.lib"
 $include "sfupcomm.lib"
 $include "sfupinte.lib"
 $include "sfuptime.lib"
+$include "sfupbina.lib"
 ;; End of include file list.
 ;;dynamic symbols allocated for this BLOCK
 ___FlgDyn_C000005___SG_FELLES		EQU		F [36]		;	Define 36 registers for dynamic usage.
@@ -50,7 +51,7 @@ __fup_C000005_01_27_25___SG_FELLES       EQU                        ___FlgDyn_C0
 ;;dynamic symbols allocated for this BLOCK
 ___RegDyn_C000001___SG_COB_SBus1		EQU		R [25]		;	Define 25 registers for dynamic usage.
 ___FlgSta_C000001___SG_COB_SBus1		EQU		F [129]		;	Define 129 registers for dynamic usage.
-___FlgDyn_C000001___SG_COB_SBus1		EQU		F [2]		;	Define 2 registers for dynamic usage.
+___FlgDyn_C000001___SG_COB_SBus1		EQU		F [3]		;	Define 3 registers for dynamic usage.
 ;;end of dynamic symbols allocated for this BLOCK
 
 ;;Start Static symbols allocated for this BLOCK
@@ -954,8 +955,10 @@ __fup_C000001_1B_27_09___SG_COB_SBus1       EQU                        ___FlgDyn
 __fup_C000001_1C_27_1b___SG_COB_SBus1       EQU                        ___FlgSta_C000001___SG_COB_SBus1+86 ;Export name of network.
 __fup_C000001_1C_27_2a___SG_COB_SBus1       EQU                        ___FlgSta_C000001___SG_COB_SBus1+87 ;Export name of network.
 __fup_C000001_1C_27_09___SG_COB_SBus1       EQU                        ___FlgDyn_C000001___SG_COB_SBus1+0 ;Export name of network.
-__fup_C000001_1D_27_1b___SG_COB_SBus1       EQU                        ___FlgSta_C000001___SG_COB_SBus1+88 ;Export name of network.
-__fup_C000001_1D_27_2a___SG_COB_SBus1       EQU                        ___FlgSta_C000001___SG_COB_SBus1+89 ;Export name of network.
+__fup_C000001_1D_2e_1b___SG_COB_SBus1       EQU                        ___FlgDyn_C000001___SG_COB_SBus1+1 ;Export name of network.
+__fup_C000001_1D_2e_2a___SG_COB_SBus1       EQU                        ___FlgDyn_C000001___SG_COB_SBus1+2 ;Export name of network.
+__fup_C000001_1D_43_1b___SG_COB_SBus1       EQU                        ___FlgSta_C000001___SG_COB_SBus1+88 ;Export name of network.
+__fup_C000001_1D_43_2a___SG_COB_SBus1       EQU                        ___FlgSta_C000001___SG_COB_SBus1+89 ;Export name of network.
 __fup_C000001_1D_27_09___SG_COB_SBus1       EQU                        ___FlgDyn_C000001___SG_COB_SBus1+0 ;Export name of network.
 __fup_C000001_1E_27_1b___SG_COB_SBus1       EQU                        ___FlgSta_C000001___SG_COB_SBus1+90 ;Export name of network.
 __fup_C000001_1E_27_2a___SG_COB_SBus1       EQU                        ___FlgSta_C000001___SG_COB_SBus1+91 ;Export name of network.

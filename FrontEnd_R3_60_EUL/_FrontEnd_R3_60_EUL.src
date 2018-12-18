@@ -79,7 +79,7 @@ $ENDINIT
 ;Unique program identifier
 __PCD_UID__ EQU DB                  ;Unique program identifier
 PUBL __PCD_UID__
-DB __PCD_UID__ [2] 06E18C3A7H, 0B3507C62H
+DB __PCD_UID__ [2] 0014A6473H, 00534D1A2H
 
 ;Old Program Information DBX, retained for compatibility
 DBX 9          ;DBX_PROGRAM_INFO
@@ -114,14 +114,14 @@ DBX 6          ;DBX_REGISTRY
 @0: "PCName=PC-EUL-W8           <LF>"
 @0: "Originator=Klimacontrol as<LF>"
 @0: "PG5Version=V2.3.165            <LF>"
-@0: "ProjectName=KlimaControl BRISTOL R60<LF>"
+@0: "ProjectName=repo_BRISTOL<LF>"
 @0: "DeviceName=FrontEnd_R3_60_EUL<LF>"
 @0: "PcdType=PCD3.M5560<LF>"
 @0: "ANSICodePage=1252<LF>"
 @0: "ProgramVersion=1.0                 <LF>"
-@0: "ProgramID=B3507C626E18C3A7<LF>"
+@0: "ProgramID=0534D1A2014A6473<LF>"
 @0: "ProgramCRC=00000000<LF>"
-@0: "BuildDateTime=2018/12/17 11:49:13<LF>"
+@0: "BuildDateTime=2018/12/18 14:21:28<LF>"
 @0: "DownloadDateTime=                   <LF>"
 @1: 0 ;NUL terminator
 EDBX

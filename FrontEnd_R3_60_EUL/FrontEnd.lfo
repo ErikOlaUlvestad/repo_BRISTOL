@@ -43,10 +43,11 @@ Address=Bahnhofstrasse 18, CH-3280 Murten, Switzerland
 Email=http://www.saia-pcd.com/contact
 Website=http://www.sbc-support.ch
 Phone=http://www.saia-pcd.com/contact
-FamCount=3
+FamCount=4
 Fam0=sfupindi
 Fam1=sfupinte
 Fam2=sfuptime
+Fam3=sfupbina
 [LIB3]
 Name=S-Fup Communication
 ID=_SAIA_SFUPCOMM
