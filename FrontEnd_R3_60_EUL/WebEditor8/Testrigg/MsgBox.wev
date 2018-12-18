@@ -1,0 +1,79 @@
+﻿<View id="794f9444-5d2b-4352-b2fd-747118e2e489" type="ec7bc2eb-6e5c-4567-9a29-dd70a894a28f" name="MsgBox">
+  <Properties>
+    <Property name="X" source="C" value="0" type="double" />
+    <Property name="Y" source="C" value="0" type="double" />
+    <Property name="Width" source="C" value="800" type="double" />
+    <Property name="Height" source="C" value="480" type="double" />
+    <Property name="FillColor" source="C" value="255 128 0" type="Color" />
+    <Property name="HasOutline" source="C" value="False" type="bool" />
+    <Property name="OutlineWidth" source="C" value="1" type="double" />
+    <Property name="OutlineStyle" source="C" value="Solid" type="LineStyle" />
+    <Property name="LockedInEditor" source="C" value="False" type="bool" />
+    <Property name="Description" source="C" type="string" />
+    <Property name="BackgroundView" source="C" type="EmbeddedViewElementReference" />
+    <Property name="ForegroundView" source="C" type="EmbeddedViewElementReference" />
+  </Properties>
+  <Element id="3e0f868e-da59-4c3f-9368-3d478c77fff6" type="9b71c49e-d5d0-44fd-b444-b08555dfda74" name="Main Layer">
+    <Properties>
+      <Property name="HiddenInEditor" source="C" value="False" type="bool" />
+      <Property name="LockedInEditor" source="C" value="False" type="bool" />
+      <Property name="Name" source="C" value="Main Layer" type="string" />
+      <Property name="Description" source="C" type="string" />
+    </Properties>
+    <Element id="172fdbcc-6a5d-4bb9-8aae-f7e68828c01a" type="34aaeab1-0303-452d-aa17-4960241de2a9" name="OK Button">
+      <Properties>
+        <Property name="MouseDown" source="C" type="Event">
+          <Instruction name="WriteValueToVariable">
+            <Parameter name="Value" type="C" />
+            <Parameter name="Destination" value="MessageBoxCO" type="LV" />
+          </Instruction>
+        </Property>
+        <Property name="MouseUp" source="C" type="Event">
+          <Instruction name="JumpBack" />
+        </Property>
+        <Property name="Content" source="C" value="ok" type="string" />
+        <Property name="Font" source="C" value="Arial 12" type="FontInfo" />
+        <Property name="TextAlignment" source="C" value="Center Center" type="TextPosition" />
+        <Property name="Use3DFrame" source="C" value="True" type="bool" />
+        <Property name="X" source="C" value="300" type="double" />
+        <Property name="Y" source="C" value="364.8" type="double" />
+        <Property name="Width" source="C" value="200" type="double" />
+        <Property name="Height" source="C" value="66.4" type="double" />
+        <Property name="Hidden" source="C" value="False" type="bool" />
+        <Property name="FillColor" source="C" value="191 192 192" type="Color" />
+        <Property name="HasOutline" source="C" value="True" type="bool" />
+        <Property name="OutlineColor" source="C" value="0 0 0" type="Color" />
+        <Property name="OutlineWidth" source="C" value="1" type="double" />
+        <Property name="OutlineStyle" source="C" value="Solid" type="LineStyle" />
+        <Property name="LockedInEditor" source="C" value="False" type="bool" />
+        <Property name="Name" source="C" value="OK Button" type="string" />
+        <Property name="Description" source="C" type="string" />
+      </Properties>
+    </Element>
+    <Element id="3c216bfe-20fc-4e62-a9af-5a198b2ae76a" type="266fe87d-6aac-48a1-9aab-83b882a60ce8" name="FileViewer">
+      <Properties>
+        <Property name="Content" source="LV" value="MessageBoxCO" type="InternalVariableAddress" />
+        <Property name="FillColor" source="C" value="255 255 255" type="Color" />
+        <Property name="Font" source="C" value="Arial 12" type="FontInfo" />
+        <Property name="ShowLine" source="C" value="True" type="bool" />
+        <Property name="ShowRow" source="C" value="False" type="bool" />
+        <Property name="MultiSelect" source="C" value="False" type="bool" />
+        <Property name="ShowScroller" source="C" value="True" type="bool" />
+        <Property name="EnableAutoAdjust" source="C" value="False" type="bool" />
+        <Property name="X" source="C" value="24" type="double" />
+        <Property name="Y" source="C" value="19.2" type="double" />
+        <Property name="Width" source="C" value="750" type="double" />
+        <Property name="Height" source="C" value="320" type="double" />
+        <Property name="Hidden" source="C" value="False" type="bool" />
+        <Property name="HasFillColor" source="C" value="True" type="bool" />
+        <Property name="HasOutline" source="C" value="True" type="bool" />
+        <Property name="OutlineColor" source="C" value="0 0 0" type="Color" />
+        <Property name="OutlineWidth" source="C" value="1" type="double" />
+        <Property name="OutlineStyle" source="C" value="Solid" type="LineStyle" />
+        <Property name="LockedInEditor" source="C" value="False" type="bool" />
+        <Property name="Name" source="C" value="FileViewer" type="string" />
+        <Property name="Description" source="C" type="string" />
+      </Properties>
+    </Element>
+  </Element>
+</View>

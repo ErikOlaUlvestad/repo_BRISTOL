@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="3.5" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D6046FA7-3583-44E6-A222-3F3DE32918B2}</ProjectGuid>
+    <PG5Links>
+      <PG5Links />
+    </PG5Links>
+    <WebProject>
+      <WebProject id="d6046fa7-3583-44e6-a222-3f3de32918b2" name="FrontEnd" activeConfiguration="Default" activeTarget="TEQ Runtime">
+        <Targets>
+          <Target name="TEQ Runtime" />
+        </Targets>
+        <Settings>
+          <Group>
+            <Setting name="application.name" value="{$projectName} v{$projectVersion}" />
+            <Setting name="build" value="10" />
+            <Setting name="defaultPlcDataSource" value="bb186ff1-63b1-410e-b022-a060387b4cd7" />
+            <Setting name="defaults.startView" viewName="Start" />
+            <Setting name="display.alignment" value="Left Top" />
+            <Setting name="display.backgroundColor" value="255 255 255" />
+            <Setting name="display.height" value="1024" />
+            <Setting name="display.width" value="1280" />
+            <Setting name="editor.mediaPath" value="C:\Program Files (x86)\SBC\PG5 V2.3.161\WebEditor8\Icon_Gallery_V3\png" />
+            <Setting name="grid.color" value="0 0 0 63" />
+            <Setting name="grid.enabled" value="True" />
+            <Setting name="grid.lineStyle" value="Dotted" />
+            <Setting name="grid.snapHorizontal" value="True" />
+            <Setting name="grid.snapVertical" value="True" />
+            <Setting name="grid.stepHorizontal" value="5" />
+            <Setting name="grid.stepVertical" value="5" />
+            <Setting name="grid.visible" value="True" />
+            <Setting name="output.directory" value="bin/{$target}/{$config}/" />
+            <Setting name="output.htmlFiles">
+              <HtmlFile name="start.html" scale="1" startView="689ce651-f622-4d31-9f55-61e8fa10d812" />
+            </Setting>
+            <Setting name="runtime.defaultLanguage" value="en" />
+            <Setting name="runtime.messageBox" viewId="794f9444-5d2b-4352-b2fd-747118e2e489" viewName="MsgBox" />
+            <Setting name="runtime.refreshPeriod" value="300" />
+            <Setting name="version" value="1.0.{$build}" />
+          </Group>
+          <Group target="TEQ Runtime">
+            <Setting name="target.platform" value="00ab82f8-f0df-444b-a6f8-3271400b007b" />
+          </Group>
+          <Group config="Default" target="TEQ Runtime">
+            <Setting name="defaults.backgroundView" viewId="5e9d20b6-c3ed-41b2-8ec7-912c90d21865" viewName="bakgrunn" />
+            <Setting name="display.backgroundColor" value="255 255 255" />
+            <Setting name="runtime.microbrowser.teqVersion" value="G" />
+          </Group>
+        </Settings>
+        <Languages>
+          <Language name="English" code="en" file="$CL_en_po8ik3.csv" display="True" />
+        </Languages>
+        <UserGroups>
+          <UserGroup name="User group 0" bit="0" />
+          <UserGroup name="User group 1" bit="1" />
+          <UserGroup name="User group 2" bit="2" />
+          <UserGroup name="User group 3" bit="3" />
+          <UserGroup name="User group 4" bit="4" />
+          <UserGroup name="User group 5" bit="5" />
+          <UserGroup name="User group 6" bit="6" />
+          <UserGroup name="User group 7" bit="7" />
+          <UserGroup name="User group 8" bit="8" />
+          <UserGroup name="User group 9" bit="9" />
+          <UserGroup name="User group 10" bit="10" />
+          <UserGroup name="User group 11" bit="11" />
+          <UserGroup name="User group 12" bit="12" />
+          <UserGroup name="User group 13" bit="13" />
+          <UserGroup name="User group 14" bit="14" />
+          <UserGroup name="User group 15" bit="15" />
+        </UserGroups>
+        <Files>
+          <File path="Start.wev" build="Compile" copy="None" />
+          <File path="MsgBox.wev" build="Compile" copy="None" />
+          <File path="Media\GE1003_S.png" build="Compile" copy="None" />
+          <File path="Bus2.wev" build="Compile" copy="None" />
+          <File path="bakgrunn.wev" build="Compile" copy="None" />
+          <File path="BUS3.wev" build="Compile" copy="None" />
+          <File path="BUS4.wev" build="Compile" copy="None" />
+        </Files>
+        <DataSources>
+          <DataSource id="bb186ff1-63b1-410e-b022-a060387b4cd7" type="c1cd44f7-d7e9-40d3-be01-d3dd9008c071" name="Device1" active="True" path="..\..\Device1.saia5pc" refreshPeriod="500" />
+        </DataSources>
+        <DeploymentTargets>
+          <DeploymentTarget id="62e4069d-2a19-4178-97d6-06ce93b00f13" displayName="WebFtp" type="ftp_json">
+            <Properties>
+              <Property type="bool" name="enabled" value="True" />
+              <PropertyGroup name="options">
+                <Property type="bool" name="useServiceKey" value="True" />
+                <Property type="string" name="serviceKey" value="kc23174350" />
+                <Property type="bool" name="cleanDestination" value="False" />
+                <Property type="bool" name="updateDestination" value="True" />
+                <PropertyGroup name="ftpJson">
+                  <Property type="string" name="communicationType" />
+                  <Property type="string" name="host" value="10.0.107.79" />
+                  <Property type="string" name="userName" value="root" />
+                  <Property type="string" name="password" value="rootpasswd" />
+                  <Property type="string" name="webServerPassword" />
+                  <Property type="string" name="destinationDirectory" value="/INTFLASH:/WEBPAGES/" />
+                </PropertyGroup>
+              </PropertyGroup>
+              <PropertyGroup name="files">
+                <Property type="bool" name="htmlAndVarDef" value="True" />
+                <Property type="bool" name="webViews" value="True" />
+                <Property type="bool" name="imagesAndMedia" value="True" />
+                <Property type="bool" name="userDatabase" value="False" />
+                <Property type="bool" name="javaRuntime" value="False" />
+                <Property type="bool" name="html5Runtime" value="True" />
+                <Property type="bool" name="languages" value="True" />
+                <Property type="bool" name="customFiles" value="False" />
+                <Property type="string" name="customFilesMask" />
+              </PropertyGroup>
+            </Properties>
+          </DeploymentTarget>
+        </DeploymentTargets>
+      </WebProject>
+    </WebProject>
+    <WebProjectFormatVersion>4</WebProjectFormatVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Default|AnyCPU' ">
+    <OutputPath>bin</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Start.wev" />
+    <Compile Include="MsgBox.wev" />
+    <Compile Include="Media\GE1003_S.png" />
+    <Compile Include="Bus2.wev" />
+    <Compile Include="bakgrunn.wev" />
+    <Compile Include="BUS3.wev" />
+    <Compile Include="BUS4.wev" />
+  </ItemGroup>
+</Project>

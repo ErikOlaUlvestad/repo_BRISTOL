@@ -1,0 +1,62 @@
+[MAIN]
+FileVersion=1
+[Libraries]
+Count=4
+LIB0=C:\Users\eul\SBC\PG5 V2.3.1xx\Libs\App\Heavac.saialin
+LIB1=C:\Users\eul\SBC\PG5 V2.3.1xx\Libs\App\sModbus.saialin
+LIB2=C:\Users\eul\SBC\PG5 V2.3.1xx\Libs\Std\sfupbase.saialin
+LIB3=C:\Users\eul\SBC\PG5 V2.3.1xx\Libs\Std\sfupcomm.saialin
+[LIB0]
+Name=Heavac library (HVC)
+ID=_SAIA_HEAVAC
+Type=Fbox
+Version=V2.7.570
+Author=Nicolas Bovigny, Engiby sàrl
+Distributor=Saia-Burgess Controls AG
+Address=Bahnhofstrasse 18, CH-3280 Murten, Switzerland
+Email=http://www.saia-pcd.com/contact
+Website=http://www.sbc-support.com
+Phone=http://www.saia-pcd.com/contact
+FamCount=1
+Fam0=heavinit
+[LIB1]
+Name=Saia PCD Modbus library
+ID=_SAIA_MODBUS
+Type=Fbox
+Version=V2.7.500
+Author=Nicolas Bovigny, Engiby sàrl
+Distributor=Saia-Burgess Controls AG
+Address=Bahnhofstrasse 18, CH-3280 Murten, Switzerland
+Email=http://www.saia-pcd.com/contact
+Website=http://www.sbc-support.com
+Phone=http://www.saia-pcd.com/contact
+FamCount=1
+Fam0=sModSlave
+[LIB2]
+Name=S-Fup Base
+ID=_SAIA_SFUPBASE
+Type=FBOX
+Version=V2.7.350
+Author=Saia-Burgess Controls AG
+Distributor=Saia-Burgess Controls AG
+Address=Bahnhofstrasse 18, CH-3280 Murten, Switzerland
+Email=http://www.saia-pcd.com/contact
+Website=http://www.sbc-support.ch
+Phone=http://www.saia-pcd.com/contact
+FamCount=3
+Fam0=sfupindi
+Fam1=sfupinte
+Fam2=sfuptime
+[LIB3]
+Name=S-Fup Communication
+ID=_SAIA_SFUPCOMM
+Type=FBOX
+Version=V2.7.380
+Author=Saia-Burgess Controls AG
+Distributor=Saia-Burgess Controls AG
+Address=Bahnhofstrasse 18, CH-3280 Murten, Switzerland
+Email=http://www.saia-pcd.com/contact
+Website=http://www.sbc-support.com
+Phone=http://www.saia-pcd.com/contact
+FamCount=1
+Fam0=sfupcomm

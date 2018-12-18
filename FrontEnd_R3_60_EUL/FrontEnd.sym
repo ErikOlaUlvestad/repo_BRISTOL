@@ -1,0 +1,2074 @@
+;;Start of Module symbols
+$GROUP SBus2
+f_masterError	PEQU	F		
+f_masterClear	PEQU	F		
+f_SASI_enable	PEQU	F	:=1	
+$ENDGROUP SBus2
+$GROUP SBus2.Stn_01
+id	PEQU	 	1	;{K}
+f_enable	PEQU	F	:=1	
+data_rx_base	PEQU	R	rx_base2+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F		
+f_tx_enable	PEQU	F		
+data_tx_base	PEQU	R	tx_base2+(Common.tx_num*id)	
+data_tx_num	PEQU	 	5	;{K}
+f_ConS	PEQU	F		;Connection state SHORT
+f_ConL	PEQU	F		;Connection state LONG
+$ENDGROUP SBus2.Stn_01
+$GROUP SBus2.Stn_02
+id	PEQU	 	2	;{K}
+data_rx_base	PEQU	R	rx_base2+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+data_tx_base	PEQU	R	tx_base2+(Common.tx_num*id)	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=1	
+f_rx_enable	PEQU	F		
+f_tx_enable	PEQU	F		
+f_ConS	PEQU	F		;Connection state SHORT
+f_ConL	PEQU	F		;Connection state LONG
+$ENDGROUP SBus2.Stn_02
+$GROUP SBus2.Stn_03
+id	PEQU	 	3	;{K}
+data_rx_base	PEQU	R	rx_base2+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+data_tx_base	PEQU	R	tx_base2+(Common.tx_num*id)	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=1	
+f_rx_enable	PEQU	F		
+f_tx_enable	PEQU	F		
+f_ConS	PEQU	F		;Connection state SHORT
+f_ConL	PEQU	F		;Connection state LONG
+$ENDGROUP SBus2.Stn_03
+$GROUP SBus2.Stn_04
+id	PEQU	 	4	;{K}
+data_rx_base	PEQU	R	rx_base2+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+data_tx_base	PEQU	R	tx_base2+(Common.tx_num*id)	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=1	
+f_rx_enable	PEQU	F		
+f_tx_enable	PEQU	F		
+f_ConS	PEQU	F		;Connection state SHORT
+f_ConL	PEQU	F		;Connection state LONG
+$ENDGROUP SBus2.Stn_04
+$GROUP SBus2.Stn_05
+id	PEQU	 	5	;{K}
+data_rx_base	PEQU	R	rx_base2+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+data_tx_base	PEQU	R	tx_base2+(Common.tx_num*id)	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=1	
+f_rx_enable	PEQU	F		
+f_tx_enable	PEQU	F		
+f_ConS	PEQU	F		;Connection state SHORT
+f_ConL	PEQU	F		;Connection state LONG
+$ENDGROUP SBus2.Stn_05
+$GROUP SBus2.Stn_06
+id	PEQU	 	6	;{K}
+data_rx_base	PEQU	R	rx_base2+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+data_tx_base	PEQU	R	tx_base2+(Common.tx_num*id)	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=1	
+f_rx_enable	PEQU	F		
+f_tx_enable	PEQU	F		
+f_ConS	PEQU	F		;Connection state SHORT
+f_ConL	PEQU	F		;Connection state LONG
+$ENDGROUP SBus2.Stn_06
+$GROUP SBus2.Stn_07
+id	PEQU	 	7	;{K}
+data_rx_base	PEQU	R	rx_base2+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+data_tx_base	PEQU	R	tx_base2+(Common.tx_num*id)	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=1	
+f_rx_enable	PEQU	F		
+f_tx_enable	PEQU	F		
+f_ConS	PEQU	F		;Connection state SHORT
+f_ConL	PEQU	F		;Connection state LONG
+$ENDGROUP SBus2.Stn_07
+$GROUP SBus2.Stn_08
+id	PEQU	 	8	;{K}
+data_rx_base	PEQU	R	rx_base2+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+data_tx_base	PEQU	R	tx_base2+(Common.tx_num*id)	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=1	
+f_rx_enable	PEQU	F		
+f_tx_enable	PEQU	F		
+f_ConS	PEQU	F		;Connection state SHORT
+f_ConL	PEQU	F		;Connection state LONG
+$ENDGROUP SBus2.Stn_08
+$GROUP SBus2.Stn_09
+id	PEQU	 	9	;{K}
+data_rx_base	PEQU	R	rx_base2+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+data_tx_base	PEQU	R	tx_base2+(Common.tx_num*id)	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=1	
+f_rx_enable	PEQU	F		
+f_tx_enable	PEQU	F		
+f_ConS	PEQU	F		;Connection state SHORT
+f_ConL	PEQU	F		;Connection state LONG
+$ENDGROUP SBus2.Stn_09
+$GROUP SBus2.Stn_10
+id	PEQU	 	10	;{K}
+data_rx_base	PEQU	R	rx_base2+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F		
+f_tx_enable	PEQU	F		
+data_tx_base	PEQU	R	tx_base2+(Common.tx_num*id)	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=1	
+f_ConS	PEQU	F		;Connection state SHORT
+f_ConL	PEQU	F		;Connection state LONG
+$ENDGROUP SBus2.Stn_10
+$GROUP SBus2.Stn_11
+id	PEQU	 	11	;{K}
+data_rx_base	PEQU	R	rx_base2+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_base	PEQU	R	tx_base2+(Common.tx_num*id)	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=1	
+f_ConS	PEQU	F		;Connection state SHORT
+f_ConL	PEQU	F		;Connection state LONG
+$ENDGROUP SBus2.Stn_11
+$GROUP SBus2.Stn_12
+id	PEQU	 	12	;{K}
+data_rx_base	PEQU	R	rx_base2+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_base	PEQU	R	tx_base2+(Common.tx_num*id)	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=1	
+f_ConS	PEQU	F		;Connection state SHORT
+f_ConL	PEQU	F		;Connection state LONG
+$ENDGROUP SBus2.Stn_12
+$GROUP SBus2.Stn_13
+id	PEQU	 	13	;{K}
+data_rx_base	PEQU	R	rx_base2+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_base	PEQU	R	tx_base2+(Common.tx_num*id)	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=1	
+f_ConS	PEQU	F		;Connection state SHORT
+f_ConL	PEQU	F		;Connection state LONG
+$ENDGROUP SBus2.Stn_13
+$GROUP SBus2.Stn_14
+id	PEQU	 	14	;{K}
+data_rx_base	PEQU	R	rx_base2+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_base	PEQU	R	tx_base2+(Common.tx_num*id)	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=1	
+f_ConS	PEQU	F		;Connection state SHORT
+f_ConL	PEQU	F		;Connection state LONG
+$ENDGROUP SBus2.Stn_14
+$GROUP SBus2.Stn_15
+id	PEQU	 	15	;{K}
+data_rx_base	PEQU	R	rx_base2+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_base	PEQU	R	tx_base2+(Common.tx_num*id)	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=1	
+f_ConS	PEQU	F		;Connection state SHORT
+f_ConL	PEQU	F		;Connection state LONG
+$ENDGROUP SBus2.Stn_15
+$GROUP SBus2.Stn_16
+id	PEQU	 	16	;{K}
+data_rx_base	PEQU	R	rx_base2+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_base	PEQU	R	tx_base2+(Common.tx_num*id)	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=1	
+f_ConS	PEQU	F		;Connection state SHORT
+f_ConL	PEQU	F		;Connection state LONG
+$ENDGROUP SBus2.Stn_16
+$GROUP SBus2.Stn_17
+id	PEQU	 	17	;{K}
+data_rx_base	PEQU	R	(rx_base2+(Common.rx_num*id))	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_base	PEQU	R	tx_base2+(Common.tx_num*id)	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=1	
+f_ConS	PEQU	F		;Connection state SHORT
+f_ConL	PEQU	F		;Connection state LONG
+$ENDGROUP SBus2.Stn_17
+$GROUP SBus2.Stn_18
+id	PEQU	 	18	;{K}
+data_rx_base	PEQU	R	rx_base2+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_base	PEQU	R	tx_base2+(Common.tx_num*id)	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=1	
+f_ConS	PEQU	F		;Connection state SHORT
+f_ConL	PEQU	F		;Connection state LONG
+$ENDGROUP SBus2.Stn_18
+$GROUP SBus2.Stn_19
+id	PEQU	 	19	;{K}
+data_rx_base	PEQU	R	rx_base2+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_base	PEQU	R	tx_base2+(Common.tx_num*id)	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=1	
+f_ConS	PEQU	F		;Connection state SHORT
+f_ConL	PEQU	F		;Connection state LONG
+$ENDGROUP SBus2.Stn_19
+$GROUP SBus2.Stn_20
+id	PEQU	 	20	;{K}
+data_rx_base	PEQU	R	rx_base2+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_base	PEQU	R	tx_base2+(Common.tx_num*id)	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=1	
+f_ConS	PEQU	F		;Connection state SHORT
+f_ConL	PEQU	F		;Connection state LONG
+$ENDGROUP SBus2.Stn_20
+$GROUP SBus2.Stn_21
+id	PEQU	 	21	;{K}
+data_rx_base	PEQU	R	rx_base2+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_base	PEQU	R	tx_base2+(Common.tx_num*id)	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=1	
+f_ConS	PEQU	F		;Connection state SHORT
+f_ConL	PEQU	F		;Connection state LONG
+$ENDGROUP SBus2.Stn_21
+$GROUP SBus2.Stn_22
+id	PEQU	 	22	;{K}
+data_rx_base	PEQU	R	rx_base2+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_base	PEQU	R	tx_base2+(Common.tx_num*id)	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=1	
+f_ConS	PEQU	F		;Connection state SHORT
+f_ConL	PEQU	F		;Connection state LONG
+$ENDGROUP SBus2.Stn_22
+$GROUP SBus2.Stn_23
+id	PEQU	 	23	;{K}
+data_rx_base	PEQU	R	rx_base2+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_base	PEQU	R	tx_base2+(Common.tx_num*id)	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=1	
+f_ConS	PEQU	F		;Connection state SHORT
+f_ConL	PEQU	F		;Connection state LONG
+$ENDGROUP SBus2.Stn_23
+$GROUP SBus2.Stn_24
+id	PEQU	 	24	;{K}
+data_rx_base	PEQU	R	rx_base2+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_base	PEQU	R	tx_base2+(Common.tx_num*id)	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=1	
+f_ConS	PEQU	F		;Connection state SHORT
+f_ConL	PEQU	F		;Connection state LONG
+$ENDGROUP SBus2.Stn_24
+$GROUP SBus2.Stn_25
+id	PEQU	 	25	;{K}
+data_rx_base	PEQU	R	rx_base2+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_base	PEQU	R	tx_base2+(Common.tx_num*id)	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=1	
+f_ConS	PEQU	F		
+f_ConL	PEQU	F		
+$ENDGROUP SBus2.Stn_25
+$GROUP SBus2.Stn_26
+id	PEQU	 	26	;{K}
+data_rx_base	PEQU	R	rx_base2+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_base	PEQU	R	tx_base2+(Common.tx_num*id)	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=1	
+f_ConS	PEQU	F		;Connection state SHORT
+f_ConL	PEQU	F		;Connection state LONG
+$ENDGROUP SBus2.Stn_26
+$GROUP SBus2.Stn_27
+id	PEQU	 	27	;{K}
+data_rx_base	PEQU	R	rx_base2+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_base	PEQU	R	tx_base2+(Common.tx_num*id)	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=1	
+f_ConS	PEQU	F		;Connection state SHORT
+f_ConL	PEQU	F		;Connection state LONG
+$ENDGROUP SBus2.Stn_27
+$GROUP SBus2.Stn_28
+id	PEQU	 	28	;{K}
+data_rx_base	PEQU	R	rx_base2+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_base	PEQU	R	tx_base2+(Common.tx_num*id)	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=1	
+f_ConS	PEQU	F		;Connection state SHORT
+f_ConL	PEQU	F		;Connection state LONG
+$ENDGROUP SBus2.Stn_28
+$GROUP SBus2.Stn_29
+id	PEQU	 	29	;{K}
+data_rx_base	PEQU	R	rx_base2+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_base	PEQU	R	tx_base2+(Common.tx_num*id)	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=1	
+f_ConS	PEQU	F		;Connection state SHORT
+f_ConL	PEQU	F		;Connection state LONG
+$ENDGROUP SBus2.Stn_29
+$GROUP SBus2.Stn_30
+id	PEQU	 	30	;{K}
+data_rx_base	PEQU	R	rx_base2+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_base	PEQU	R	tx_base2+(Common.tx_num*id)	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=1	
+f_ConS	PEQU	F		;Connection state SHORT
+f_ConL	PEQU	F		;Connection state LONG
+$ENDGROUP SBus2.Stn_30
+$GROUP SBus2.Stn_31
+id	PEQU	 	31	;{K}
+data_rx_base	PEQU	R	rx_base2+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_base	PEQU	R	tx_base2+(Common.tx_num*id)	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=0	
+f_ConS	PEQU	F		;Connection state SHORT
+f_ConL	PEQU	F		;Connection state LONG
+$ENDGROUP SBus2.Stn_31
+$GROUP SBus2.Stn_32
+id	PEQU	 	32	;{K}
+data_rx_base	PEQU	R	rx_base2+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_base	PEQU	R	tx_base2+(Common.tx_num*id)	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=0	
+f_ConS	PEQU	F		;Connection state SHORT
+f_ConL	PEQU	F		;Connection state LONG
+$ENDGROUP SBus2.Stn_32
+$GROUP SBus2.Stn_33
+id	PEQU	 	33	;{K}
+data_rx_base	PEQU	R	rx_base2+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_base	PEQU	R	tx_base2+(Common.tx_num*id)	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=0	
+f_ConS	PEQU	F		;Connection state SHORT
+f_ConL	PEQU	F		;Connection state LONG
+$ENDGROUP SBus2.Stn_33
+$GROUP SBus2.Stn_34
+id	PEQU	 	34	;{K}
+data_rx_base	PEQU	R	rx_base2+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_base	PEQU	R	tx_base2+(Common.tx_num*id)	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=0	
+f_ConS	PEQU	F		;Connection state SHORT
+f_ConL	PEQU	F		;Connection state LONG
+$ENDGROUP SBus2.Stn_34
+$GROUP SBus2.Stn_35
+id	PEQU	 	35	;{K}
+data_rx_base	PEQU	R	rx_base2+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_base	PEQU	R	tx_base2+(Common.tx_num*id)	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=0	
+f_ConS	PEQU	F		;Connection state SHORT
+f_ConL	PEQU	F		;Connection state SHORT
+$ENDGROUP SBus2.Stn_35
+$GROUP SBus2.Stn_36
+id	PEQU	 	36	;{K}
+data_rx_base	PEQU	R	rx_base2+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_base	PEQU	R	tx_base2+(Common.tx_num*id)	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=0	
+f_ConS	PEQU	F		;Connection state LONG
+f_ConL	PEQU	F		;Connection state SHORT
+$ENDGROUP SBus2.Stn_36
+$GROUP SBus2.Stn_37
+id	PEQU	 	37	;{K}
+data_rx_base	PEQU	R	rx_base2+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_base	PEQU	R	tx_base2+(Common.tx_num*id)	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=0	
+f_ConS	PEQU	F		;Connection state LONG
+f_ConL	PEQU	F		;Connection state SHORT
+$ENDGROUP SBus2.Stn_37
+$GROUP SBus2.Stn_38
+id	PEQU	 	38	;{K}
+data_rx_base	PEQU	R	rx_base2+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_base	PEQU	R	tx_base2+(Common.tx_num*id)	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=0	
+f_ConS	PEQU	F		;Connection state LONG
+f_ConL	PEQU	F		;Connection state SHORT
+$ENDGROUP SBus2.Stn_38
+$GROUP SBus2.Stn_39
+id	PEQU	 	39	;{K}
+data_rx_base	PEQU	R	rx_base2+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_base	PEQU	R	tx_base2+(Common.tx_num*id)	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=0	
+f_ConS	PEQU	F		;Connection state LONG
+f_ConL	PEQU	F		;Connection state SHORT
+$ENDGROUP SBus2.Stn_39
+$GROUP SBus2.Stn_40
+data_rx_base	PEQU	R	rx_base2+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+data_tx_base	PEQU	R	tx_base2+(Common.tx_num*id)	
+data_tx_num	PEQU	 	5	;{K}
+id	PEQU	 	40	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+f_enable	PEQU	F	:=0	
+f_ConS	PEQU	F		;Connection state LONG
+f_ConL	PEQU	F		;Connection state SHORT
+$ENDGROUP SBus2.Stn_40
+$GROUP SBus2.Stn_41
+id	PEQU	 	41	;{K}
+data_rx_base	PEQU	R	rx_base2+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_base	PEQU	R	tx_base2+(Common.tx_num*id)	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=0	
+f_ConS	PEQU	F		;Connection state LONG
+f_ConL	PEQU	F		;Connection state SHORT
+$ENDGROUP SBus2.Stn_41
+$GROUP SBus2
+r_currentStation	PEQU	R		
+$ENDGROUP SBus2
+$GROUP SBus1
+f_masterClear	PEQU	F		
+f_SASI_enable	PEQU	F	:=1	
+r_currentStation	PEQU	R		
+$ENDGROUP SBus1
+$GROUP SBus1.Stn_01
+id	PEQU	 	1	;{K}
+f_enable	PEQU	F	:=0	
+data_rx_base	PEQU	R	rx_base1+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F		
+f_tx_enable	PEQU	F		
+data_tx_base	PEQU	R	tx_base1+(Common.tx_num*id)	
+data_tx_num	PEQU	 	5	;{K}
+f_ConS	PEQU	F		;Connection state SHORT
+f_ConL	PEQU	F		;Connection state LONG
+$ENDGROUP SBus1.Stn_01
+$GROUP SBus1.Stn_02
+id	PEQU	 	2	;{K}
+data_rx_base	PEQU	R	rx_base1+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+data_tx_base	PEQU	R	tx_base1+(Common.tx_num*id)	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=0	
+f_rx_enable	PEQU	F		
+f_tx_enable	PEQU	F		
+f_ConS	PEQU	F		;Connection state SHORT
+f_ConL	PEQU	F		;Connection state LONG
+$ENDGROUP SBus1.Stn_02
+$GROUP SBus1.Stn_03
+id	PEQU	 	3	;{K}
+data_rx_base	PEQU	R	rx_base1+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+data_tx_base	PEQU	R	tx_base1+(Common.tx_num*id)	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=0	
+f_rx_enable	PEQU	F		
+f_tx_enable	PEQU	F		
+f_ConS	PEQU	F		;Connection state SHORT
+f_ConL	PEQU	F		;Connection state LONG
+$ENDGROUP SBus1.Stn_03
+$GROUP SBus1.Stn_04
+id	PEQU	 	4	;{K}
+data_rx_base	PEQU	R	rx_base1+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+data_tx_base	PEQU	R	tx_base1+(Common.tx_num*id)	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=0	
+f_rx_enable	PEQU	F		
+f_tx_enable	PEQU	F		
+f_ConS	PEQU	F		;Connection state SHORT
+f_ConL	PEQU	F		;Connection state LONG
+$ENDGROUP SBus1.Stn_04
+$GROUP SBus1.Stn_05
+id	PEQU	 	5	;{K}
+data_rx_base	PEQU	R	rx_base1+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+data_tx_base	PEQU	R	tx_base1+(Common.tx_num*id)	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=0	
+f_rx_enable	PEQU	F		
+f_tx_enable	PEQU	F		
+f_ConS	PEQU	F		;Connection state SHORT
+f_ConL	PEQU	F		;Connection state LONG
+$ENDGROUP SBus1.Stn_05
+$GROUP SBus1.Stn_06
+id	PEQU	 	6	;{K}
+data_rx_base	PEQU	R	rx_base1+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+data_tx_base	PEQU	R	tx_base1+(Common.tx_num*id)	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=0	
+f_rx_enable	PEQU	F		
+f_tx_enable	PEQU	F		
+f_ConS	PEQU	F		;Connection state SHORT
+f_ConL	PEQU	F		;Connection state LONG
+$ENDGROUP SBus1.Stn_06
+$GROUP SBus1.Stn_07
+id	PEQU	 	7	;{K}
+data_rx_base	PEQU	R	rx_base1+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+data_tx_base	PEQU	R	tx_base1+(Common.tx_num*id)	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=0	
+f_rx_enable	PEQU	F		
+f_tx_enable	PEQU	F		
+f_ConS	PEQU	F		;Connection state SHORT
+f_ConL	PEQU	F		;Connection state LONG
+$ENDGROUP SBus1.Stn_07
+$GROUP SBus1.Stn_08
+id	PEQU	 	8	;{K}
+data_rx_base	PEQU	R	rx_base1+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+data_tx_base	PEQU	R	tx_base1+(Common.tx_num*id)	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=0	
+f_rx_enable	PEQU	F		
+f_tx_enable	PEQU	F		
+f_ConS	PEQU	F		;Connection state SHORT
+f_ConL	PEQU	F		;Connection state LONG
+$ENDGROUP SBus1.Stn_08
+$GROUP SBus1.Stn_09
+id	PEQU	 	9	;{K}
+data_rx_base	PEQU	R	rx_base1+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+data_tx_base	PEQU	R	tx_base1+(Common.tx_num*id)	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=0	
+f_rx_enable	PEQU	F		
+f_tx_enable	PEQU	F		
+f_ConS	PEQU	F		;Connection state SHORT
+f_ConL	PEQU	F		;Connection state LONG
+$ENDGROUP SBus1.Stn_09
+$GROUP SBus1.Stn_10
+id	PEQU	 	10	;{K}
+data_rx_base	PEQU	R	rx_base1+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_base	PEQU	R	tx_base1+(Common.tx_num*id)	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=1	
+f_ConS	PEQU	F		;Connection state SHORT
+f_ConL	PEQU	F		;Connection state LONG
+r_temp	PEQU	R	data_rx_base+8	
+r_aktuellt_setpkt	PEQU	R	data_rx_base+12	
+r_basis_setpkt	PEQU	R	data_rx_base+17	
+r_varme	PEQU	R	data_rx_base+16	;Pådrag %
+r_kjol	PEQU	R	data_rx_base+15	;Pådrag %
+$ENDGROUP SBus1.Stn_10
+$GROUP SBus1.Stn_11
+id	PEQU	 	11	;{K}
+data_rx_base	PEQU	R	rx_base1+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_base	PEQU	R	tx_base1+(Common.tx_num*id)	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=1	
+f_ConS	PEQU	F		;Connection state SHORT
+f_ConL	PEQU	F		;Connection state LONG
+$ENDGROUP SBus1.Stn_11
+$GROUP SBus1.Stn_12
+id	PEQU	 	12	;{K}
+data_rx_base	PEQU	R	rx_base1+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_base	PEQU	R	tx_base1+(Common.tx_num*id)	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=1	
+f_ConS	PEQU	F		;Connection state SHORT
+f_ConL	PEQU	F		;Connection state LONG
+$ENDGROUP SBus1.Stn_12
+$GROUP SBus1.Stn_13
+id	PEQU	 	13	;{K}
+data_rx_base	PEQU	R	rx_base1+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_base	PEQU	R	tx_base1+(Common.tx_num*id)	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=1	
+f_ConS	PEQU	F		;Connection state SHORT
+f_ConL	PEQU	F		;Connection state LONG
+$ENDGROUP SBus1.Stn_13
+$GROUP SBus1.Stn_14
+id	PEQU	 	14	;{K}
+data_rx_base	PEQU	R	rx_base1+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_base	PEQU	R	tx_base1+(Common.tx_num*id)	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=1	
+f_ConS	PEQU	F		;Connection state SHORT
+f_ConL	PEQU	F		;Connection state LONG
+$ENDGROUP SBus1.Stn_14
+$GROUP SBus1.Stn_15
+id	PEQU	 	15	;{K}
+data_rx_base	PEQU	R	rx_base1+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_base	PEQU	R	tx_base1+(Common.tx_num*id)	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=1	
+f_ConS	PEQU	F		;Connection state SHORT
+f_ConL	PEQU	F		;Connection state LONG
+$ENDGROUP SBus1.Stn_15
+$GROUP SBus1.Stn_16
+id	PEQU	 	16	;{K}
+data_rx_base	PEQU	R	rx_base1+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_base	PEQU	R	tx_base1+(Common.tx_num*id)	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=1	
+f_ConS	PEQU	F		;Connection state SHORT
+f_ConL	PEQU	F		;Connection state LONG
+$ENDGROUP SBus1.Stn_16
+$GROUP SBus1.Stn_17
+id	PEQU	 	17	;{K}
+data_rx_base	PEQU	R	rx_base1+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_base	PEQU	R	tx_base1+(Common.tx_num*id)	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=1	
+f_ConS	PEQU	F		;Connection state SHORT
+f_ConL	PEQU	F		;Connection state LONG
+$ENDGROUP SBus1.Stn_17
+$GROUP SBus1.Stn_18
+id	PEQU	 	18	;{K}
+data_rx_base	PEQU	R	rx_base1+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_base	PEQU	R	tx_base1+(Common.tx_num*id)	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=1	
+f_ConS	PEQU	F		;Connection state SHORT
+f_ConL	PEQU	F		;Connection state LONG
+$ENDGROUP SBus1.Stn_18
+$GROUP SBus1.Stn_19
+id	PEQU	 	19	;{K}
+data_rx_base	PEQU	R	rx_base1+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_base	PEQU	R	tx_base1+(Common.tx_num*id)	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=1	
+f_ConS	PEQU	F		;Connection state SHORT
+f_ConL	PEQU	F		;Connection state LONG
+$ENDGROUP SBus1.Stn_19
+$GROUP SBus1.Stn_20
+id	PEQU	 	20	;{K}
+data_rx_base	PEQU	R	rx_base1+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_base	PEQU	R	tx_base1+(Common.tx_num*id)	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=1	
+f_ConS	PEQU	F		;Connection state SHORT
+f_ConL	PEQU	F		;Connection state LONG
+$ENDGROUP SBus1.Stn_20
+$GROUP SBus1.Stn_21
+id	PEQU	 	21	;{K}
+data_rx_base	PEQU	R	rx_base1+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_base	PEQU	R	tx_base1+(Common.tx_num*id)	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=1	
+f_ConS	PEQU	F		;Connection state SHORT
+f_ConL	PEQU	F		;Connection state LONG
+$ENDGROUP SBus1.Stn_21
+$GROUP SBus1.Stn_22
+id	PEQU	 	22	;{K}
+data_rx_base	PEQU	R	rx_base1+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_base	PEQU	R	tx_base1+(Common.tx_num*id)	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=1	
+f_ConS	PEQU	F		;Connection state SHORT
+f_ConL	PEQU	F		;Connection state LONG
+$ENDGROUP SBus1.Stn_22
+$GROUP SBus1.Stn_23
+id	PEQU	 	23	;{K}
+data_rx_base	PEQU	R	rx_base1+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_base	PEQU	R	tx_base1+(Common.tx_num*id)	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=1	
+f_ConS	PEQU	F		;Connection state SHORT
+f_ConL	PEQU	F		;Connection state LONG
+$ENDGROUP SBus1.Stn_23
+$GROUP SBus1.Stn_24
+id	PEQU	 	24	;{K}
+data_rx_base	PEQU	R	rx_base1+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_base	PEQU	R	tx_base1+(Common.tx_num*id)	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=1	
+f_ConS	PEQU	F		;Connection state SHORT
+f_ConL	PEQU	F		;Connection state LONG
+$ENDGROUP SBus1.Stn_24
+$GROUP SBus1.Stn_25
+id	PEQU	 	25	;{K}
+data_rx_base	PEQU	R	rx_base1+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_base	PEQU	R	tx_base1+(Common.tx_num*id)	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=1	
+f_ConS	PEQU	F		
+f_ConL	PEQU	F		
+$ENDGROUP SBus1.Stn_25
+$GROUP SBus1.Stn_26
+id	PEQU	 	26	;{K}
+data_rx_base	PEQU	R	rx_base1+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_base	PEQU	R	tx_base1+(Common.tx_num*id)	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=1	
+f_ConS	PEQU	F		;Connection state SHORT
+f_ConL	PEQU	F		;Connection state LONG
+$ENDGROUP SBus1.Stn_26
+$GROUP SBus1.Stn_27
+id	PEQU	 	27	;{K}
+data_rx_base	PEQU	R	rx_base1+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_base	PEQU	R	tx_base1+(Common.tx_num*id)	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=1	
+f_ConS	PEQU	F		;Connection state SHORT
+f_ConL	PEQU	F		;Connection state LONG
+$ENDGROUP SBus1.Stn_27
+$GROUP SBus1.Stn_28
+id	PEQU	 	28	;{K}
+data_rx_base	PEQU	R	rx_base1+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_base	PEQU	R	tx_base1+(Common.tx_num*id)	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=1	
+f_ConS	PEQU	F		;Connection state SHORT
+f_ConL	PEQU	F		;Connection state LONG
+$ENDGROUP SBus1.Stn_28
+$GROUP SBus1.Stn_29
+id	PEQU	 	29	;{K}
+data_rx_base	PEQU	R	rx_base1+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_base	PEQU	R	tx_base1+(Common.tx_num*id)	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=1	
+f_ConS	PEQU	F		;Connection state SHORT
+f_ConL	PEQU	F		;Connection state LONG
+$ENDGROUP SBus1.Stn_29
+$GROUP SBus1.Stn_30
+id	PEQU	 	30	;{K}
+data_rx_base	PEQU	R	rx_base1+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_base	PEQU	R	tx_base1+(Common.tx_num*id)	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=1	
+f_ConS	PEQU	F		;Connection state SHORT
+f_ConL	PEQU	F		;Connection state LONG
+$ENDGROUP SBus1.Stn_30
+$GROUP SBus1.Stn_31
+id	PEQU	 	31	;{K}
+data_rx_base	PEQU	R	rx_base1+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_base	PEQU	R	tx_base1+(Common.tx_num*id)	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=1	
+f_ConS	PEQU	F		;Connection state SHORT
+f_ConL	PEQU	F		;Connection state LONG
+$ENDGROUP SBus1.Stn_31
+$GROUP SBus1.Stn_32
+id	PEQU	 	32	;{K}
+data_rx_base	PEQU	R	rx_base1+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_base	PEQU	R	tx_base1+(Common.tx_num*id)	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=1	
+f_ConS	PEQU	F		;Connection state SHORT
+f_ConL	PEQU	F		;Connection state LONG
+$ENDGROUP SBus1.Stn_32
+$GROUP SBus1.Stn_33
+id	PEQU	 	33	;{K}
+data_rx_base	PEQU	R	rx_base1+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_base	PEQU	R	tx_base1+(Common.tx_num*id)	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=1	
+f_ConS	PEQU	F		;Connection state SHORT
+f_ConL	PEQU	F		;Connection state LONG
+$ENDGROUP SBus1.Stn_33
+$GROUP SBus1.Stn_34
+id	PEQU	 	34	;{K}
+data_rx_base	PEQU	R	rx_base1+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_base	PEQU	R	tx_base1+(Common.tx_num*id)	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=1	
+f_ConS	PEQU	F		;Connection state SHORT
+f_ConL	PEQU	F		;Connection state LONG
+$ENDGROUP SBus1.Stn_34
+$GROUP SBus1.Stn_35
+id	PEQU	 	35	;{K}
+data_rx_base	PEQU	R	rx_base1+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_base	PEQU	R	tx_base1+(Common.tx_num*id)	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=0	
+f_ConS	PEQU	F		;Connection state SHORT
+f_ConL	PEQU	F		;Connection state SHORT
+$ENDGROUP SBus1.Stn_35
+$GROUP SBus1.Stn_36
+id	PEQU	 	36	;{K}
+data_rx_base	PEQU	R	rx_base1+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_base	PEQU	R	tx_base1+(Common.tx_num*id)	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=0	
+f_ConS	PEQU	F		;Connection state LONG
+f_ConL	PEQU	F		;Connection state SHORT
+$ENDGROUP SBus1.Stn_36
+$GROUP SBus1.Stn_37
+id	PEQU	 	37	;{K}
+data_rx_base	PEQU	R	rx_base1+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_base	PEQU	R	tx_base1+(Common.tx_num*id)	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=0	
+f_ConS	PEQU	F		;Connection state LONG
+f_ConL	PEQU	F		;Connection state SHORT
+$ENDGROUP SBus1.Stn_37
+$GROUP SBus1.Stn_38
+id	PEQU	 	38	;{K}
+data_rx_base	PEQU	R	rx_base1+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_base	PEQU	R	tx_base1+(Common.tx_num*id)	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=0	
+f_ConS	PEQU	F		;Connection state LONG
+f_ConL	PEQU	F		;Connection state SHORT
+$ENDGROUP SBus1.Stn_38
+$GROUP SBus1.Stn_39
+id	PEQU	 	39	;{K}
+data_rx_base	PEQU	R	rx_base1+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_base	PEQU	R	tx_base1+(Common.tx_num*id)	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=0	
+f_ConS	PEQU	F		;Connection state LONG
+f_ConL	PEQU	F		;Connection state SHORT
+$ENDGROUP SBus1.Stn_39
+$GROUP SBus1.Stn_40
+data_rx_base	PEQU	R	rx_base1+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+data_tx_base	PEQU	R	tx_base1+(Common.tx_num*id)	
+data_tx_num	PEQU	 	5	;{K}
+id	PEQU	 	40	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+f_enable	PEQU	F	:=0	
+f_ConS	PEQU	F		;Connection state LONG
+f_ConL	PEQU	F		;Connection state SHORT
+$ENDGROUP SBus1.Stn_40
+$GROUP SBus1.Stn_41
+id	PEQU	 	41	;{K}
+data_rx_base	PEQU	R	rx_base1+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_base	PEQU	R	tx_base1+(Common.tx_num*id)	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=0	
+f_ConS	PEQU	F		;Connection state LONG
+f_ConL	PEQU	F		;Connection state SHORT
+$ENDGROUP SBus1.Stn_41
+$GROUP SBus1.Felles
+f_tx_reset_enable	PEQU	F		
+f_resetPuls	PEQU	F		
+f_SetPktOffset_RESET_cmd	PEQU	F		
+$ENDGROUP SBus1.Felles
+$GROUP SBus1
+f_masterError	PEQU	F		
+$ENDGROUP SBus1
+$GROUP Common
+rx_num	PEQU	 	20	;{K}
+tx_num	PEQU	 	5	;{K}
+$ENDGROUP Common
+COB_SBus1	EQU	COB		
+COB_SBus2	EQU	COB		
+$GROUP Rom_mal_1.TempSensor.Write
+Offsett	PEQU	R	111:=0	
+Cool	PEQU	R	109:=0	
+Led	PEQU	R	110:=50	
+$ENDGROUP Rom_mal_1.TempSensor.Write
+$GROUP Rom_mal_1.TempSensor.Read
+Temperatur	PEQU	R	108	
+Reserve	PEQU	R	106	
+Offsett	PEQU	R	105	
+Cool	PEQU	R	103	
+LED	PEQU	R	104	
+Temp_LoadComp	PEQU	R	107	
+$ENDGROUP Rom_mal_1.TempSensor.Read
+$GROUP Rom_mal_1
+Kalibrering_Rom	PEQU	R	114:=-17	
+Pådrag_Kjøling	PEQU	R	115	
+$ENDGROUP Rom_mal_1
+$GROUP Rom_mal_1.Romkontrol
+Aktuell_modus	PEQU	R	100	
+Varme_Settpunkt	PEQU	R	102	
+Kjøle_Settpunkt	PEQU	R	101	
+$ENDGROUP Rom_mal_1.Romkontrol
+$GROUP Rom_mal_1
+Setpunkt_Rom	PEQU	R	117:=190	
+Avlest_Settpunkt	PEQU	R	113	
+Aktuelt_Settpunkt	PEQU	R	112	
+Pådrag_Varme	PEQU	R	116	
+$ENDGROUP Rom_mal_1
+rx_base1	PEQU	R	3000[1000]	
+tx_base1	PEQU	R	500[220]	
+rx_base2	PEQU	R	4000[1000]	
+tx_base2	PEQU	R	720[220]	
+rx_base3	PEQU	R	5000[1000]	
+tx_base3	PEQU	R	8000[220]	
+rx_base4	PEQU	R	6000[1000]	
+tx_base4	PEQU	R	8300[250]	
+$GROUP S.com.SBus1
+EXTN	station	R;Slave station address
+$ENDGROUP S.com.SBus1
+$GROUP S.com.SBus2
+EXTN	station	R;Slave station address
+$ENDGROUP S.com.SBus2
+$GROUP S.com.SBus3
+EXTN	station	R;Slave station address
+$ENDGROUP S.com.SBus3
+$GROUP S.com.SBus4
+EXTN	station	R;Slave station address
+$ENDGROUP S.com.SBus4
+$GROUP Felles
+Setpkt_Temp	PEQU	R	:=210	
+$ENDGROUP Felles
+$GROUP Modbus
+f_Unit_clear	PEQU	F		
+$ENDGROUP Modbus
+$GROUP SBus3
+f_masterClear	PEQU	F		
+f_SASI_enable	PEQU	F	:=1	
+r_currentStation	PEQU	R		
+$ENDGROUP SBus3
+$GROUP SBus3.Stn_01
+id	PEQU	 	1	;{K}
+data_rx_base	PEQU	R	rx_base3+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_base	PEQU	R	tx_base3+(Common.tx_num*id)	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=0	
+f_ConS	PEQU	F		
+f_ConL	PEQU	F		
+$ENDGROUP SBus3.Stn_01
+$GROUP SBus3.Stn_40
+data_tx_base	PEQU	R	tx_base3+(Common.tx_num*id)	
+id	PEQU	 	40	;{K}
+data_rx_base	PEQU	R	rx_base3+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=1	
+f_ConS	PEQU	F		
+f_ConL	PEQU	F		
+$ENDGROUP SBus3.Stn_40
+$GROUP SBus3.Stn_02
+id	PEQU	 	2	;{K}
+data_rx_base	PEQU	R	rx_base3+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_base	PEQU	R	tx_base3+(Common.tx_num*id)	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=0	
+f_ConS	PEQU	F		
+f_ConL	PEQU	F		
+$ENDGROUP SBus3.Stn_02
+$GROUP SBus3.Stn_03
+id	PEQU	 	3	;{K}
+data_rx_base	PEQU	R	rx_base3+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_base	PEQU	R	tx_base3+(Common.tx_num*id)	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=0	
+f_ConS	PEQU	F		
+f_ConL	PEQU	F		
+$ENDGROUP SBus3.Stn_03
+$GROUP SBus3.Stn_04
+id	PEQU	 	4	;{K}
+data_rx_base	PEQU	R	rx_base3+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_base	PEQU	R	tx_base3+(Common.tx_num*id)	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=0	
+f_ConS	PEQU	F		
+f_ConL	PEQU	F		
+$ENDGROUP SBus3.Stn_04
+$GROUP SBus3.Stn_05
+id	PEQU	 	5	;{K}
+data_rx_base	PEQU	R	rx_base3+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_base	PEQU	R	tx_base3+(Common.tx_num*id)	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=0	
+f_ConS	PEQU	F		
+f_ConL	PEQU	F		
+$ENDGROUP SBus3.Stn_05
+$GROUP SBus3.Stn_06
+id	PEQU	 	6	;{K}
+data_rx_base	PEQU	R	rx_base3+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_base	PEQU	R	tx_base3+(Common.tx_num*id)	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=0	
+f_ConS	PEQU	F		
+f_ConL	PEQU	F		
+$ENDGROUP SBus3.Stn_06
+$GROUP SBus3.Stn_07
+id	PEQU	 	7	;{K}
+data_rx_base	PEQU	R	rx_base3+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_base	PEQU	R	tx_base3+(Common.tx_num*id)	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=0	
+f_ConS	PEQU	F		
+f_ConL	PEQU	F		
+$ENDGROUP SBus3.Stn_07
+$GROUP SBus3.Stn_08
+id	PEQU	 	8	;{K}
+data_rx_base	PEQU	R	rx_base3+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_base	PEQU	R	tx_base3+(Common.tx_num*id)	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=0	
+f_ConS	PEQU	F		
+f_ConL	PEQU	F		
+$ENDGROUP SBus3.Stn_08
+$GROUP SBus3.Stn_09
+id	PEQU	 	9	;{K}
+data_rx_base	PEQU	R	rx_base3+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_base	PEQU	R	tx_base3+(Common.tx_num*id)	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=0	
+f_ConS	PEQU	F		
+f_ConL	PEQU	F		
+$ENDGROUP SBus3.Stn_09
+$GROUP SBus3.Stn_10
+id	PEQU	 	10	;{K}
+data_rx_base	PEQU	R	rx_base3+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_base	PEQU	R	tx_base3+(Common.tx_num*id)	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=1	
+f_ConS	PEQU	F		
+f_ConL	PEQU	F		
+$ENDGROUP SBus3.Stn_10
+$GROUP SBus3.Stn_11
+id	PEQU	 	11	;{K}
+data_rx_base	PEQU	R	rx_base3+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_base	PEQU	R	tx_base3+(Common.tx_num*id)	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=1	
+f_ConS	PEQU	F		
+f_ConL	PEQU	F		
+$ENDGROUP SBus3.Stn_11
+$GROUP SBus3.Stn_12
+id	PEQU	 	12	;{K}
+data_rx_base	PEQU	R	rx_base3+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_base	PEQU	R	tx_base3+(Common.tx_num*id)	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=1	
+f_ConS	PEQU	F		
+f_ConL	PEQU	F		
+$ENDGROUP SBus3.Stn_12
+$GROUP SBus3.Stn_13
+id	PEQU	 	13	;{K}
+data_rx_base	PEQU	R	rx_base3+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_base	PEQU	R	tx_base3+(Common.tx_num*id)	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=1	
+f_ConS	PEQU	F		
+f_ConL	PEQU	F		
+$ENDGROUP SBus3.Stn_13
+$GROUP SBus3.Stn_14
+id	PEQU	 	14	;{K}
+data_rx_base	PEQU	R	rx_base3+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_base	PEQU	R	tx_base3+(Common.tx_num*id)	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=1	
+f_ConS	PEQU	F		
+f_ConL	PEQU	F		
+$ENDGROUP SBus3.Stn_14
+$GROUP SBus3.Stn_15
+id	PEQU	 	15	;{K}
+data_rx_base	PEQU	R	rx_base3+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_base	PEQU	R	tx_base3+(Common.tx_num*id)	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=1	
+f_ConS	PEQU	F		
+f_ConL	PEQU	F		
+$ENDGROUP SBus3.Stn_15
+$GROUP SBus3.Stn_16
+id	PEQU	 	16	;{K}
+data_rx_base	PEQU	R	rx_base3+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_base	PEQU	R	tx_base3+(Common.tx_num*id)	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=1	
+f_ConS	PEQU	F		
+f_ConL	PEQU	F		
+$ENDGROUP SBus3.Stn_16
+$GROUP SBus3.Stn_17
+id	PEQU	 	17	;{K}
+data_rx_base	PEQU	R	rx_base3+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_base	PEQU	R	tx_base3+(Common.tx_num*id)	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=1	
+f_ConS	PEQU	F		
+f_ConL	PEQU	F		
+$ENDGROUP SBus3.Stn_17
+$GROUP SBus3.Stn_18
+id	PEQU	 	18	;{K}
+data_rx_base	PEQU	R	rx_base3+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_base	PEQU	R	tx_base3+(Common.tx_num*id)	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=1	
+f_ConS	PEQU	F		
+f_ConL	PEQU	F		
+$ENDGROUP SBus3.Stn_18
+$GROUP SBus3.Stn_19
+id	PEQU	 	19	;{K}
+data_rx_base	PEQU	R	rx_base3+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_base	PEQU	R	tx_base3+(Common.tx_num*id)	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=1	
+f_ConS	PEQU	F		
+f_ConL	PEQU	F		
+$ENDGROUP SBus3.Stn_19
+$GROUP SBus3.Stn_20
+id	PEQU	 	20	;{K}
+data_rx_base	PEQU	R	rx_base3+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_base	PEQU	R	tx_base3+(Common.tx_num*id)	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=1	
+f_ConS	PEQU	F		
+f_ConL	PEQU	F		
+$ENDGROUP SBus3.Stn_20
+$GROUP SBus3.Stn_21
+id	PEQU	 	21	;{K}
+data_rx_base	PEQU	R	rx_base3+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_base	PEQU	R	tx_base3+(Common.tx_num*id)	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=1	
+f_ConS	PEQU	F		
+f_ConL	PEQU	F		
+$ENDGROUP SBus3.Stn_21
+$GROUP SBus3.Stn_22
+id	PEQU	 	22	;{K}
+data_rx_base	PEQU	R	rx_base3+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_base	PEQU	R	tx_base3+(Common.tx_num*id)	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=1	
+f_ConS	PEQU	F		
+f_ConL	PEQU	F		
+$ENDGROUP SBus3.Stn_22
+$GROUP SBus3.Stn_23
+id	PEQU	 	23	;{K}
+data_rx_base	PEQU	R	rx_base3+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_base	PEQU	R	tx_base3+(Common.tx_num*id)	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=1	
+f_ConS	PEQU	F		
+f_ConL	PEQU	F		
+$ENDGROUP SBus3.Stn_23
+$GROUP SBus3.Stn_24
+id	PEQU	 	24	;{K}
+data_rx_base	PEQU	R	rx_base3+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_base	PEQU	R	tx_base3+(Common.tx_num*id)	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=1	
+f_ConS	PEQU	F		
+f_ConL	PEQU	F		
+$ENDGROUP SBus3.Stn_24
+$GROUP SBus3.Stn_25
+id	PEQU	 	25	;{K}
+data_rx_base	PEQU	R	rx_base3+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_base	PEQU	R	tx_base3+(Common.tx_num*id)	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=1	
+f_ConS	PEQU	F		
+f_ConL	PEQU	F		
+$ENDGROUP SBus3.Stn_25
+$GROUP SBus3.Stn_26
+id	PEQU	 	26	;{K}
+data_rx_base	PEQU	R	rx_base3+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_base	PEQU	R	tx_base3+(Common.tx_num*id)	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=1	
+f_ConS	PEQU	F		
+f_ConL	PEQU	F		
+$ENDGROUP SBus3.Stn_26
+$GROUP SBus3.Stn_27
+id	PEQU	 	27	;{K}
+data_rx_base	PEQU	R	rx_base3+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_base	PEQU	R	tx_base3+(Common.tx_num*id)	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=1	
+f_ConS	PEQU	F		
+f_ConL	PEQU	F		
+$ENDGROUP SBus3.Stn_27
+$GROUP SBus3.Stn_28
+id	PEQU	 	28	;{K}
+data_rx_base	PEQU	R	rx_base3+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_base	PEQU	R	tx_base3+(Common.tx_num*id)	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=1	
+f_ConS	PEQU	F		
+f_ConL	PEQU	F		
+$ENDGROUP SBus3.Stn_28
+$GROUP SBus3.Stn_29
+id	PEQU	 	29	;{K}
+data_rx_base	PEQU	R	rx_base3+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_base	PEQU	R	tx_base3+(Common.tx_num*id)	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=1	
+f_ConS	PEQU	F		
+f_ConL	PEQU	F		
+$ENDGROUP SBus3.Stn_29
+$GROUP SBus3.Stn_30
+id	PEQU	 	30	;{K}
+data_rx_base	PEQU	R	rx_base3+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_base	PEQU	R	tx_base3+(Common.tx_num*id)	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=1	
+f_ConS	PEQU	F		
+f_ConL	PEQU	F		
+$ENDGROUP SBus3.Stn_30
+$GROUP SBus3.Stn_31
+id	PEQU	 	31	;{K}
+data_rx_base	PEQU	R	rx_base3+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_base	PEQU	R	tx_base3+(Common.tx_num*id)	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=1	
+f_ConS	PEQU	F		
+f_ConL	PEQU	F		
+$ENDGROUP SBus3.Stn_31
+$GROUP SBus3.Stn_32
+id	PEQU	 	32	;{K}
+data_rx_base	PEQU	R	rx_base3+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_base	PEQU	R	tx_base3+(Common.tx_num*id)	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=1	
+f_ConS	PEQU	F		
+f_ConL	PEQU	F		
+$ENDGROUP SBus3.Stn_32
+$GROUP SBus3.Stn_33
+id	PEQU	 	33	;{K}
+data_rx_base	PEQU	R	rx_base3+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_base	PEQU	R	tx_base3+(Common.tx_num*id)	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=1	
+f_ConS	PEQU	F		
+f_ConL	PEQU	F		
+$ENDGROUP SBus3.Stn_33
+$GROUP SBus3.Stn_34
+id	PEQU	 	34	;{K}
+data_rx_base	PEQU	R	rx_base3+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_base	PEQU	R	tx_base3+(Common.tx_num*id)	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=1	
+f_ConS	PEQU	F		
+f_ConL	PEQU	F		
+$ENDGROUP SBus3.Stn_34
+$GROUP SBus3.Stn_35
+id	PEQU	 	35	;{K}
+data_rx_base	PEQU	R	rx_base3+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_base	PEQU	R	tx_base3+(Common.tx_num*id)	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=1	
+f_ConS	PEQU	F		
+f_ConL	PEQU	F		
+$ENDGROUP SBus3.Stn_35
+$GROUP SBus3.Stn_36
+id	PEQU	 	36	;{K}
+data_rx_base	PEQU	R	rx_base3+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_base	PEQU	R	tx_base3+(Common.tx_num*id)	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=1	
+f_ConS	PEQU	F		
+f_ConL	PEQU	F		
+$ENDGROUP SBus3.Stn_36
+$GROUP SBus3.Stn_37
+id	PEQU	 	37	;{K}
+data_rx_base	PEQU	R	rx_base3+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_base	PEQU	R	tx_base3+(Common.tx_num*id)	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=1	
+f_ConS	PEQU	F		
+f_ConL	PEQU	F		
+$ENDGROUP SBus3.Stn_37
+$GROUP SBus3.Stn_38
+id	PEQU	 	38	;{K}
+data_rx_base	PEQU	R	rx_base3+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_base	PEQU	R	tx_base3+(Common.tx_num*id)	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=1	
+f_ConS	PEQU	F		
+f_ConL	PEQU	F		
+$ENDGROUP SBus3.Stn_38
+$GROUP SBus3.Stn_39
+id	PEQU	 	39	;{K}
+data_rx_base	PEQU	R	rx_base3+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_base	PEQU	R	tx_base3+(Common.tx_num*id)	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=1	
+f_ConS	PEQU	F		
+f_ConL	PEQU	F		
+$ENDGROUP SBus3.Stn_39
+$GROUP SBus3
+f_masterError	PEQU	F		
+$ENDGROUP SBus3
+$GROUP SBus4
+f_masterClear	PEQU	F		
+f_SASI_enable	PEQU	F	:=1	
+r_currentStation	PEQU	R		
+f_masterError	PEQU	F		
+$ENDGROUP SBus4
+$GROUP SBus4.Stn_01
+data_tx_base	PEQU	R	tx_base4+(Common.tx_num*id)	
+id	PEQU	 	1	;{K}
+data_rx_base	PEQU	R	rx_base4+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=0	
+f_ConS	PEQU	F		
+f_ConL	PEQU	F		
+$ENDGROUP SBus4.Stn_01
+$GROUP SBus4.Stn_02
+data_tx_base	PEQU	R	tx_base4+(Common.tx_num*id)	
+id	PEQU	 	2	;{K}
+data_rx_base	PEQU	R	rx_base4+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=0	
+f_ConS	PEQU	F		
+f_ConL	PEQU	F		
+$ENDGROUP SBus4.Stn_02
+$GROUP SBus4.Stn_03
+data_tx_base	PEQU	R	tx_base4+(Common.tx_num*id)	
+id	PEQU	 	3	;{K}
+data_rx_base	PEQU	R	rx_base4+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=0	
+f_ConS	PEQU	F		
+f_ConL	PEQU	F		
+$ENDGROUP SBus4.Stn_03
+$GROUP SBus4.Stn_04
+data_tx_base	PEQU	R	tx_base4+(Common.tx_num*id)	
+id	PEQU	 	4	;{K}
+data_rx_base	PEQU	R	rx_base4+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=0	
+f_ConS	PEQU	F		
+f_ConL	PEQU	F		
+$ENDGROUP SBus4.Stn_04
+$GROUP SBus4.Stn_05
+data_tx_base	PEQU	R	tx_base4+(Common.tx_num*id)	
+id	PEQU	 	5	;{K}
+data_rx_base	PEQU	R	rx_base4+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=0	
+f_ConS	PEQU	F		
+f_ConL	PEQU	F		
+$ENDGROUP SBus4.Stn_05
+$GROUP SBus4.Stn_06
+data_tx_base	PEQU	R	tx_base4+(Common.tx_num*id)	
+id	PEQU	 	6	;{K}
+data_rx_base	PEQU	R	rx_base4+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=0	
+f_ConS	PEQU	F		
+f_ConL	PEQU	F		
+$ENDGROUP SBus4.Stn_06
+$GROUP SBus4.Stn_07
+data_tx_base	PEQU	R	tx_base4+(Common.tx_num*id)	
+id	PEQU	 	7	;{K}
+data_rx_base	PEQU	R	rx_base4+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=0	
+f_ConS	PEQU	F		
+f_ConL	PEQU	F		
+$ENDGROUP SBus4.Stn_07
+$GROUP SBus4.Stn_08
+data_tx_base	PEQU	R	tx_base4+(Common.tx_num*id)	
+id	PEQU	 	8	;{K}
+data_rx_base	PEQU	R	rx_base4+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=0	
+f_ConS	PEQU	F		
+f_ConL	PEQU	F		
+$ENDGROUP SBus4.Stn_08
+$GROUP SBus4.Stn_09
+data_tx_base	PEQU	R	tx_base4+(Common.tx_num*id)	
+id	PEQU	 	9	;{K}
+data_rx_base	PEQU	R	rx_base4+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=0	
+f_ConS	PEQU	F		
+f_ConL	PEQU	F		
+$ENDGROUP SBus4.Stn_09
+$GROUP SBus4.Stn_10
+data_tx_base	PEQU	R	tx_base4+(Common.tx_num*id)	
+id	PEQU	 	10	;{K}
+data_rx_base	PEQU	R	rx_base4+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=1	
+f_ConS	PEQU	F		
+f_ConL	PEQU	F		
+$ENDGROUP SBus4.Stn_10
+$GROUP SBus4.Stn_11
+data_tx_base	PEQU	R	tx_base4+(Common.tx_num*id)	
+id	PEQU	 	11	;{K}
+data_rx_base	PEQU	R	rx_base4+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=1	
+f_ConS	PEQU	F		
+f_ConL	PEQU	F		
+$ENDGROUP SBus4.Stn_11
+$GROUP SBus4.Stn_12
+data_tx_base	PEQU	R	tx_base4+(Common.tx_num*id)	
+id	PEQU	 	12	;{K}
+data_rx_base	PEQU	R	rx_base4+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=1	
+f_ConS	PEQU	F		
+f_ConL	PEQU	F		
+$ENDGROUP SBus4.Stn_12
+$GROUP SBus4.Stn_13
+data_tx_base	PEQU	R	tx_base4+(Common.tx_num*id)	
+id	PEQU	 	13	;{K}
+data_rx_base	PEQU	R	rx_base4+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=1	
+f_ConS	PEQU	F		
+f_ConL	PEQU	F		
+$ENDGROUP SBus4.Stn_13
+$GROUP SBus4.Stn_14
+data_tx_base	PEQU	R	tx_base4+(Common.tx_num*id)	
+id	PEQU	 	14	;{K}
+data_rx_base	PEQU	R	rx_base4+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=1	
+f_ConS	PEQU	F		
+f_ConL	PEQU	F		
+$ENDGROUP SBus4.Stn_14
+$GROUP SBus4.Stn_15
+data_tx_base	PEQU	R	tx_base4+(Common.tx_num*id)	
+id	PEQU	 	15	;{K}
+data_rx_base	PEQU	R	rx_base4+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=1	
+f_ConS	PEQU	F		
+f_ConL	PEQU	F		
+$ENDGROUP SBus4.Stn_15
+$GROUP SBus4.Stn_16
+data_tx_base	PEQU	R	tx_base4+(Common.tx_num*id)	
+id	PEQU	 	16	;{K}
+data_rx_base	PEQU	R	rx_base4+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=1	
+f_ConS	PEQU	F		
+f_ConL	PEQU	F		
+$ENDGROUP SBus4.Stn_16
+$GROUP SBus4.Stn_17
+data_tx_base	PEQU	R	tx_base4+(Common.tx_num*id)	
+id	PEQU	 	17	;{K}
+data_rx_base	PEQU	R	rx_base4+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=1	
+f_ConS	PEQU	F		
+f_ConL	PEQU	F		
+$ENDGROUP SBus4.Stn_17
+$GROUP SBus4.Stn_18
+data_tx_base	PEQU	R	tx_base4+(Common.tx_num*id)	
+id	PEQU	 	18	;{K}
+data_rx_base	PEQU	R	rx_base4+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=1	
+f_ConS	PEQU	F		
+f_ConL	PEQU	F		
+$ENDGROUP SBus4.Stn_18
+$GROUP SBus4.Stn_19
+data_tx_base	PEQU	R	tx_base4+(Common.tx_num*id)	
+id	PEQU	 	19	;{K}
+data_rx_base	PEQU	R	rx_base4+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=1	
+f_ConS	PEQU	F		
+f_ConL	PEQU	F		
+$ENDGROUP SBus4.Stn_19
+$GROUP SBus4.Stn_20
+data_tx_base	PEQU	R	tx_base4+(Common.tx_num*id)	
+id	PEQU	 	20	;{K}
+data_rx_base	PEQU	R	rx_base4+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=1	
+f_ConS	PEQU	F		
+f_ConL	PEQU	F		
+$ENDGROUP SBus4.Stn_20
+$GROUP SBus4.Stn_21
+data_tx_base	PEQU	R	tx_base4+(Common.tx_num*id)	
+id	PEQU	 	21	;{K}
+data_rx_base	PEQU	R	rx_base4+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=1	
+f_ConS	PEQU	F		
+f_ConL	PEQU	F		
+$ENDGROUP SBus4.Stn_21
+$GROUP SBus4.Stn_22
+data_tx_base	PEQU	R	tx_base4+(Common.tx_num*id)	
+id	PEQU	 	22	;{K}
+data_rx_base	PEQU	R	rx_base4+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=1	
+f_ConS	PEQU	F		
+f_ConL	PEQU	F		
+$ENDGROUP SBus4.Stn_22
+$GROUP SBus4.Stn_23
+data_tx_base	PEQU	R	tx_base4+(Common.tx_num*id)	
+id	PEQU	 	23	;{K}
+data_rx_base	PEQU	R	rx_base4+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=1	
+f_ConS	PEQU	F		
+f_ConL	PEQU	F		
+$ENDGROUP SBus4.Stn_23
+$GROUP SBus4.Stn_24
+data_tx_base	PEQU	R	tx_base4+(Common.tx_num*id)	
+id	PEQU	 	24	;{K}
+data_rx_base	PEQU	R	rx_base4+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=1	
+f_ConS	PEQU	F		
+f_ConL	PEQU	F		
+$ENDGROUP SBus4.Stn_24
+$GROUP SBus4.Stn_25
+data_tx_base	PEQU	R	tx_base4+(Common.tx_num*id)	
+id	PEQU	 	25	;{K}
+data_rx_base	PEQU	R	rx_base4+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=1	
+f_ConS	PEQU	F		
+f_ConL	PEQU	F		
+$ENDGROUP SBus4.Stn_25
+$GROUP SBus4.Stn_26
+data_tx_base	PEQU	R	tx_base4+(Common.tx_num*id)	
+id	PEQU	 	26	;{K}
+data_rx_base	PEQU	R	rx_base4+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=1	
+f_ConS	PEQU	F		
+f_ConL	PEQU	F		
+$ENDGROUP SBus4.Stn_26
+$GROUP SBus4.Stn_27
+data_tx_base	PEQU	R	tx_base4+(Common.tx_num*id)	
+id	PEQU	 	27	;{K}
+data_rx_base	PEQU	R	rx_base4+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=1	
+f_ConS	PEQU	F		
+f_ConL	PEQU	F		
+$ENDGROUP SBus4.Stn_27
+$GROUP SBus4.Stn_28
+data_tx_base	PEQU	R	tx_base4+(Common.tx_num*id)	
+id	PEQU	 	28	;{K}
+data_rx_base	PEQU	R	rx_base4+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=1	
+f_ConS	PEQU	F		
+f_ConL	PEQU	F		
+$ENDGROUP SBus4.Stn_28
+$GROUP SBus4.Stn_29
+data_tx_base	PEQU	R	tx_base4+(Common.tx_num*id)	
+id	PEQU	 	29	;{K}
+data_rx_base	PEQU	R	rx_base4+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=1	
+f_ConS	PEQU	F		
+f_ConL	PEQU	F		
+$ENDGROUP SBus4.Stn_29
+$GROUP SBus4.Stn_30
+data_tx_base	PEQU	R	tx_base4+(Common.tx_num*id)	
+id	PEQU	 	30	;{K}
+data_rx_base	PEQU	R	rx_base4+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=1	
+f_ConS	PEQU	F		
+f_ConL	PEQU	F		
+$ENDGROUP SBus4.Stn_30
+$GROUP SBus4.Stn_31
+data_tx_base	PEQU	R	tx_base4+(Common.tx_num*id)	
+id	PEQU	 	31	;{K}
+data_rx_base	PEQU	R	rx_base4+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=1	
+f_ConS	PEQU	F		
+f_ConL	PEQU	F		
+$ENDGROUP SBus4.Stn_31
+$GROUP SBus4.Stn_32
+data_tx_base	PEQU	R	tx_base4+(Common.tx_num*id)	
+id	PEQU	 	32	;{K}
+data_rx_base	PEQU	R	rx_base4+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=1	
+f_ConS	PEQU	F		
+f_ConL	PEQU	F		
+$ENDGROUP SBus4.Stn_32
+$GROUP SBus4.Stn_33
+data_tx_base	PEQU	R	tx_base4+(Common.tx_num*id)	
+id	PEQU	 	33	;{K}
+data_rx_base	PEQU	R	rx_base4+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=1	
+f_ConS	PEQU	F		
+f_ConL	PEQU	F		
+$ENDGROUP SBus4.Stn_33
+$GROUP SBus4.Stn_34
+data_tx_base	PEQU	R	tx_base4+(Common.tx_num*id)	
+id	PEQU	 	34	;{K}
+data_rx_base	PEQU	R	rx_base4+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=1	
+f_ConS	PEQU	F		
+f_ConL	PEQU	F		
+$ENDGROUP SBus4.Stn_34
+$GROUP SBus4.Stn_35
+data_tx_base	PEQU	R	tx_base4+(Common.tx_num*id)	
+id	PEQU	 	35	;{K}
+data_rx_base	PEQU	R	rx_base4+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=1	
+f_ConS	PEQU	F		
+f_ConL	PEQU	F		
+$ENDGROUP SBus4.Stn_35
+$GROUP SBus4.Stn_36
+data_tx_base	PEQU	R	tx_base4+(Common.tx_num*id)	
+id	PEQU	 	36	;{K}
+data_rx_base	PEQU	R	rx_base4+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=1	
+f_ConS	PEQU	F		
+f_ConL	PEQU	F		
+$ENDGROUP SBus4.Stn_36
+$GROUP SBus4.Stn_37
+data_tx_base	PEQU	R	tx_base4+(Common.tx_num*id)	
+id	PEQU	 	37	;{K}
+data_rx_base	PEQU	R	rx_base4+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=1	
+f_ConS	PEQU	F		
+f_ConL	PEQU	F		
+$ENDGROUP SBus4.Stn_37
+$GROUP SBus4.Stn_38
+data_tx_base	PEQU	R	tx_base4+(Common.tx_num*id)	
+id	PEQU	 	38	;{K}
+data_rx_base	PEQU	R	rx_base4+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=1	
+f_ConS	PEQU	F		
+f_ConL	PEQU	F		
+$ENDGROUP SBus4.Stn_38
+$GROUP SBus4.Stn_39
+data_tx_base	PEQU	R	tx_base4+(Common.tx_num*id)	
+id	PEQU	 	39	;{K}
+data_rx_base	PEQU	R	rx_base4+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=1	
+f_ConS	PEQU	F		
+f_ConL	PEQU	F		
+$ENDGROUP SBus4.Stn_39
+$GROUP SBus4.Stn_40
+data_tx_base	PEQU	R	tx_base4+(Common.tx_num*id)	
+id	PEQU	 	40	;{K}
+data_rx_base	PEQU	R	rx_base4+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+data_tx_num	PEQU	 	5	;{K}
+f_enable	PEQU	F	:=1	
+f_ConS	PEQU	F		
+f_ConL	PEQU	F		
+$ENDGROUP SBus4.Stn_40
+$GROUP SBus4.Stn_41
+data_rx_base	PEQU	R	rx_base4+(Common.rx_num*id)	
+data_rx_num	PEQU	 	20	;{K}
+data_tx_base	PEQU	R	tx_base4+(Common.tx_num*id)	
+data_tx_num	PEQU	 	5	;{K}
+id	PEQU	 	41	;{K}
+f_rx_enable	PEQU	F	:=1	
+f_tx_enable	PEQU	F	:=1	
+f_enable	PEQU	F	:=1	
+f_ConS	PEQU	F		
+f_ConL	PEQU	F		
+$ENDGROUP SBus4.Stn_41
+COB_SBus3	EQU	COB		
+COB_SBus4	EQU	COB		
+FELLES	EQU	COB		
+$GROUP Mapping
+r_base_id_1_01	PEQU	R		
+$ENDGROUP Mapping
+;;End of Module symbols
+;;Start unused connector symbols
+$IFTYPE SBus1.f_SASI_enable = K
+$ENDIF
+$IFTYPE SBus2.f_SASI_enable = K
+$ENDIF
+$IFTYPE SBus3.f_SASI_enable = K
+$ENDIF
+$IFTYPE SBus4.f_SASI_enable = K
+$ENDIF
+;;End unused connector symbols

@@ -1,0 +1,127 @@
+
+{
+    "version" : 1,
+    "buildInfo" : {
+        "solutionName" : "Untitled2",
+        "projectName"  : "FrontEnd",
+        "solutionVersion" : "0.1",
+        "projectVersion"  : "0.1",
+        "projectDescription" : "",
+        "buildTime"          : 5248487248202578216,
+        "uniqueBuildId"      : "1cpgpx",
+        "authorInfoName"     : "da Ulvis",
+        "authorInfoEMail"    : "pcdsupport@mwa.no",
+        "authorInfoCopyright" : "MWA AS",
+        "authorInfoCompany"   : "Malthe Winje Automasjon AS",
+        "authorInfoTrademark" : "(C) MWA",
+        "pg5DevicePath"       : "..\\..\\Device1.saia5pc"
+    },
+    "allFiles"  : [
+        {
+            "path" : "$CI_1xpskzs.gif",
+            "type" : "ImageAndMedia"
+        },
+        {
+            "path" : "$CI_pzhslt.gif",
+            "type" : "ImageAndMedia"
+        },
+        {
+            "path" : "Start.teq",
+            "type" : "View"
+        },
+        {
+            "path" : "MsgBox.teq",
+            "type" : "View"
+        },
+        {
+            "path" : "Bus2.teq",
+            "type" : "View"
+        },
+        {
+            "path" : "bakgrunn.teq",
+            "type" : "View"
+        },
+        {
+            "path" : "BUS3.teq",
+            "type" : "View"
+        },
+        {
+            "path" : "BUS4.teq",
+            "type" : "View"
+        },
+        {
+            "path" : "$CI_po8ik3.itq",
+            "type" : "LocalVariableInitialization"
+        },
+        {
+            "path" : "$CP_po8ik3.tcr",
+            "type" : "RemoteVariableDefinition"
+        },
+        {
+            "path" : "$CL_en_po8ik3.csv",
+            "type" : "Language"
+        },
+        {
+            "path" : "IMasterSaia5_15_03.jar",
+            "type" : "JavaRuntime"
+        },
+        {
+            "path" : "start.html",
+            "type" : "Html"
+        },
+        {
+            "path" : "$CU_users.c$v",
+            "type" : "UsersCSV"
+        }
+    ],
+    "deploymentConfigs" : [
+        {
+            "type" : "ftp_json",
+            "options" : {
+                "enabled" : "True",
+                "useServiceKey" : "True",
+                "serviceKey"    : "kc23174350",
+                "cleanDestination" : "False",
+                "updateDestination" : "True",
+                "communicationType" : "",
+                "host"              : "10.0.107.79",
+                "userName"          : "root",
+                "password"          : "rootpasswd",
+                "webServerPassword" : "",
+                "destinationDirectory" : "/INTFLASH:/WEBPAGES/",
+                "htmlAndVarDef"        : "True",
+                "webViews"             : "True",
+                "imagesAndMedia"       : "True",
+                "userDatabase"         : "False",
+                "javaRuntime"          : "False",
+                "html5Runtime"         : "True",
+                "languages"            : "True",
+                "customFiles"          : "False",
+                "customFilesMask"      : "",
+                "fileTypes"            : [
+                    "Html",
+                    "LocalVariableInitialization",
+                    "RemoteVariableDefinition",
+                    "View",
+                    "ImageAndMedia",
+                    "Html5Runtime",
+                    "Language"
+                ]
+            },
+            "files"   : [
+                "$CI_1xpskzs.gif",
+                "$CI_pzhslt.gif",
+                "Start.teq",
+                "MsgBox.teq",
+                "Bus2.teq",
+                "bakgrunn.teq",
+                "BUS3.teq",
+                "BUS4.teq",
+                "$CI_po8ik3.itq",
+                "$CP_po8ik3.tcr",
+                "$CL_en_po8ik3.csv",
+                "start.html"
+            ]
+        }
+    ]
+}

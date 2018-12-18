@@ -1,0 +1,229 @@
+﻿<View id="5e9d20b6-c3ed-41b2-8ec7-912c90d21865" type="ec7bc2eb-6e5c-4567-9a29-dd70a894a28f" name="bakgrunn">
+  <Properties>
+    <Property name="FillColor" source="C" value="255 255 255" type="Color" />
+    <Property name="OutlineColor" source="C" value="0 0 0" type="Color" />
+    <Property name="OutlineWidth" source="C" value="1" type="double" />
+    <Property name="OutlineStyle" source="C" value="Solid" type="LineStyle" />
+    <Property name="HasFillColor" source="C" value="True" type="bool" />
+    <Property name="Width" source="C" value="1280" type="double" />
+    <Property name="Height" source="C" value="1024" type="double" />
+    <Property name="BackgroundView" source="C" value="00000000-0000-0000-0000-000000000000" type="EmbeddedViewElementReference" />
+  </Properties>
+  <Element id="f8668f06-b71c-4641-a5e4-b31da0b9d563" type="9b71c49e-d5d0-44fd-b444-b08555dfda74" name="Main Layer">
+    <Properties>
+      <Property name="Name" source="C" value="Main Layer" type="string" />
+    </Properties>
+    <Element id="de860feb-6697-4900-8a7e-82a9e61d4c60" type="34aaeab1-0303-452d-aa17-4960241de2a9" name="Button">
+      <Properties>
+        <Property name="Name" source="C" value="Button" type="string" />
+        <Property name="FillColor" source="C" value="204 204 204" type="Color" />
+        <Property name="OutlineColor" source="C" value="0 0 0" type="Color" />
+        <Property name="OutlineWidth" source="C" value="1" type="double" />
+        <Property name="OutlineStyle" source="C" value="Solid" type="LineStyle" />
+        <Property name="X" source="C" value="0.888888888888849" type="double" />
+        <Property name="Y" source="C" value="0" type="double" />
+        <Property name="Width" source="C" value="119.111111111111" type="double" />
+        <Property name="Height" source="C" value="42.6666666666667" type="double" />
+        <Property name="Use3DFrame" source="C" value="True" type="bool" />
+        <Property name="HasOutline" source="C" value="True" type="bool" />
+        <Property name="HasFillColor" source="C" value="True" type="bool" />
+        <Property name="ScaleMode" source="C" value="Fit" type="ScaleMode" />
+        <Property name="Font" source="C" value="Arial Normal 9" type="FontInfo" />
+        <Property name="Content" source="C" value="SBUS 1" type="string" />
+        <Property name="TextAlignment" source="C" value="Center Center" type="TextPosition" />
+        <Property name="LockedInEditor" source="C" value="False" type="bool" />
+        <Property name="MouseDown" source="C" type="Event">
+          <Instruction name="ShowView">
+            <Parameter name="ViewName" value="ae37ddee-a0e5-4626-a555-f676d1b7c4d7" viewName="Start" type="C" />
+          </Instruction>
+        </Property>
+      </Properties>
+    </Element>
+    <Element id="77200b62-738e-40df-b6f4-92c8e74b5b1c" type="34aaeab1-0303-452d-aa17-4960241de2a9" name="Button">
+      <Properties>
+        <Property name="Name" source="C" value="Button" type="string" />
+        <Property name="FillColor" source="C" value="204 204 204" type="Color" />
+        <Property name="OutlineColor" source="C" value="0 0 0" type="Color" />
+        <Property name="OutlineWidth" source="C" value="1" type="double" />
+        <Property name="OutlineStyle" source="C" value="Solid" type="LineStyle" />
+        <Property name="X" source="C" value="119.888888888889" type="double" />
+        <Property name="Y" source="C" value="0" type="double" />
+        <Property name="Width" source="C" value="119.111111111111" type="double" />
+        <Property name="Height" source="C" value="42.6666666666667" type="double" />
+        <Property name="Use3DFrame" source="C" value="True" type="bool" />
+        <Property name="HasOutline" source="C" value="True" type="bool" />
+        <Property name="HasFillColor" source="C" value="True" type="bool" />
+        <Property name="ScaleMode" source="C" value="Fit" type="ScaleMode" />
+        <Property name="Font" source="C" value="Arial Normal 9" type="FontInfo" />
+        <Property name="Content" source="C" value="SBUS 2" type="string" />
+        <Property name="TextAlignment" source="C" value="Center Center" type="TextPosition" />
+        <Property name="LockedInEditor" source="C" value="False" type="bool" />
+        <Property name="MouseDown" source="C" type="Event">
+          <Instruction name="ShowView">
+            <Parameter name="ViewName" value="6cc7b7f0-df03-435d-9708-c24f1967ad86" viewName="Bus2" type="C" />
+          </Instruction>
+        </Property>
+      </Properties>
+    </Element>
+    <Element id="edb84474-cb9c-4491-b149-86017cb0a46d" type="34aaeab1-0303-452d-aa17-4960241de2a9" name="Button">
+      <Properties>
+        <Property name="Name" source="C" value="Button" type="string" />
+        <Property name="FillColor" source="C" value="204 204 204" type="Color" />
+        <Property name="OutlineColor" source="C" value="0 0 0" type="Color" />
+        <Property name="OutlineWidth" source="C" value="1" type="double" />
+        <Property name="OutlineStyle" source="C" value="Solid" type="LineStyle" />
+        <Property name="X" source="C" value="238.888888888889" type="double" />
+        <Property name="Y" source="C" value="-2.22044604925031E-15" type="double" />
+        <Property name="Width" source="C" value="119.111111111111" type="double" />
+        <Property name="Height" source="C" value="42.6666666666667" type="double" />
+        <Property name="Use3DFrame" source="C" value="True" type="bool" />
+        <Property name="HasOutline" source="C" value="True" type="bool" />
+        <Property name="HasFillColor" source="C" value="True" type="bool" />
+        <Property name="ScaleMode" source="C" value="Fit" type="ScaleMode" />
+        <Property name="Font" source="C" value="Arial Normal 9" type="FontInfo" />
+        <Property name="Content" source="C" value="SBUS 3" type="string" />
+        <Property name="TextAlignment" source="C" value="Center Center" type="TextPosition" />
+        <Property name="LockedInEditor" source="C" value="False" type="bool" />
+        <Property name="MouseDown" source="C" type="Event">
+          <Instruction name="ShowView">
+            <Parameter name="ViewName" value="2c80cb4e-ced6-4f1e-8ec0-dfe919fc3b8e" viewName="BUS3" type="C" />
+          </Instruction>
+        </Property>
+      </Properties>
+    </Element>
+    <Element id="ecafc620-6852-4302-ba94-6b73eee3f7ef" type="34aaeab1-0303-452d-aa17-4960241de2a9" name="Button">
+      <Properties>
+        <Property name="Name" source="C" value="Button" type="string" />
+        <Property name="FillColor" source="C" value="204 204 204" type="Color" />
+        <Property name="OutlineColor" source="C" value="0 0 0" type="Color" />
+        <Property name="OutlineWidth" source="C" value="1" type="double" />
+        <Property name="OutlineStyle" source="C" value="Solid" type="LineStyle" />
+        <Property name="X" source="C" value="357.888888888889" type="double" />
+        <Property name="Y" source="C" value="0" type="double" />
+        <Property name="Width" source="C" value="119.111111111111" type="double" />
+        <Property name="Height" source="C" value="42.6666666666667" type="double" />
+        <Property name="Use3DFrame" source="C" value="True" type="bool" />
+        <Property name="HasOutline" source="C" value="True" type="bool" />
+        <Property name="HasFillColor" source="C" value="True" type="bool" />
+        <Property name="ScaleMode" source="C" value="Fit" type="ScaleMode" />
+        <Property name="Font" source="C" value="Arial Normal 9" type="FontInfo" />
+        <Property name="Content" source="C" value="SBUS 4" type="string" />
+        <Property name="TextAlignment" source="C" value="Center Center" type="TextPosition" />
+        <Property name="LockedInEditor" source="C" value="False" type="bool" />
+        <Property name="MouseDown" source="C" type="Event">
+          <Instruction name="ShowView">
+            <Parameter name="ViewName" value="Bus4" type="C" />
+          </Instruction>
+        </Property>
+      </Properties>
+    </Element>
+    <Element id="8d1d2d55-7ccf-48af-91ef-eb9fb201297f" type="09d97b67-b775-443b-a6e6-0b8f0bbe4fd2" name="Polygon (1)" activeCondition="009320cd-7767-4469-a929-5e2b264936a4">
+      <Conditions>
+        <ConditionLogic id="009320cd-7767-4469-a929-5e2b264936a4" name="error" operator="And">
+          <Condition leftType="PDP" leftValue="SBus1.f_masterError" operator="Equal" rightType="Constant" rightValue="1" />
+        </ConditionLogic>
+      </Conditions>
+      <Properties>
+        <ConditionPriority>
+          <Condition id="009320cd-7767-4469-a929-5e2b264936a4" />
+        </ConditionPriority>
+        <Property name="Name" source="C" value="Polygon (1)" type="string" />
+        <Property name="Points" source="C" value="97.5:10 85:35 110:35" type="Points" />
+        <Property name="X" source="C" value="85" type="double" />
+        <Property name="Y" source="C" value="10" type="double" />
+        <Property name="Width" source="C" value="25" type="double" />
+        <Property name="Height" source="C" value="25" type="double" />
+        <Property name="FillColor" source="C" value="255 0 0" type="Color" />
+        <Property name="OutlineColor" source="C" value="0 0 0" type="Color" />
+        <Property name="OutlineWidth" source="C" value="1" type="double" />
+        <Property name="OutlineStyle" source="C" value="Solid" type="LineStyle" />
+        <Property name="HasOutline" source="C" value="True" type="bool" />
+        <Property name="LockedInEditor" source="C" value="False" type="bool" />
+        <Property name="HasFillColor" source="C" value="True" type="bool" />
+        <Property name="Hidden" source="C" value="True" type="bool" />
+        <Property name="Hidden" source="C" condition="009320cd-7767-4469-a929-5e2b264936a4" value="False" type="bool" />
+      </Properties>
+    </Element>
+    <Element id="a94f6ec4-8af7-42e3-bde0-efc69396e260" type="09d97b67-b775-443b-a6e6-0b8f0bbe4fd2" name="Polygon (1)" activeCondition="09c1a846-0abd-4a78-b224-a4b9827bca34">
+      <Conditions>
+        <ConditionLogic id="09c1a846-0abd-4a78-b224-a4b9827bca34" name="error" operator="And">
+          <Condition leftType="PDP" leftValue="SBus2.f_masterError" operator="Equal" rightType="Constant" rightValue="1" />
+        </ConditionLogic>
+      </Conditions>
+      <Properties>
+        <ConditionPriority>
+          <Condition id="09c1a846-0abd-4a78-b224-a4b9827bca34" />
+        </ConditionPriority>
+        <Property name="Name" source="C" value="Polygon (1)" type="string" />
+        <Property name="Points" source="C" value="222.5:10 210:35 235:35" type="Points" />
+        <Property name="X" source="C" value="210" type="double" />
+        <Property name="Y" source="C" value="10" type="double" />
+        <Property name="Width" source="C" value="25" type="double" />
+        <Property name="Height" source="C" value="25" type="double" />
+        <Property name="FillColor" source="C" value="255 0 0" type="Color" />
+        <Property name="OutlineColor" source="C" value="0 0 0" type="Color" />
+        <Property name="OutlineWidth" source="C" value="1" type="double" />
+        <Property name="OutlineStyle" source="C" value="Solid" type="LineStyle" />
+        <Property name="HasOutline" source="C" value="True" type="bool" />
+        <Property name="LockedInEditor" source="C" value="False" type="bool" />
+        <Property name="HasFillColor" source="C" value="True" type="bool" />
+        <Property name="Hidden" source="C" value="True" type="bool" />
+        <Property name="Hidden" source="C" condition="09c1a846-0abd-4a78-b224-a4b9827bca34" value="False" type="bool" />
+      </Properties>
+    </Element>
+    <Element id="13014dcf-c1e6-4976-ae1d-9076b91f5e98" type="09d97b67-b775-443b-a6e6-0b8f0bbe4fd2" name="Polygon (1)" activeCondition="1a30de15-d329-42b8-83ed-598bbe5e55a5">
+      <Conditions>
+        <ConditionLogic id="1a30de15-d329-42b8-83ed-598bbe5e55a5" name="error" operator="And">
+          <Condition leftType="PDP" leftValue="SBus3.f_masterError" operator="Equal" rightType="Constant" rightValue="1" />
+        </ConditionLogic>
+      </Conditions>
+      <Properties>
+        <ConditionPriority>
+          <Condition id="1a30de15-d329-42b8-83ed-598bbe5e55a5" />
+        </ConditionPriority>
+        <Property name="Name" source="C" value="Polygon (1)" type="string" />
+        <Property name="Points" source="C" value="337.5:10 325:35 350:35" type="Points" />
+        <Property name="X" source="C" value="325" type="double" />
+        <Property name="Y" source="C" value="10" type="double" />
+        <Property name="Width" source="C" value="25" type="double" />
+        <Property name="Height" source="C" value="25" type="double" />
+        <Property name="FillColor" source="C" value="255 0 0" type="Color" />
+        <Property name="OutlineColor" source="C" value="0 0 0" type="Color" />
+        <Property name="OutlineWidth" source="C" value="1" type="double" />
+        <Property name="OutlineStyle" source="C" value="Solid" type="LineStyle" />
+        <Property name="HasOutline" source="C" value="True" type="bool" />
+        <Property name="LockedInEditor" source="C" value="False" type="bool" />
+        <Property name="HasFillColor" source="C" value="True" type="bool" />
+        <Property name="Hidden" source="C" value="True" type="bool" />
+        <Property name="Hidden" source="C" condition="1a30de15-d329-42b8-83ed-598bbe5e55a5" value="False" type="bool" />
+      </Properties>
+    </Element>
+    <Element id="6cb5796b-f8ff-40c9-8d17-6ca86d013b6c" type="09d97b67-b775-443b-a6e6-0b8f0bbe4fd2" name="Polygon (1)" activeCondition="ad09acb8-7650-4821-8f3c-eaadf126bbc1">
+      <Conditions>
+        <ConditionLogic id="ad09acb8-7650-4821-8f3c-eaadf126bbc1" name="error" operator="And">
+          <Condition leftType="PDP" leftValue="SBus4.f_masterError" operator="Equal" rightType="Constant" rightValue="1" />
+        </ConditionLogic>
+      </Conditions>
+      <Properties>
+        <ConditionPriority>
+          <Condition id="ad09acb8-7650-4821-8f3c-eaadf126bbc1" />
+        </ConditionPriority>
+        <Property name="Name" source="C" value="Polygon (1)" type="string" />
+        <Property name="Points" source="C" value="457.5:10 445:35 470:35" type="Points" />
+        <Property name="X" source="C" value="445" type="double" />
+        <Property name="Y" source="C" value="10" type="double" />
+        <Property name="Width" source="C" value="25" type="double" />
+        <Property name="Height" source="C" value="25" type="double" />
+        <Property name="FillColor" source="C" value="255 0 0" type="Color" />
+        <Property name="OutlineColor" source="C" value="0 0 0" type="Color" />
+        <Property name="OutlineWidth" source="C" value="1" type="double" />
+        <Property name="OutlineStyle" source="C" value="Solid" type="LineStyle" />
+        <Property name="HasOutline" source="C" value="True" type="bool" />
+        <Property name="LockedInEditor" source="C" value="False" type="bool" />
+        <Property name="HasFillColor" source="C" value="True" type="bool" />
+        <Property name="Hidden" source="C" value="True" type="bool" />
+        <Property name="Hidden" source="C" condition="ad09acb8-7650-4821-8f3c-eaadf126bbc1" value="False" type="bool" />
+      </Properties>
+    </Element>
+  </Element>
+</View>

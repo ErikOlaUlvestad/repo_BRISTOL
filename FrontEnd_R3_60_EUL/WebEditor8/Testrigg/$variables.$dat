@@ -1,0 +1,1427 @@
+﻿<Variables>
+  <GlobalVariables>
+    <Variable name="MessageBoxCO" />
+  </GlobalVariables>
+  <PcdVariables>
+    <Variable name="Start_Vifte" />
+    <Variable name="General.HandInfo0.MotCount" min=" " max=" " unit=" " format="DEC" />
+    <Variable name="General.HandInfo0.MotAuto" min=" " max=" " unit=" " format="BIN" />
+    <Variable name="General.HandInfo0.DrvCount" min=" " max=" " unit=" " format="DEC" />
+    <Variable name="General.HandInfo0.ContrCount" min=" " max=" " unit=" " format="DEC" />
+    <Variable name="General.HandInfo0.DrvAuto" min=" " max=" " unit=" " format="BIN" />
+    <Variable name="General.HandInfo0.ContrAuto" min=" " max=" " unit=" " format="BIN" />
+    <Variable name="SBus1.Stn_01.f_enable" />
+    <Variable name="SBus1.Stn_01.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus1.Stn_01.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus1.Stn_01.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus1.Stn_01.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus1.Stn_01.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus1.Stn_02.f_enable" />
+    <Variable name="SBus1.Stn_02.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus1.Stn_02.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus1.Stn_02.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus1.Stn_02.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus1.Stn_02.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus1.Stn_10.f_enable" />
+    <Variable name="SBus1.Stn_11.f_enable" />
+    <Variable name="SBus1.Stn_12.f_enable" />
+    <Variable name="SBus1.Stn_13.f_enable" />
+    <Variable name="SBus1.Stn_14.f_enable" />
+    <Variable name="SBus1.Stn_15.f_enable" />
+    <Variable name="SBus1.Stn_16.f_enable" />
+    <Variable name="SBus1.Stn_17.f_enable" />
+    <Variable name="SBus1.Stn_18.f_enable" />
+    <Variable name="SBus1.Stn_19.f_enable" />
+    <Variable name="SBus1.Stn_20.f_enable" />
+    <Variable name="SBus1.Stn_21.f_enable" />
+    <Variable name="SBus1.Stn_22.f_enable" />
+    <Variable name="SBus1.Stn_23.f_enable" />
+    <Variable name="SBus1.Stn_24.f_enable" />
+    <Variable name="SBus1.Stn_25.f_enable" />
+    <Variable name="SBus1.Stn_26.f_enable" />
+    <Variable name="SBus1.Stn_27.f_enable" />
+    <Variable name="SBus1.Stn_28.f_enable" />
+    <Variable name="SBus1.Stn_29.f_enable" />
+    <Variable name="SBus1.Stn_30.f_enable" />
+    <Variable name="SBus1.Stn_31.f_enable" />
+    <Variable name="SBus1.Stn_32.f_enable" />
+    <Variable name="SBus1.Stn_33.f_enable" />
+    <Variable name="SBus1.Stn_34.f_enable" />
+    <Variable name="SBus1.Stn_35.f_enable" />
+    <Variable name="SBus1.Stn_36.f_enable" />
+    <Variable name="SBus1.Stn_37.f_enable" />
+    <Variable name="SBus1.Stn_38.f_enable" />
+    <Variable name="SBus1.Stn_39.f_enable" />
+    <Variable name="SBus1.Stn_00.f_enable" />
+    <Variable name="SBus1.Stn_03.f_enable" />
+    <Variable name="SBus1.Stn_04.f_enable" />
+    <Variable name="SBus1.Stn_05.f_enable" />
+    <Variable name="SBus1.Stn_06.f_enable" />
+    <Variable name="SBus1.Stn_07.f_enable" />
+    <Variable name="SBus1.Stn_08.f_enable" />
+    <Variable name="SBus1.Stn_09.f_enable" />
+    <Variable name="SBus1.Stn_10.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus1.Stn_10.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus1.Stn_10.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus1.Stn_10.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus1.Stn_10.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus1.Stn_10.tag" />
+    <Variable name="SBus1.Stn_11.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus1.Stn_11.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus1.Stn_11.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus1.Stn_11.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus1.Stn_11.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus1.Stn_11.tag" />
+    <Variable name="SBus1.Stn_12.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus1.Stn_12.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus1.Stn_12.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus1.Stn_12.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus1.Stn_12.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus1.Stn_12.tag" />
+    <Variable name="SBus1.Stn_13.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus1.Stn_13.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus1.Stn_13.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus1.Stn_13.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus1.Stn_13.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus1.Stn_13.tag" />
+    <Variable name="SBus1.Stn_14.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus1.Stn_14.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus1.Stn_14.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus1.Stn_14.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus1.Stn_14.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus1.Stn_14.tag" />
+    <Variable name="SBus1.Stn_15.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus1.Stn_15.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus1.Stn_15.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus1.Stn_15.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus1.Stn_15.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus1.Stn_15.tag" />
+    <Variable name="SBus1.Stn_16.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus1.Stn_16.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus1.Stn_16.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus1.Stn_16.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus1.Stn_16.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus1.Stn_16.tag" />
+    <Variable name="SBus1.Stn_17.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus1.Stn_17.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus1.Stn_17.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus1.Stn_17.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus1.Stn_17.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus1.Stn_17.tag" />
+    <Variable name="SBus1.Stn_18.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus1.Stn_18.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus1.Stn_18.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus1.Stn_18.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus1.Stn_18.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus1.Stn_18.tag" />
+    <Variable name="SBus1.Stn_19.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus1.Stn_19.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus1.Stn_19.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus1.Stn_19.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus1.Stn_19.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus1.Stn_19.tag" />
+    <Variable name="SBus1.Stn_20.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus1.Stn_20.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus1.Stn_20.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus1.Stn_20.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus1.Stn_20.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus1.Stn_20.tag" />
+    <Variable name="SBus1.Stn_21.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus1.Stn_21.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus1.Stn_21.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus1.Stn_21.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus1.Stn_21.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus1.Stn_21.tag" />
+    <Variable name="SBus1.Stn_22.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus1.Stn_22.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus1.Stn_22.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus1.Stn_22.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus1.Stn_22.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus1.Stn_22.tag" />
+    <Variable name="SBus1.Stn_23.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus1.Stn_23.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus1.Stn_23.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus1.Stn_23.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus1.Stn_23.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus1.Stn_23.tag" />
+    <Variable name="SBus1.Stn_24.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus1.Stn_24.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus1.Stn_24.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus1.Stn_24.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus1.Stn_24.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus1.Stn_24.tag" />
+    <Variable name="SBus1.Stn_25.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus1.Stn_25.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus1.Stn_25.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus1.Stn_25.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus1.Stn_25.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus1.Stn_25.tag" />
+    <Variable name="SBus1.Stn_26.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus1.Stn_26.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus1.Stn_26.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus1.Stn_26.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus1.Stn_26.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus1.Stn_26.tag" />
+    <Variable name="SBus1.Stn_27.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus1.Stn_27.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus1.Stn_27.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus1.Stn_27.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus1.Stn_27.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus1.Stn_27.tag" />
+    <Variable name="SBus1.Stn_28.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus1.Stn_28.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus1.Stn_28.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus1.Stn_28.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus1.Stn_28.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus1.Stn_28.tag" />
+    <Variable name="SBus1.Stn_29.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus1.Stn_29.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus1.Stn_29.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus1.Stn_29.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus1.Stn_29.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus1.Stn_29.tag" />
+    <Variable name="SBus1.Stn_30.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus1.Stn_30.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus1.Stn_30.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus1.Stn_30.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus1.Stn_30.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus1.Stn_30.tag" />
+    <Variable name="SBus1.Stn_31.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus1.Stn_31.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus1.Stn_31.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus1.Stn_31.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus1.Stn_31.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus1.Stn_31.tag" />
+    <Variable name="SBus1.Stn_32.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus1.Stn_32.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus1.Stn_32.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus1.Stn_32.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus1.Stn_32.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus1.Stn_32.tag" />
+    <Variable name="SBus1.Stn_33.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus1.Stn_33.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus1.Stn_33.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus1.Stn_33.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus1.Stn_33.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus1.Stn_33.tag" />
+    <Variable name="SBus1.Stn_34.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus1.Stn_34.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus1.Stn_34.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus1.Stn_34.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus1.Stn_34.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus1.Stn_34.tag" />
+    <Variable name="SBus1.Stn_35.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus1.Stn_35.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus1.Stn_35.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus1.Stn_35.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus1.Stn_35.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus1.Stn_35.tag" />
+    <Variable name="SBus1.Stn_36.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus1.Stn_36.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus1.Stn_36.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus1.Stn_36.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus1.Stn_36.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus1.Stn_36.tag" />
+    <Variable name="SBus1.Stn_37.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus1.Stn_37.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus1.Stn_37.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus1.Stn_37.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus1.Stn_37.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus1.Stn_37.tag" />
+    <Variable name="SBus1.Stn_38.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus1.Stn_38.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus1.Stn_38.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus1.Stn_38.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus1.Stn_38.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus1.Stn_38.tag" />
+    <Variable name="SBus1.Stn_39.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus1.Stn_39.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus1.Stn_39.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus1.Stn_39.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus1.Stn_39.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus1.Stn_39.tag" />
+    <Variable name="SBus1.Stn_01.tag" />
+    <Variable name="SBus1.Stn_02.tag" />
+    <Variable name="SBus1.Stn_03.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus1.Stn_03.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus1.Stn_03.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus1.Stn_03.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus1.Stn_03.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus1.Stn_03.tag" />
+    <Variable name="SBus1.Stn_04.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus1.Stn_04.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus1.Stn_04.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus1.Stn_04.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus1.Stn_04.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus1.Stn_04.tag" />
+    <Variable name="SBus1.Stn_05.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus1.Stn_05.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus1.Stn_05.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus1.Stn_05.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus1.Stn_05.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus1.Stn_05.tag" />
+    <Variable name="SBus1.Stn_06.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus1.Stn_06.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus1.Stn_06.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus1.Stn_06.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus1.Stn_06.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus1.Stn_06.tag" />
+    <Variable name="SBus1.Stn_07.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus1.Stn_07.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus1.Stn_07.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus1.Stn_07.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus1.Stn_07.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus1.Stn_07.tag" />
+    <Variable name="SBus1.Stn_08.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus1.Stn_08.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus1.Stn_08.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus1.Stn_08.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus1.Stn_08.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus1.Stn_08.tag" />
+    <Variable name="SBus1.Stn_09.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus1.Stn_09.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus1.Stn_09.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus1.Stn_09.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus1.Stn_09.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus1.Stn_09.tag" />
+    <Variable name="SBus2.Stn_11.f_enable" />
+    <Variable name="SBus2.Stn_11.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus2.Stn_11.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus2.Stn_11.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus2.Stn_11.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus2.Stn_11.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus2.Stn_11.tag" />
+    <Variable name="SBus2.Stn_12.f_enable" />
+    <Variable name="SBus2.Stn_12.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus2.Stn_12.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus2.Stn_12.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus2.Stn_12.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus2.Stn_12.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus2.Stn_12.tag" />
+    <Variable name="SBus2.Stn_13.f_enable" />
+    <Variable name="SBus2.Stn_13.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus2.Stn_13.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus2.Stn_13.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus2.Stn_13.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus2.Stn_13.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus2.Stn_13.tag" />
+    <Variable name="SBus2.Stn_14.f_enable" />
+    <Variable name="SBus2.Stn_14.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus2.Stn_14.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus2.Stn_14.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus2.Stn_14.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus2.Stn_14.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus2.Stn_14.tag" />
+    <Variable name="SBus2.Stn_15.f_enable" />
+    <Variable name="SBus2.Stn_15.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus2.Stn_15.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus2.Stn_15.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus2.Stn_15.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus2.Stn_15.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus2.Stn_15.tag" />
+    <Variable name="SBus2.Stn_16.f_enable" />
+    <Variable name="SBus2.Stn_16.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus2.Stn_16.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus2.Stn_16.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus2.Stn_16.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus2.Stn_16.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus2.Stn_16.tag" />
+    <Variable name="SBus2.Stn_17.f_enable" />
+    <Variable name="SBus2.Stn_17.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus2.Stn_17.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus2.Stn_17.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus2.Stn_17.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus2.Stn_17.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus2.Stn_17.tag" />
+    <Variable name="SBus2.Stn_18.f_enable" />
+    <Variable name="SBus2.Stn_18.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus2.Stn_18.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus2.Stn_18.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus2.Stn_18.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus2.Stn_18.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus2.Stn_18.tag" />
+    <Variable name="SBus2.Stn_19.f_enable" />
+    <Variable name="SBus2.Stn_19.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus2.Stn_19.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus2.Stn_19.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus2.Stn_19.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus2.Stn_19.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus2.Stn_19.tag" />
+    <Variable name="SBus2.Stn_20.f_enable" />
+    <Variable name="SBus2.Stn_20.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus2.Stn_20.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus2.Stn_20.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus2.Stn_20.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus2.Stn_20.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus2.Stn_20.tag" />
+    <Variable name="SBus2.Stn_21.f_enable" />
+    <Variable name="SBus2.Stn_21.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus2.Stn_21.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus2.Stn_21.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus2.Stn_21.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus2.Stn_21.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus2.Stn_21.tag" />
+    <Variable name="SBus2.Stn_22.f_enable" />
+    <Variable name="SBus2.Stn_22.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus2.Stn_22.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus2.Stn_22.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus2.Stn_22.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus2.Stn_22.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus2.Stn_22.tag" />
+    <Variable name="SBus2.Stn_23.f_enable" />
+    <Variable name="SBus2.Stn_23.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus2.Stn_23.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus2.Stn_23.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus2.Stn_23.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus2.Stn_23.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus2.Stn_23.tag" />
+    <Variable name="SBus2.Stn_24.f_enable" />
+    <Variable name="SBus2.Stn_24.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus2.Stn_24.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus2.Stn_24.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus2.Stn_24.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus2.Stn_24.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus2.Stn_24.tag" />
+    <Variable name="SBus2.Stn_25.f_enable" />
+    <Variable name="SBus2.Stn_25.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus2.Stn_25.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus2.Stn_25.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus2.Stn_25.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus2.Stn_25.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus2.Stn_25.tag" />
+    <Variable name="SBus2.Stn_26.f_enable" />
+    <Variable name="SBus2.Stn_26.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus2.Stn_26.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus2.Stn_26.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus2.Stn_26.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus2.Stn_26.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus2.Stn_26.tag" />
+    <Variable name="SBus2.Stn_27.f_enable" />
+    <Variable name="SBus2.Stn_27.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus2.Stn_27.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus2.Stn_27.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus2.Stn_27.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus2.Stn_27.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus2.Stn_27.tag" />
+    <Variable name="SBus2.Stn_28.f_enable" />
+    <Variable name="SBus2.Stn_28.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus2.Stn_28.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus2.Stn_28.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus2.Stn_28.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus2.Stn_28.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus2.Stn_28.tag" />
+    <Variable name="SBus2.Stn_29.f_enable" />
+    <Variable name="SBus2.Stn_29.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus2.Stn_29.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus2.Stn_29.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus2.Stn_29.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus2.Stn_29.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus2.Stn_29.tag" />
+    <Variable name="SBus2.Stn_30.f_enable" />
+    <Variable name="SBus2.Stn_30.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus2.Stn_30.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus2.Stn_30.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus2.Stn_30.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus2.Stn_30.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus2.Stn_30.tag" />
+    <Variable name="SBus2.Stn_31.f_enable" />
+    <Variable name="SBus2.Stn_31.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus2.Stn_31.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus2.Stn_31.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus2.Stn_31.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus2.Stn_31.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus2.Stn_31.tag" />
+    <Variable name="SBus2.Stn_32.f_enable" />
+    <Variable name="SBus2.Stn_32.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus2.Stn_32.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus2.Stn_32.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus2.Stn_32.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus2.Stn_32.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus2.Stn_32.tag" />
+    <Variable name="SBus2.Stn_33.f_enable" />
+    <Variable name="SBus2.Stn_33.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus2.Stn_33.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus2.Stn_33.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus2.Stn_33.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus2.Stn_33.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus2.Stn_33.tag" />
+    <Variable name="SBus2.Stn_34.f_enable" />
+    <Variable name="SBus2.Stn_34.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus2.Stn_34.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus2.Stn_34.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus2.Stn_34.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus2.Stn_34.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus2.Stn_34.tag" />
+    <Variable name="SBus2.Stn_35.f_enable" />
+    <Variable name="SBus2.Stn_35.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus2.Stn_35.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus2.Stn_35.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus2.Stn_35.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus2.Stn_35.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus2.Stn_35.tag" />
+    <Variable name="SBus2.Stn_36.f_enable" />
+    <Variable name="SBus2.Stn_36.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus2.Stn_36.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus2.Stn_36.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus2.Stn_36.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus2.Stn_36.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus2.Stn_36.tag" />
+    <Variable name="SBus2.Stn_37.f_enable" />
+    <Variable name="SBus2.Stn_37.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus2.Stn_37.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus2.Stn_37.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus2.Stn_37.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus2.Stn_37.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus2.Stn_37.tag" />
+    <Variable name="SBus2.Stn_38.f_enable" />
+    <Variable name="SBus2.Stn_38.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus2.Stn_38.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus2.Stn_38.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus2.Stn_38.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus2.Stn_38.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus2.Stn_38.tag" />
+    <Variable name="SBus2.Stn_39.f_enable" />
+    <Variable name="SBus2.Stn_39.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus2.Stn_39.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus2.Stn_39.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus2.Stn_39.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus2.Stn_39.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus2.Stn_39.tag" />
+    <Variable name="SBus2.Stn_01.f_enable" />
+    <Variable name="SBus2.Stn_01.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus2.Stn_01.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus2.Stn_01.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus2.Stn_01.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus2.Stn_01.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus2.Stn_01.tag" />
+    <Variable name="SBus2.Stn_02.f_enable" />
+    <Variable name="SBus2.Stn_02.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus2.Stn_02.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus2.Stn_02.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus2.Stn_02.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus2.Stn_02.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus2.Stn_02.tag" />
+    <Variable name="SBus2.Stn_03.f_enable" />
+    <Variable name="SBus2.Stn_03.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus2.Stn_03.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus2.Stn_03.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus2.Stn_03.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus2.Stn_03.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus2.Stn_03.tag" />
+    <Variable name="SBus2.Stn_04.f_enable" />
+    <Variable name="SBus2.Stn_04.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus2.Stn_04.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus2.Stn_04.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus2.Stn_04.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus2.Stn_04.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus2.Stn_04.tag" />
+    <Variable name="SBus2.Stn_05.f_enable" />
+    <Variable name="SBus2.Stn_05.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus2.Stn_05.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus2.Stn_05.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus2.Stn_05.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus2.Stn_05.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus2.Stn_05.tag" />
+    <Variable name="SBus2.Stn_06.f_enable" />
+    <Variable name="SBus2.Stn_06.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus2.Stn_06.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus2.Stn_06.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus2.Stn_06.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus2.Stn_06.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus2.Stn_06.tag" />
+    <Variable name="SBus2.Stn_07.f_enable" />
+    <Variable name="SBus2.Stn_07.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus2.Stn_07.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus2.Stn_07.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus2.Stn_07.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus2.Stn_07.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus2.Stn_07.tag" />
+    <Variable name="SBus2.Stn_08.f_enable" />
+    <Variable name="SBus2.Stn_08.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus2.Stn_08.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus2.Stn_08.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus2.Stn_08.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus2.Stn_08.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus2.Stn_08.tag" />
+    <Variable name="SBus2.Stn_09.f_enable" />
+    <Variable name="SBus2.Stn_09.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus2.Stn_09.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus2.Stn_09.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus2.Stn_09.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus2.Stn_09.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus2.Stn_09.tag" />
+    <Variable name="SBus2.Stn_10.f_enable" />
+    <Variable name="SBus2.Stn_10.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus2.Stn_10.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus2.Stn_10.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus2.Stn_10.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus2.Stn_10.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus2.Stn_10.tag" />
+    <Variable name="s.com.SBus1.station" />
+    <Variable name="SBus1.r_currentStation" />
+    <Variable name="SBus1.Stn_26.f_ConS" />
+    <Variable name="SBus1.Stn_26.f_ConL" />
+    <Variable name="SBus1.Stn_27.f_ConS" />
+    <Variable name="SBus1.Stn_27.f_ConL" />
+    <Variable name="SBus1.Stn_29.f_ConS" />
+    <Variable name="SBus1.Stn_29.f_ConL" />
+    <Variable name="SBus1.Stn_30.f_ConS" />
+    <Variable name="SBus1.Stn_30.f_ConL" />
+    <Variable name="SBus1.Stn_31.f_ConS" />
+    <Variable name="SBus1.Stn_31.f_ConL" />
+    <Variable name="SBus1.Stn_28.f_ConS" />
+    <Variable name="SBus1.Stn_28.f_ConL" />
+    <Variable name="SBus1.Stn_32.f_ConS" />
+    <Variable name="SBus1.Stn_32.f_ConL" />
+    <Variable name="SBus1.Stn_33.f_ConS" />
+    <Variable name="SBus1.Stn_33.f_ConL" />
+    <Variable name="SBus1.Stn_35.f_ConS" />
+    <Variable name="SBus1.Stn_35.f_ConL" />
+    <Variable name="SBus1.Stn_36.f_ConS" />
+    <Variable name="SBus1.Stn_36.f_ConL" />
+    <Variable name="SBus1.Stn_37.f_ConS" />
+    <Variable name="SBus1.Stn_37.f_ConL" />
+    <Variable name="SBus1.Stn_34.f_ConS" />
+    <Variable name="SBus1.Stn_34.f_ConL" />
+    <Variable name="SBus1.Stn_38.f_ConS" />
+    <Variable name="SBus1.Stn_38.f_ConL" />
+    <Variable name="SBus1.Stn_39.f_ConS" />
+    <Variable name="SBus1.Stn_39.f_ConL" />
+    <Variable name="SBus1.Stn_20.f_ConS" />
+    <Variable name="SBus1.Stn_20.f_ConL" />
+    <Variable name="SBus1.Stn_21.f_ConS" />
+    <Variable name="SBus1.Stn_21.f_ConL" />
+    <Variable name="SBus1.Stn_22.f_ConS" />
+    <Variable name="SBus1.Stn_22.f_ConL" />
+    <Variable name="SBus1.Stn_23.f_ConS" />
+    <Variable name="SBus1.Stn_23.f_ConL" />
+    <Variable name="SBus1.Stn_24.f_ConS" />
+    <Variable name="SBus1.Stn_24.f_ConL" />
+    <Variable name="SBus1.Stn_16.f_ConS" />
+    <Variable name="SBus1.Stn_16.f_ConL" />
+    <Variable name="SBus1.Stn_17.f_ConS" />
+    <Variable name="SBus1.Stn_17.f_ConL" />
+    <Variable name="SBus1.Stn_19.f_ConS" />
+    <Variable name="SBus1.Stn_19.f_ConL" />
+    <Variable name="SBus1.Stn_18.f_ConS" />
+    <Variable name="SBus1.Stn_18.f_ConL" />
+    <Variable name="SBus1.Stn_11.f_ConS" />
+    <Variable name="SBus1.Stn_11.f_ConL" />
+    <Variable name="SBus1.Stn_12.f_ConS" />
+    <Variable name="SBus1.Stn_12.f_ConL" />
+    <Variable name="SBus1.Stn_13.f_ConS" />
+    <Variable name="SBus1.Stn_13.f_ConL" />
+    <Variable name="SBus1.Stn_14.f_ConS" />
+    <Variable name="SBus1.Stn_14.f_ConL" />
+    <Variable name="SBus1.Stn_15.f_ConS" />
+    <Variable name="SBus1.Stn_15.f_ConL" />
+    <Variable name="SBus1.Stn_06.f_ConS" />
+    <Variable name="SBus1.Stn_06.f_ConL" />
+    <Variable name="SBus1.Stn_07.f_ConS" />
+    <Variable name="SBus1.Stn_07.f_ConL" />
+    <Variable name="SBus1.Stn_09.f_ConS" />
+    <Variable name="SBus1.Stn_09.f_ConL" />
+    <Variable name="SBus1.Stn_08.f_ConS" />
+    <Variable name="SBus1.Stn_08.f_ConL" />
+    <Variable name="SBus1.Stn_01.f_ConS" />
+    <Variable name="SBus1.Stn_01.f_ConL" />
+    <Variable name="SBus1.Stn_02.f_ConS" />
+    <Variable name="SBus1.Stn_02.f_ConL" />
+    <Variable name="SBus1.Stn_03.f_ConS" />
+    <Variable name="SBus1.Stn_03.f_ConL" />
+    <Variable name="SBus1.Stn_04.f_ConS" />
+    <Variable name="SBus1.Stn_04.f_ConL" />
+    <Variable name="SBus1.Stn_05.f_ConS" />
+    <Variable name="SBus1.Stn_05.f_ConL" />
+    <Variable name="SBus1.Stn_10.f_ConS" />
+    <Variable name="SBus1.Stn_10.f_ConL" />
+    <Variable name="SBus1.Stn_25.f_ConS" />
+    <Variable name="SBus1.Stn_25.f_ConL" />
+    <Variable name="s.com.SBus2.station" />
+    <Variable name="SBus2.r_currentStation" />
+    <Variable name="SBus2.Stn_26.f_ConS" />
+    <Variable name="SBus2.Stn_26.f_ConL" />
+    <Variable name="SBus2.Stn_27.f_ConS" />
+    <Variable name="SBus2.Stn_27.f_ConL" />
+    <Variable name="SBus2.Stn_29.f_ConS" />
+    <Variable name="SBus2.Stn_29.f_ConL" />
+    <Variable name="SBus2.Stn_30.f_ConS" />
+    <Variable name="SBus2.Stn_30.f_ConL" />
+    <Variable name="SBus2.Stn_31.f_ConS" />
+    <Variable name="SBus2.Stn_31.f_ConL" />
+    <Variable name="SBus2.Stn_28.f_ConS" />
+    <Variable name="SBus2.Stn_28.f_ConL" />
+    <Variable name="SBus2.Stn_32.f_ConS" />
+    <Variable name="SBus2.Stn_32.f_ConL" />
+    <Variable name="SBus2.Stn_33.f_ConS" />
+    <Variable name="SBus2.Stn_33.f_ConL" />
+    <Variable name="SBus2.Stn_35.f_ConS" />
+    <Variable name="SBus2.Stn_35.f_ConL" />
+    <Variable name="SBus2.Stn_36.f_ConS" />
+    <Variable name="SBus2.Stn_36.f_ConL" />
+    <Variable name="SBus2.Stn_37.f_ConS" />
+    <Variable name="SBus2.Stn_37.f_ConL" />
+    <Variable name="SBus2.Stn_34.f_ConS" />
+    <Variable name="SBus2.Stn_34.f_ConL" />
+    <Variable name="SBus2.Stn_38.f_ConS" />
+    <Variable name="SBus2.Stn_38.f_ConL" />
+    <Variable name="SBus2.Stn_39.f_ConS" />
+    <Variable name="SBus2.Stn_39.f_ConL" />
+    <Variable name="SBus2.Stn_20.f_ConS" />
+    <Variable name="SBus2.Stn_20.f_ConL" />
+    <Variable name="SBus2.Stn_21.f_ConS" />
+    <Variable name="SBus2.Stn_21.f_ConL" />
+    <Variable name="SBus2.Stn_22.f_ConS" />
+    <Variable name="SBus2.Stn_22.f_ConL" />
+    <Variable name="SBus2.Stn_23.f_ConS" />
+    <Variable name="SBus2.Stn_23.f_ConL" />
+    <Variable name="SBus2.Stn_24.f_ConS" />
+    <Variable name="SBus2.Stn_24.f_ConL" />
+    <Variable name="SBus2.Stn_16.f_ConS" />
+    <Variable name="SBus2.Stn_16.f_ConL" />
+    <Variable name="SBus2.Stn_17.f_ConS" />
+    <Variable name="SBus2.Stn_17.f_ConL" />
+    <Variable name="SBus2.Stn_19.f_ConS" />
+    <Variable name="SBus2.Stn_19.f_ConL" />
+    <Variable name="SBus2.Stn_18.f_ConS" />
+    <Variable name="SBus2.Stn_18.f_ConL" />
+    <Variable name="SBus2.Stn_11.f_ConS" />
+    <Variable name="SBus2.Stn_11.f_ConL" />
+    <Variable name="SBus2.Stn_12.f_ConS" />
+    <Variable name="SBus2.Stn_12.f_ConL" />
+    <Variable name="SBus2.Stn_13.f_ConS" />
+    <Variable name="SBus2.Stn_13.f_ConL" />
+    <Variable name="SBus2.Stn_14.f_ConS" />
+    <Variable name="SBus2.Stn_14.f_ConL" />
+    <Variable name="SBus2.Stn_15.f_ConS" />
+    <Variable name="SBus2.Stn_15.f_ConL" />
+    <Variable name="SBus2.Stn_06.f_ConS" />
+    <Variable name="SBus2.Stn_06.f_ConL" />
+    <Variable name="SBus2.Stn_07.f_ConS" />
+    <Variable name="SBus2.Stn_07.f_ConL" />
+    <Variable name="SBus2.Stn_09.f_ConS" />
+    <Variable name="SBus2.Stn_09.f_ConL" />
+    <Variable name="SBus2.Stn_08.f_ConS" />
+    <Variable name="SBus2.Stn_08.f_ConL" />
+    <Variable name="SBus2.Stn_01.f_ConS" />
+    <Variable name="SBus2.Stn_01.f_ConL" />
+    <Variable name="SBus2.Stn_02.f_ConS" />
+    <Variable name="SBus2.Stn_02.f_ConL" />
+    <Variable name="SBus2.Stn_03.f_ConS" />
+    <Variable name="SBus2.Stn_03.f_ConL" />
+    <Variable name="SBus2.Stn_04.f_ConS" />
+    <Variable name="SBus2.Stn_04.f_ConL" />
+    <Variable name="SBus2.Stn_05.f_ConS" />
+    <Variable name="SBus2.Stn_05.f_ConL" />
+    <Variable name="SBus2.Stn_10.f_ConS" />
+    <Variable name="SBus2.Stn_10.f_ConL" />
+    <Variable name="SBus2.Stn_25.f_ConS" />
+    <Variable name="SBus2.Stn_25.f_ConL" />
+    <Variable name="SBus3.Stn_11.f_enable" />
+    <Variable name="SBus3.Stn_11.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus3.Stn_11.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus3.Stn_11.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus3.Stn_11.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus3.Stn_11.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus3.Stn_11.tag" />
+    <Variable name="SBus3.Stn_12.f_enable" />
+    <Variable name="SBus3.Stn_12.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus3.Stn_12.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus3.Stn_12.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus3.Stn_12.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus3.Stn_12.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus3.Stn_12.tag" />
+    <Variable name="SBus3.Stn_13.f_enable" />
+    <Variable name="SBus3.Stn_13.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus3.Stn_13.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus3.Stn_13.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus3.Stn_13.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus3.Stn_13.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus3.Stn_13.tag" />
+    <Variable name="SBus3.Stn_14.f_enable" />
+    <Variable name="SBus3.Stn_14.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus3.Stn_14.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus3.Stn_14.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus3.Stn_14.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus3.Stn_14.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus3.Stn_14.tag" />
+    <Variable name="SBus3.Stn_15.f_enable" />
+    <Variable name="SBus3.Stn_15.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus3.Stn_15.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus3.Stn_15.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus3.Stn_15.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus3.Stn_15.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus3.Stn_15.tag" />
+    <Variable name="SBus3.Stn_16.f_enable" />
+    <Variable name="SBus3.Stn_16.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus3.Stn_16.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus3.Stn_16.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus3.Stn_16.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus3.Stn_16.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus3.Stn_16.tag" />
+    <Variable name="SBus3.Stn_17.f_enable" />
+    <Variable name="SBus3.Stn_17.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus3.Stn_17.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus3.Stn_17.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus3.Stn_17.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus3.Stn_17.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus3.Stn_17.tag" />
+    <Variable name="SBus3.Stn_18.f_enable" />
+    <Variable name="SBus3.Stn_18.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus3.Stn_18.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus3.Stn_18.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus3.Stn_18.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus3.Stn_18.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus3.Stn_18.tag" />
+    <Variable name="SBus3.Stn_19.f_enable" />
+    <Variable name="SBus3.Stn_19.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus3.Stn_19.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus3.Stn_19.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus3.Stn_19.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus3.Stn_19.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus3.Stn_19.tag" />
+    <Variable name="SBus3.Stn_20.f_enable" />
+    <Variable name="SBus3.Stn_20.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus3.Stn_20.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus3.Stn_20.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus3.Stn_20.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus3.Stn_20.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus3.Stn_20.tag" />
+    <Variable name="SBus3.Stn_21.f_enable" />
+    <Variable name="SBus3.Stn_21.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus3.Stn_21.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus3.Stn_21.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus3.Stn_21.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus3.Stn_21.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus3.Stn_21.tag" />
+    <Variable name="SBus3.Stn_22.f_enable" />
+    <Variable name="SBus3.Stn_22.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus3.Stn_22.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus3.Stn_22.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus3.Stn_22.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus3.Stn_22.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus3.Stn_22.tag" />
+    <Variable name="SBus3.Stn_23.f_enable" />
+    <Variable name="SBus3.Stn_23.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus3.Stn_23.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus3.Stn_23.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus3.Stn_23.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus3.Stn_23.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus3.Stn_23.tag" />
+    <Variable name="SBus3.Stn_24.f_enable" />
+    <Variable name="SBus3.Stn_24.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus3.Stn_24.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus3.Stn_24.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus3.Stn_24.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus3.Stn_24.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus3.Stn_24.tag" />
+    <Variable name="SBus3.Stn_25.f_enable" />
+    <Variable name="SBus3.Stn_25.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus3.Stn_25.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus3.Stn_25.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus3.Stn_25.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus3.Stn_25.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus3.Stn_25.tag" />
+    <Variable name="SBus3.Stn_26.f_enable" />
+    <Variable name="SBus3.Stn_26.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus3.Stn_26.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus3.Stn_26.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus3.Stn_26.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus3.Stn_26.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus3.Stn_26.tag" />
+    <Variable name="SBus3.Stn_27.f_enable" />
+    <Variable name="SBus3.Stn_27.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus3.Stn_27.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus3.Stn_27.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus3.Stn_27.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus3.Stn_27.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus3.Stn_27.tag" />
+    <Variable name="SBus3.Stn_28.f_enable" />
+    <Variable name="SBus3.Stn_28.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus3.Stn_28.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus3.Stn_28.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus3.Stn_28.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus3.Stn_28.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus3.Stn_28.tag" />
+    <Variable name="SBus3.Stn_29.f_enable" />
+    <Variable name="SBus3.Stn_29.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus3.Stn_29.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus3.Stn_29.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus3.Stn_29.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus3.Stn_29.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus3.Stn_29.tag" />
+    <Variable name="SBus3.Stn_30.f_enable" />
+    <Variable name="SBus3.Stn_30.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus3.Stn_30.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus3.Stn_30.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus3.Stn_30.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus3.Stn_30.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus3.Stn_30.tag" />
+    <Variable name="SBus3.Stn_31.f_enable" />
+    <Variable name="SBus3.Stn_31.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus3.Stn_31.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus3.Stn_31.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus3.Stn_31.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus3.Stn_31.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus3.Stn_31.tag" />
+    <Variable name="SBus3.Stn_32.f_enable" />
+    <Variable name="SBus3.Stn_32.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus3.Stn_32.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus3.Stn_32.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus3.Stn_32.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus3.Stn_32.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus3.Stn_32.tag" />
+    <Variable name="SBus3.Stn_33.f_enable" />
+    <Variable name="SBus3.Stn_33.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus3.Stn_33.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus3.Stn_33.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus3.Stn_33.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus3.Stn_33.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus3.Stn_33.tag" />
+    <Variable name="SBus3.Stn_34.f_enable" />
+    <Variable name="SBus3.Stn_34.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus3.Stn_34.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus3.Stn_34.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus3.Stn_34.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus3.Stn_34.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus3.Stn_34.tag" />
+    <Variable name="SBus3.Stn_35.f_enable" />
+    <Variable name="SBus3.Stn_35.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus3.Stn_35.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus3.Stn_35.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus3.Stn_35.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus3.Stn_35.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus3.Stn_35.tag" />
+    <Variable name="SBus3.Stn_36.f_enable" />
+    <Variable name="SBus3.Stn_36.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus3.Stn_36.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus3.Stn_36.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus3.Stn_36.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus3.Stn_36.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus3.Stn_36.tag" />
+    <Variable name="SBus3.Stn_37.f_enable" />
+    <Variable name="SBus3.Stn_37.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus3.Stn_37.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus3.Stn_37.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus3.Stn_37.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus3.Stn_37.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus3.Stn_37.tag" />
+    <Variable name="SBus3.Stn_38.f_enable" />
+    <Variable name="SBus3.Stn_38.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus3.Stn_38.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus3.Stn_38.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus3.Stn_38.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus3.Stn_38.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus3.Stn_38.tag" />
+    <Variable name="SBus3.Stn_39.f_enable" />
+    <Variable name="SBus3.Stn_39.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus3.Stn_39.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus3.Stn_39.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus3.Stn_39.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus3.Stn_39.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus3.Stn_39.tag" />
+    <Variable name="SBus3.Stn_01.f_enable" />
+    <Variable name="SBus3.Stn_01.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus3.Stn_01.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus3.Stn_01.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus3.Stn_01.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus3.Stn_01.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus3.Stn_01.tag" />
+    <Variable name="SBus3.Stn_02.f_enable" />
+    <Variable name="SBus3.Stn_02.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus3.Stn_02.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus3.Stn_02.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus3.Stn_02.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus3.Stn_02.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus3.Stn_02.tag" />
+    <Variable name="SBus3.Stn_03.f_enable" />
+    <Variable name="SBus3.Stn_03.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus3.Stn_03.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus3.Stn_03.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus3.Stn_03.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus3.Stn_03.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus3.Stn_03.tag" />
+    <Variable name="SBus3.Stn_04.f_enable" />
+    <Variable name="SBus3.Stn_04.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus3.Stn_04.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus3.Stn_04.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus3.Stn_04.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus3.Stn_04.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus3.Stn_04.tag" />
+    <Variable name="SBus3.Stn_05.f_enable" />
+    <Variable name="SBus3.Stn_05.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus3.Stn_05.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus3.Stn_05.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus3.Stn_05.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus3.Stn_05.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus3.Stn_05.tag" />
+    <Variable name="SBus3.Stn_06.f_enable" />
+    <Variable name="SBus3.Stn_06.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus3.Stn_06.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus3.Stn_06.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus3.Stn_06.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus3.Stn_06.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus3.Stn_06.tag" />
+    <Variable name="SBus3.Stn_07.f_enable" />
+    <Variable name="SBus3.Stn_07.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus3.Stn_07.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus3.Stn_07.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus3.Stn_07.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus3.Stn_07.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus3.Stn_07.tag" />
+    <Variable name="SBus3.Stn_08.f_enable" />
+    <Variable name="SBus3.Stn_08.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus3.Stn_08.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus3.Stn_08.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus3.Stn_08.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus3.Stn_08.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus3.Stn_08.tag" />
+    <Variable name="SBus3.Stn_09.f_enable" />
+    <Variable name="SBus3.Stn_09.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus3.Stn_09.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus3.Stn_09.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus3.Stn_09.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus3.Stn_09.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus3.Stn_09.tag" />
+    <Variable name="s.com.SBus3.station" />
+    <Variable name="SBus3.r_currentStation" />
+    <Variable name="SBus3.Stn_26.f_ConS" />
+    <Variable name="SBus3.Stn_26.f_ConL" />
+    <Variable name="SBus3.Stn_27.f_ConS" />
+    <Variable name="SBus3.Stn_27.f_ConL" />
+    <Variable name="SBus3.Stn_29.f_ConS" />
+    <Variable name="SBus3.Stn_29.f_ConL" />
+    <Variable name="SBus3.Stn_30.f_ConS" />
+    <Variable name="SBus3.Stn_30.f_ConL" />
+    <Variable name="SBus3.Stn_31.f_ConS" />
+    <Variable name="SBus3.Stn_31.f_ConL" />
+    <Variable name="SBus3.Stn_28.f_ConS" />
+    <Variable name="SBus3.Stn_28.f_ConL" />
+    <Variable name="SBus3.Stn_32.f_ConS" />
+    <Variable name="SBus3.Stn_32.f_ConL" />
+    <Variable name="SBus3.Stn_33.f_ConS" />
+    <Variable name="SBus3.Stn_33.f_ConL" />
+    <Variable name="SBus3.Stn_35.f_ConS" />
+    <Variable name="SBus3.Stn_35.f_ConL" />
+    <Variable name="SBus3.Stn_36.f_ConS" />
+    <Variable name="SBus3.Stn_36.f_ConL" />
+    <Variable name="SBus3.Stn_37.f_ConS" />
+    <Variable name="SBus3.Stn_37.f_ConL" />
+    <Variable name="SBus3.Stn_34.f_ConS" />
+    <Variable name="SBus3.Stn_34.f_ConL" />
+    <Variable name="SBus3.Stn_38.f_ConS" />
+    <Variable name="SBus3.Stn_38.f_ConL" />
+    <Variable name="SBus3.Stn_39.f_ConS" />
+    <Variable name="SBus3.Stn_39.f_ConL" />
+    <Variable name="SBus3.Stn_20.f_ConS" />
+    <Variable name="SBus3.Stn_20.f_ConL" />
+    <Variable name="SBus3.Stn_21.f_ConS" />
+    <Variable name="SBus3.Stn_21.f_ConL" />
+    <Variable name="SBus3.Stn_22.f_ConS" />
+    <Variable name="SBus3.Stn_22.f_ConL" />
+    <Variable name="SBus3.Stn_23.f_ConS" />
+    <Variable name="SBus3.Stn_23.f_ConL" />
+    <Variable name="SBus3.Stn_24.f_ConS" />
+    <Variable name="SBus3.Stn_24.f_ConL" />
+    <Variable name="SBus3.Stn_16.f_ConS" />
+    <Variable name="SBus3.Stn_16.f_ConL" />
+    <Variable name="SBus3.Stn_17.f_ConS" />
+    <Variable name="SBus3.Stn_17.f_ConL" />
+    <Variable name="SBus3.Stn_19.f_ConS" />
+    <Variable name="SBus3.Stn_19.f_ConL" />
+    <Variable name="SBus3.Stn_18.f_ConS" />
+    <Variable name="SBus3.Stn_18.f_ConL" />
+    <Variable name="SBus3.Stn_11.f_ConS" />
+    <Variable name="SBus3.Stn_11.f_ConL" />
+    <Variable name="SBus3.Stn_12.f_ConS" />
+    <Variable name="SBus3.Stn_12.f_ConL" />
+    <Variable name="SBus3.Stn_13.f_ConS" />
+    <Variable name="SBus3.Stn_13.f_ConL" />
+    <Variable name="SBus3.Stn_14.f_ConS" />
+    <Variable name="SBus3.Stn_14.f_ConL" />
+    <Variable name="SBus3.Stn_15.f_ConS" />
+    <Variable name="SBus3.Stn_15.f_ConL" />
+    <Variable name="SBus3.Stn_06.f_ConS" />
+    <Variable name="SBus3.Stn_06.f_ConL" />
+    <Variable name="SBus3.Stn_07.f_ConS" />
+    <Variable name="SBus3.Stn_07.f_ConL" />
+    <Variable name="SBus3.Stn_09.f_ConS" />
+    <Variable name="SBus3.Stn_09.f_ConL" />
+    <Variable name="SBus3.Stn_08.f_ConS" />
+    <Variable name="SBus3.Stn_08.f_ConL" />
+    <Variable name="SBus3.Stn_01.f_ConS" />
+    <Variable name="SBus3.Stn_01.f_ConL" />
+    <Variable name="SBus3.Stn_02.f_ConS" />
+    <Variable name="SBus3.Stn_02.f_ConL" />
+    <Variable name="SBus3.Stn_03.f_ConS" />
+    <Variable name="SBus3.Stn_03.f_ConL" />
+    <Variable name="SBus3.Stn_04.f_ConS" />
+    <Variable name="SBus3.Stn_04.f_ConL" />
+    <Variable name="SBus3.Stn_05.f_ConS" />
+    <Variable name="SBus3.Stn_05.f_ConL" />
+    <Variable name="SBus3.Stn_10.f_enable" />
+    <Variable name="SBus3.Stn_10.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus3.Stn_10.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus3.Stn_10.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus3.Stn_10.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus3.Stn_10.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus3.Stn_10.tag" />
+    <Variable name="SBus3.Stn_10.f_ConS" />
+    <Variable name="SBus3.Stn_10.f_ConL" />
+    <Variable name="SBus3.Stn_25.f_ConS" />
+    <Variable name="SBus3.Stn_25.f_ConL" />
+    <Variable name="SBus4.Stn_11.f_enable" />
+    <Variable name="SBus4.Stn_11.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus4.Stn_11.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus4.Stn_11.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus4.Stn_11.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus4.Stn_11.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus4.Stn_11.tag" />
+    <Variable name="SBus4.Stn_12.f_enable" />
+    <Variable name="SBus4.Stn_12.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus4.Stn_12.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus4.Stn_12.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus4.Stn_12.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus4.Stn_12.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus4.Stn_12.tag" />
+    <Variable name="SBus4.Stn_13.f_enable" />
+    <Variable name="SBus4.Stn_13.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus4.Stn_13.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus4.Stn_13.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus4.Stn_13.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus4.Stn_13.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus4.Stn_13.tag" />
+    <Variable name="SBus4.Stn_14.f_enable" />
+    <Variable name="SBus4.Stn_14.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus4.Stn_14.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus4.Stn_14.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus4.Stn_14.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus4.Stn_14.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus4.Stn_14.tag" />
+    <Variable name="SBus4.Stn_15.f_enable" />
+    <Variable name="SBus4.Stn_15.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus4.Stn_15.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus4.Stn_15.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus4.Stn_15.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus4.Stn_15.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus4.Stn_15.tag" />
+    <Variable name="SBus4.Stn_16.f_enable" />
+    <Variable name="SBus4.Stn_16.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus4.Stn_16.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus4.Stn_16.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus4.Stn_16.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus4.Stn_16.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus4.Stn_16.tag" />
+    <Variable name="SBus4.Stn_17.f_enable" />
+    <Variable name="SBus4.Stn_17.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus4.Stn_17.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus4.Stn_17.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus4.Stn_17.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus4.Stn_17.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus4.Stn_17.tag" />
+    <Variable name="SBus4.Stn_18.f_enable" />
+    <Variable name="SBus4.Stn_18.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus4.Stn_18.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus4.Stn_18.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus4.Stn_18.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus4.Stn_18.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus4.Stn_18.tag" />
+    <Variable name="SBus4.Stn_19.f_enable" />
+    <Variable name="SBus4.Stn_19.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus4.Stn_19.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus4.Stn_19.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus4.Stn_19.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus4.Stn_19.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus4.Stn_19.tag" />
+    <Variable name="SBus4.Stn_20.f_enable" />
+    <Variable name="SBus4.Stn_20.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus4.Stn_20.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus4.Stn_20.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus4.Stn_20.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus4.Stn_20.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus4.Stn_20.tag" />
+    <Variable name="SBus4.Stn_21.f_enable" />
+    <Variable name="SBus4.Stn_21.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus4.Stn_21.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus4.Stn_21.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus4.Stn_21.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus4.Stn_21.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus4.Stn_21.tag" />
+    <Variable name="SBus4.Stn_22.f_enable" />
+    <Variable name="SBus4.Stn_22.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus4.Stn_22.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus4.Stn_22.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus4.Stn_22.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus4.Stn_22.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus4.Stn_22.tag" />
+    <Variable name="SBus4.Stn_23.f_enable" />
+    <Variable name="SBus4.Stn_23.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus4.Stn_23.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus4.Stn_23.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus4.Stn_23.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus4.Stn_23.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus4.Stn_23.tag" />
+    <Variable name="SBus4.Stn_24.f_enable" />
+    <Variable name="SBus4.Stn_24.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus4.Stn_24.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus4.Stn_24.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus4.Stn_24.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus4.Stn_24.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus4.Stn_24.tag" />
+    <Variable name="SBus4.Stn_25.f_enable" />
+    <Variable name="SBus4.Stn_25.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus4.Stn_25.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus4.Stn_25.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus4.Stn_25.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus4.Stn_25.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus4.Stn_25.tag" />
+    <Variable name="SBus4.Stn_26.f_enable" />
+    <Variable name="SBus4.Stn_26.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus4.Stn_26.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus4.Stn_26.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus4.Stn_26.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus4.Stn_26.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus4.Stn_26.tag" />
+    <Variable name="SBus4.Stn_27.f_enable" />
+    <Variable name="SBus4.Stn_27.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus4.Stn_27.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus4.Stn_27.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus4.Stn_27.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus4.Stn_27.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus4.Stn_27.tag" />
+    <Variable name="SBus4.Stn_28.f_enable" />
+    <Variable name="SBus4.Stn_28.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus4.Stn_28.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus4.Stn_28.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus4.Stn_28.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus4.Stn_28.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus4.Stn_28.tag" />
+    <Variable name="SBus4.Stn_29.f_enable" />
+    <Variable name="SBus4.Stn_29.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus4.Stn_29.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus4.Stn_29.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus4.Stn_29.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus4.Stn_29.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus4.Stn_29.tag" />
+    <Variable name="SBus4.Stn_30.f_enable" />
+    <Variable name="SBus4.Stn_30.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus4.Stn_30.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus4.Stn_30.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus4.Stn_30.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus4.Stn_30.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus4.Stn_30.tag" />
+    <Variable name="SBus4.Stn_31.f_enable" />
+    <Variable name="SBus4.Stn_31.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus4.Stn_31.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus4.Stn_31.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus4.Stn_31.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus4.Stn_31.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus4.Stn_31.tag" />
+    <Variable name="SBus4.Stn_32.f_enable" />
+    <Variable name="SBus4.Stn_32.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus4.Stn_32.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus4.Stn_32.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus4.Stn_32.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus4.Stn_32.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus4.Stn_32.tag" />
+    <Variable name="SBus4.Stn_33.f_enable" />
+    <Variable name="SBus4.Stn_33.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus4.Stn_33.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus4.Stn_33.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus4.Stn_33.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus4.Stn_33.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus4.Stn_33.tag" />
+    <Variable name="SBus4.Stn_34.f_enable" />
+    <Variable name="SBus4.Stn_34.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus4.Stn_34.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus4.Stn_34.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus4.Stn_34.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus4.Stn_34.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus4.Stn_34.tag" />
+    <Variable name="SBus4.Stn_35.f_enable" />
+    <Variable name="SBus4.Stn_35.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus4.Stn_35.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus4.Stn_35.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus4.Stn_35.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus4.Stn_35.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus4.Stn_35.tag" />
+    <Variable name="SBus4.Stn_36.f_enable" />
+    <Variable name="SBus4.Stn_36.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus4.Stn_36.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus4.Stn_36.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus4.Stn_36.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus4.Stn_36.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus4.Stn_36.tag" />
+    <Variable name="SBus4.Stn_37.f_enable" />
+    <Variable name="SBus4.Stn_37.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus4.Stn_37.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus4.Stn_37.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus4.Stn_37.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus4.Stn_37.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus4.Stn_37.tag" />
+    <Variable name="SBus4.Stn_38.f_enable" />
+    <Variable name="SBus4.Stn_38.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus4.Stn_38.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus4.Stn_38.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus4.Stn_38.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus4.Stn_38.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus4.Stn_38.tag" />
+    <Variable name="SBus4.Stn_39.f_enable" />
+    <Variable name="SBus4.Stn_39.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus4.Stn_39.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus4.Stn_39.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus4.Stn_39.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus4.Stn_39.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus4.Stn_39.tag" />
+    <Variable name="SBus4.Stn_01.f_enable" />
+    <Variable name="SBus4.Stn_01.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus4.Stn_01.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus4.Stn_01.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus4.Stn_01.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus4.Stn_01.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus4.Stn_01.tag" />
+    <Variable name="SBus4.Stn_02.f_enable" />
+    <Variable name="SBus4.Stn_02.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus4.Stn_02.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus4.Stn_02.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus4.Stn_02.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus4.Stn_02.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus4.Stn_02.tag" />
+    <Variable name="SBus4.Stn_03.f_enable" />
+    <Variable name="SBus4.Stn_03.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus4.Stn_03.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus4.Stn_03.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus4.Stn_03.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus4.Stn_03.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus4.Stn_03.tag" />
+    <Variable name="SBus4.Stn_04.f_enable" />
+    <Variable name="SBus4.Stn_04.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus4.Stn_04.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus4.Stn_04.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus4.Stn_04.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus4.Stn_04.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus4.Stn_04.tag" />
+    <Variable name="SBus4.Stn_05.f_enable" />
+    <Variable name="SBus4.Stn_05.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus4.Stn_05.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus4.Stn_05.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus4.Stn_05.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus4.Stn_05.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus4.Stn_05.tag" />
+    <Variable name="SBus4.Stn_06.f_enable" />
+    <Variable name="SBus4.Stn_06.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus4.Stn_06.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus4.Stn_06.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus4.Stn_06.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus4.Stn_06.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus4.Stn_06.tag" />
+    <Variable name="SBus4.Stn_07.f_enable" />
+    <Variable name="SBus4.Stn_07.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus4.Stn_07.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus4.Stn_07.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus4.Stn_07.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus4.Stn_07.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus4.Stn_07.tag" />
+    <Variable name="SBus4.Stn_08.f_enable" />
+    <Variable name="SBus4.Stn_08.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus4.Stn_08.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus4.Stn_08.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus4.Stn_08.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus4.Stn_08.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus4.Stn_08.tag" />
+    <Variable name="SBus4.Stn_09.f_enable" />
+    <Variable name="SBus4.Stn_09.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus4.Stn_09.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus4.Stn_09.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus4.Stn_09.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus4.Stn_09.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus4.Stn_09.tag" />
+    <Variable name="s.com.SBus4.station" />
+    <Variable name="SBus4.r_currentStation" />
+    <Variable name="SBus4.Stn_26.f_ConS" />
+    <Variable name="SBus4.Stn_26.f_ConL" />
+    <Variable name="SBus4.Stn_27.f_ConS" />
+    <Variable name="SBus4.Stn_27.f_ConL" />
+    <Variable name="SBus4.Stn_29.f_ConS" />
+    <Variable name="SBus4.Stn_29.f_ConL" />
+    <Variable name="SBus4.Stn_30.f_ConS" />
+    <Variable name="SBus4.Stn_30.f_ConL" />
+    <Variable name="SBus4.Stn_31.f_ConS" />
+    <Variable name="SBus4.Stn_31.f_ConL" />
+    <Variable name="SBus4.Stn_28.f_ConS" />
+    <Variable name="SBus4.Stn_28.f_ConL" />
+    <Variable name="SBus4.Stn_32.f_ConS" />
+    <Variable name="SBus4.Stn_32.f_ConL" />
+    <Variable name="SBus4.Stn_33.f_ConS" />
+    <Variable name="SBus4.Stn_33.f_ConL" />
+    <Variable name="SBus4.Stn_35.f_ConS" />
+    <Variable name="SBus4.Stn_35.f_ConL" />
+    <Variable name="SBus4.Stn_36.f_ConS" />
+    <Variable name="SBus4.Stn_36.f_ConL" />
+    <Variable name="SBus4.Stn_37.f_ConS" />
+    <Variable name="SBus4.Stn_37.f_ConL" />
+    <Variable name="SBus4.Stn_34.f_ConS" />
+    <Variable name="SBus4.Stn_34.f_ConL" />
+    <Variable name="SBus4.Stn_38.f_ConS" />
+    <Variable name="SBus4.Stn_38.f_ConL" />
+    <Variable name="SBus4.Stn_39.f_ConS" />
+    <Variable name="SBus4.Stn_39.f_ConL" />
+    <Variable name="SBus4.Stn_20.f_ConS" />
+    <Variable name="SBus4.Stn_20.f_ConL" />
+    <Variable name="SBus4.Stn_21.f_ConS" />
+    <Variable name="SBus4.Stn_21.f_ConL" />
+    <Variable name="SBus4.Stn_22.f_ConS" />
+    <Variable name="SBus4.Stn_22.f_ConL" />
+    <Variable name="SBus4.Stn_23.f_ConS" />
+    <Variable name="SBus4.Stn_23.f_ConL" />
+    <Variable name="SBus4.Stn_24.f_ConS" />
+    <Variable name="SBus4.Stn_24.f_ConL" />
+    <Variable name="SBus4.Stn_16.f_ConS" />
+    <Variable name="SBus4.Stn_16.f_ConL" />
+    <Variable name="SBus4.Stn_17.f_ConS" />
+    <Variable name="SBus4.Stn_17.f_ConL" />
+    <Variable name="SBus4.Stn_19.f_ConS" />
+    <Variable name="SBus4.Stn_19.f_ConL" />
+    <Variable name="SBus4.Stn_18.f_ConS" />
+    <Variable name="SBus4.Stn_18.f_ConL" />
+    <Variable name="SBus4.Stn_11.f_ConS" />
+    <Variable name="SBus4.Stn_11.f_ConL" />
+    <Variable name="SBus4.Stn_12.f_ConS" />
+    <Variable name="SBus4.Stn_12.f_ConL" />
+    <Variable name="SBus4.Stn_13.f_ConS" />
+    <Variable name="SBus4.Stn_13.f_ConL" />
+    <Variable name="SBus4.Stn_14.f_ConS" />
+    <Variable name="SBus4.Stn_14.f_ConL" />
+    <Variable name="SBus4.Stn_15.f_ConS" />
+    <Variable name="SBus4.Stn_15.f_ConL" />
+    <Variable name="SBus4.Stn_06.f_ConS" />
+    <Variable name="SBus4.Stn_06.f_ConL" />
+    <Variable name="SBus4.Stn_07.f_ConS" />
+    <Variable name="SBus4.Stn_07.f_ConL" />
+    <Variable name="SBus4.Stn_09.f_ConS" />
+    <Variable name="SBus4.Stn_09.f_ConL" />
+    <Variable name="SBus4.Stn_08.f_ConS" />
+    <Variable name="SBus4.Stn_08.f_ConL" />
+    <Variable name="SBus4.Stn_01.f_ConS" />
+    <Variable name="SBus4.Stn_01.f_ConL" />
+    <Variable name="SBus4.Stn_02.f_ConS" />
+    <Variable name="SBus4.Stn_02.f_ConL" />
+    <Variable name="SBus4.Stn_03.f_ConS" />
+    <Variable name="SBus4.Stn_03.f_ConL" />
+    <Variable name="SBus4.Stn_04.f_ConS" />
+    <Variable name="SBus4.Stn_04.f_ConL" />
+    <Variable name="SBus4.Stn_05.f_ConS" />
+    <Variable name="SBus4.Stn_05.f_ConL" />
+    <Variable name="SBus4.Stn_10.f_enable" />
+    <Variable name="SBus4.Stn_10.data_rx_base+8" format="DEC.1" />
+    <Variable name="SBus4.Stn_10.data_rx_base+12" format="DEC.1" />
+    <Variable name="SBus4.Stn_10.data_rx_base+17" format="DEC.1" />
+    <Variable name="SBus4.Stn_10.data_rx_base+16" format="DEC.1" />
+    <Variable name="SBus4.Stn_10.data_rx_base+15" format="DEC.1" />
+    <Variable name="SBus4.Stn_10.tag" />
+    <Variable name="SBus4.Stn_10.f_ConS" />
+    <Variable name="SBus4.Stn_10.f_ConL" />
+    <Variable name="SBus4.Stn_25.f_ConS" />
+    <Variable name="SBus4.Stn_25.f_ConL" />
+  </PcdVariables>
+</Variables>

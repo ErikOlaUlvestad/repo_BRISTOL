@@ -1,0 +1,143 @@
+//IF:530 - CP:0 - FV:V2.3.161
+//begin of resources used ascii//
+3	Public	SBus.Stn_01.id	CONST	1	1		
+4	Public	SBus.Stn_01.f_enable	F		1		
+5	Public	SBus.Stn_01.data_rx_base	R		1		
+6	Public	SBus.Stn_01.data_rx_num	CONST	Common.rx_num	1		
+7	Public	SBus.Stn_01.f_rx_enable	F		1		
+8	Public	SBus.Stn_01.f_tx_enable	F		1		
+9	Public	SBus.Stn_01.data_tx_base	R		1		
+10	Public	SBus.Stn_01.data_tx_num	CONST	Common.tx_num	1		
+//end of resources used ascii//
+//begin of Text/DB resources//
+//end of Text/DB resources//
+//begin of Tag information//
+//end of Tag information//
+
+
+//begin of fupla page//
+[PAGE]
+Name=Stn_01
+RemarkSize=0
+CountOfLabels=27
+CountOfGrids=82
+UpdatedLayout=0
+PageColor=0
+PageBackColor=16777215
+PageDisabled=0
+ConditinalFunction=0
+ConditionalValue=0
+[FBOX]
+_COMSTN2B 4=
+_COMRXI4Q 6=
+_COMTXI4Q 8=
+[_COMSTN2B 4]
+Fam=sfupcomm
+Face=S-Bus Station
+FacePosi=l
+Width=14
+Init=y
+Vers=3
+In=En_B 
+Out=Bsy_B ConS_SB ConL_B 
+C=Stn_Ik=3 
+S=Fs_F LED_F 
+av0=a TIS %1p =100 {0..600} \wax=0 
+av1=a TIL %1p =600 {0..60000} \wax=0 
+av2=b Fs 0 %s =1 \wax=0 
+aRef=2
+Ref=SBus_Ch1
+Posi=25 7
+uName=Stn_01
+[_COMRXI4Q 6]
+Fam=sfupcomm
+Face=RCV
+FacePosi=l
+Width=14
+Init=y
+Vers=7
+In=En_B 
+Out=Err_SB 
+C=Add_Irtc=5 #_Ik=6 
+S=Fs_F LED_F 
+av0=a INI %s =0 {0..1} \wax=0 
+av1=a NOD %d =0 {0..65535} \wax=0 
+av2=a STN %d =0:1 {-1..255} \wax=0 
+av3=a MCC %s =4 {4..8} \wax=0 
+av4=a SRC %d =0:100 {0..16383} \wax=0 
+av5=c Ev 
+av6=a LE %s =0 {0..2} \wax=0 
+av7=b Fs 0 %s =1 \wax=0 
+AcceptName=3
+aRef=1
+Ref=SBus_Ch1
+Posi=25 24
+uName=Rx_Stn_01
+[_COMTXI4Q 8]
+Fam=sfupcomm
+Face=SEND
+FacePosi=l
+Width=14
+Init=y
+Vers=9
+In=En_B 
+Out=Err_SB 
+C=Add_Irtc=9 #_Ik=10 
+S=Fs_F LED_F 
+av0=a INI %s =0 {0..1} \wax=0 
+av1=a NOD %d =0 {0..65535} \wax=0 
+av2=a STN %d =0:1 {-1..255} \wax=0 
+av3=a MCC %s =4 {4,5,6,7,8} \wax=0 
+av4=a SRC %d =0:200 {0..16383} \wax=0 
+av5=c EV 
+av6=a LE %s =0 {0..3} \wax=0 
+av7=a dt0 %1p =1 {1..2000000000} \wax=0 
+av8=a dt1 %1p =1 {1..2000000000} \wax=0 
+av9=a dt2 %1p =1 {1..2000000000} \wax=0 
+av10=a dt3 %1p =1 {1..2000000000} \wax=0 
+av11=a dt4 %1p =1 {1..2000000000} \wax=0 
+av12=a dt5 %1p =1 {1..2000000000} \wax=0 
+av13=a dt6 %1p =1 {1..2000000000} \wax=0 
+av14=a dt7 %1p =1 {1..2000000000} \wax=0 
+av15=a dt8 %1p =1 {1..2000000000} \wax=0 
+av16=a dt9 %1p =1 {1..2000000000} \wax=0 
+av17=a dt10 %1p =1 {1..2000000000} \wax=0 
+av18=a dt11 %1p =1 {1..2000000000} \wax=0 
+av19=a dt12 %1p =1 {1..2000000000} \wax=0 
+av20=a dt13 %1p =1 {1..2000000000} \wax=0 
+av21=a dt14 %1p =1 {1..2000000000} \wax=0 
+av22=a dt15 %1p =1 {1..2000000000} \wax=0 
+av23=a dt16 %1p =1 {1..2000000000} \wax=0 
+av24=a dt17 %1p =1 {1..2000000000} \wax=0 
+av25=a dt18 %1p =1 {1..2000000000} \wax=0 
+av26=a dt19 %1p =1 {1..2000000000} \wax=0 
+av27=a dt20 %1p =1 {1..2000000000} \wax=0 
+av28=a dt21 %1p =1 {1..2000000000} \wax=0 
+av29=a dt22 %1p =1 {1..2000000000} \wax=0 
+av30=a dt23 %1p =1 {1..2000000000} \wax=0 
+av31=a dt24 %1p =1 {1..2000000000} \wax=0 
+av32=a dt25 %1p =1 {1..2000000000} \wax=0 
+av33=a dt26 %1p =1 {1..2000000000} \wax=0 
+av34=a dt27 %1p =1 {1..2000000000} \wax=0 
+av35=a dt28 %1p =1 {1..2000000000} \wax=0 
+av36=a dt29 %1p =1 {1..2000000000} \wax=0 
+av37=a dt30 %1p =1 {1..2000000000} \wax=0 
+av38=a dt31 %1p =1 {1..2000000000} \wax=0 
+av39=b Fs 0 %s =1 \wax=0 
+AcceptName=3
+aRef=1
+Ref=SBus_Ch1
+Posi=25 39
+uName=Tx_Stn_01
+[HLINE]
+H0=10 24 25
+H1=27 24 25
+H2=42 24 25
+[NETWORK]
+N0=Bif 25 10)o 24 10
+N1=Bif 25 27)o 24 27
+N2=Bif 25 42)o 24 42
+[CONNS]
+Conn0=24 10 4 34 7
+Conn1=24 27 7 34 8
+Conn2=24 42 8 34 8

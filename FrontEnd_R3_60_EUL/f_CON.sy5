@@ -1,0 +1,253 @@
+$IFINC ;if $included
+EXTN SBus2.Stn_01.f_ConS	F
+EXTN SBus2.Stn_01.f_ConL	F
+EXTN SBus2.Stn_02.f_ConS	F
+EXTN SBus2.Stn_02.f_ConL	F
+EXTN SBus2.Stn_03.f_ConS	F
+EXTN SBus2.Stn_03.f_ConL	F
+EXTN SBus2.Stn_04.f_ConS	F
+EXTN SBus2.Stn_04.f_ConL	F
+EXTN SBus2.Stn_05.f_ConS	F
+EXTN SBus2.Stn_05.f_ConL	F
+EXTN SBus2.Stn_06.f_ConS	F
+EXTN SBus2.Stn_06.f_ConL	F
+EXTN SBus2.Stn_07.f_ConS	F
+EXTN SBus2.Stn_07.f_ConL	F
+EXTN SBus2.Stn_08.f_ConS	F
+EXTN SBus2.Stn_08.f_ConL	F
+EXTN SBus2.Stn_09.f_ConS	F
+EXTN SBus2.Stn_09.f_ConL	F
+EXTN SBus2.Stn_10.f_ConS	F
+EXTN SBus2.Stn_10.f_ConL	F
+EXTN SBus2.Stn_11.f_ConS	F
+EXTN SBus2.Stn_11.f_ConL	F
+EXTN SBus2.Stn_12.f_ConS	F
+EXTN SBus2.Stn_12.f_ConL	F
+EXTN SBus2.Stn_13.f_ConS	F
+EXTN SBus2.Stn_13.f_ConL	F
+EXTN SBus2.Stn_14.f_ConS	F
+EXTN SBus2.Stn_14.f_ConL	F
+EXTN SBus2.Stn_15.f_ConS	F
+EXTN SBus2.Stn_15.f_ConL	F
+EXTN SBus2.Stn_16.f_ConS	F
+EXTN SBus2.Stn_16.f_ConL	F
+EXTN SBus2.Stn_17.f_ConS	F
+EXTN SBus2.Stn_17.f_ConL	F
+EXTN SBus2.Stn_18.f_ConS	F
+EXTN SBus2.Stn_18.f_ConL	F
+EXTN SBus2.Stn_19.f_ConS	F
+EXTN SBus2.Stn_19.f_ConL	F
+EXTN SBus2.Stn_20.f_ConS	F
+EXTN SBus2.Stn_20.f_ConL	F
+EXTN SBus2.Stn_21.f_ConS	F
+EXTN SBus2.Stn_21.f_ConL	F
+EXTN SBus2.Stn_22.f_ConS	F
+EXTN SBus2.Stn_22.f_ConL	F
+EXTN SBus2.Stn_23.f_ConS	F
+EXTN SBus2.Stn_23.f_ConL	F
+EXTN SBus2.Stn_24.f_ConS	F
+EXTN SBus2.Stn_24.f_ConL	F
+EXTN SBus2.Stn_25.f_ConS	F
+EXTN SBus2.Stn_25.f_ConL	F
+EXTN SBus2.Stn_26.f_ConS	F
+EXTN SBus2.Stn_26.f_ConL	F
+EXTN SBus2.Stn_27.f_ConS	F
+EXTN SBus2.Stn_27.f_ConL	F
+EXTN SBus2.Stn_28.f_ConS	F
+EXTN SBus2.Stn_28.f_ConL	F
+EXTN SBus2.Stn_29.f_ConS	F
+EXTN SBus2.Stn_29.f_ConL	F
+EXTN SBus2.Stn_30.f_ConS	F
+EXTN SBus2.Stn_30.f_ConL	F
+EXTN SBus2.Stn_31.f_ConS	F
+EXTN SBus2.Stn_31.f_ConL	F
+EXTN SBus2.Stn_32.f_ConS	F
+EXTN SBus2.Stn_32.f_ConL	F
+EXTN SBus2.Stn_33.f_ConS	F
+EXTN SBus2.Stn_33.f_ConL	F
+EXTN SBus2.Stn_34.f_ConS	F
+EXTN SBus2.Stn_34.f_ConL	F
+EXTN SBus2.Stn_35.f_ConS	F
+EXTN SBus2.Stn_35.f_ConL	F
+EXTN SBus2.Stn_36.f_ConS	F
+EXTN SBus2.Stn_36.f_ConL	F
+EXTN SBus2.Stn_37.f_ConS	F
+EXTN SBus2.Stn_37.f_ConL	F
+EXTN SBus2.Stn_38.f_ConS	F
+EXTN SBus2.Stn_38.f_ConL	F
+EXTN SBus2.Stn_39.f_ConS	F
+EXTN SBus2.Stn_39.f_ConL	F
+EXTN SBus2.Stn_40.f_ConS	F
+EXTN SBus2.Stn_40.f_ConL	F
+EXTN SBus2.Stn_41.f_ConS	F
+EXTN SBus2.Stn_41.f_ConL	F
+$ENDIF
+
+$IFNINC ;if assembled and linked
+$GROUP SBus2
+$GROUP Stn_01
+f_ConS	PEQU	F		;Connection state SHORT
+f_ConL	PEQU	F		;Connection state LONG
+$ENDGROUP Stn_01
+$GROUP Stn_02
+f_ConS	PEQU	F		;Connection state SHORT
+f_ConL	PEQU	F		;Connection state LONG
+$ENDGROUP Stn_02
+$GROUP Stn_03
+f_ConS	PEQU	F		;Connection state SHORT
+f_ConL	PEQU	F		;Connection state LONG
+$ENDGROUP Stn_03
+$GROUP Stn_04
+f_ConS	PEQU	F		;Connection state SHORT
+f_ConL	PEQU	F		;Connection state LONG
+$ENDGROUP Stn_04
+$GROUP Stn_05
+f_ConS	PEQU	F		;Connection state SHORT
+f_ConL	PEQU	F		;Connection state LONG
+$ENDGROUP Stn_05
+$GROUP Stn_06
+f_ConS	PEQU	F		;Connection state SHORT
+f_ConL	PEQU	F		;Connection state LONG
+$ENDGROUP Stn_06
+$GROUP Stn_07
+f_ConS	PEQU	F		;Connection state SHORT
+f_ConL	PEQU	F		;Connection state LONG
+$ENDGROUP Stn_07
+$GROUP Stn_08
+f_ConS	PEQU	F		;Connection state SHORT
+f_ConL	PEQU	F		;Connection state LONG
+$ENDGROUP Stn_08
+$GROUP Stn_09
+f_ConS	PEQU	F		;Connection state SHORT
+f_ConL	PEQU	F		;Connection state LONG
+$ENDGROUP Stn_09
+$GROUP Stn_10
+f_ConS	PEQU	F		;Connection state SHORT
+f_ConL	PEQU	F		;Connection state LONG
+$ENDGROUP Stn_10
+$GROUP Stn_11
+f_ConS	PEQU	F		;Connection state SHORT
+f_ConL	PEQU	F		;Connection state LONG
+$ENDGROUP Stn_11
+$GROUP Stn_12
+f_ConS	PEQU	F		;Connection state SHORT
+f_ConL	PEQU	F		;Connection state LONG
+$ENDGROUP Stn_12
+$GROUP Stn_13
+f_ConS	PEQU	F		;Connection state SHORT
+f_ConL	PEQU	F		;Connection state LONG
+$ENDGROUP Stn_13
+$GROUP Stn_14
+f_ConS	PEQU	F		;Connection state SHORT
+f_ConL	PEQU	F		;Connection state LONG
+$ENDGROUP Stn_14
+$GROUP Stn_15
+f_ConS	PEQU	F		;Connection state SHORT
+f_ConL	PEQU	F		;Connection state LONG
+$ENDGROUP Stn_15
+$GROUP Stn_16
+f_ConS	PEQU	F		;Connection state SHORT
+f_ConL	PEQU	F		;Connection state LONG
+$ENDGROUP Stn_16
+$GROUP Stn_17
+f_ConS	PEQU	F		;Connection state SHORT
+f_ConL	PEQU	F		;Connection state LONG
+$ENDGROUP Stn_17
+$GROUP Stn_18
+f_ConS	PEQU	F		;Connection state SHORT
+f_ConL	PEQU	F		;Connection state LONG
+$ENDGROUP Stn_18
+$GROUP Stn_19
+f_ConS	PEQU	F		;Connection state SHORT
+f_ConL	PEQU	F		;Connection state LONG
+$ENDGROUP Stn_19
+$GROUP Stn_20
+f_ConS	PEQU	F		;Connection state SHORT
+f_ConL	PEQU	F		;Connection state LONG
+$ENDGROUP Stn_20
+$GROUP Stn_21
+f_ConS	PEQU	F		;Connection state SHORT
+f_ConL	PEQU	F		;Connection state LONG
+$ENDGROUP Stn_21
+$GROUP Stn_22
+f_ConS	PEQU	F		;Connection state SHORT
+f_ConL	PEQU	F		;Connection state LONG
+$ENDGROUP Stn_22
+$GROUP Stn_23
+f_ConS	PEQU	F		;Connection state SHORT
+f_ConL	PEQU	F		;Connection state LONG
+$ENDGROUP Stn_23
+$GROUP Stn_24
+f_ConS	PEQU	F		;Connection state SHORT
+f_ConL	PEQU	F		;Connection state LONG
+$ENDGROUP Stn_24
+$GROUP Stn_25
+f_ConS	PEQU	F	
+f_ConL	PEQU	F	
+$ENDGROUP Stn_25
+$GROUP Stn_26
+f_ConS	PEQU	F		;Connection state SHORT
+f_ConL	PEQU	F		;Connection state LONG
+$ENDGROUP Stn_26
+$GROUP Stn_27
+f_ConS	PEQU	F		;Connection state SHORT
+f_ConL	PEQU	F		;Connection state LONG
+$ENDGROUP Stn_27
+$GROUP Stn_28
+f_ConS	PEQU	F		;Connection state SHORT
+f_ConL	PEQU	F		;Connection state LONG
+$ENDGROUP Stn_28
+$GROUP Stn_29
+f_ConS	PEQU	F		;Connection state SHORT
+f_ConL	PEQU	F		;Connection state LONG
+$ENDGROUP Stn_29
+$GROUP Stn_30
+f_ConS	PEQU	F		;Connection state SHORT
+f_ConL	PEQU	F		;Connection state LONG
+$ENDGROUP Stn_30
+$GROUP Stn_31
+f_ConS	PEQU	F		;Connection state SHORT
+f_ConL	PEQU	F		;Connection state LONG
+$ENDGROUP Stn_31
+$GROUP Stn_32
+f_ConS	PEQU	F		;Connection state SHORT
+f_ConL	PEQU	F		;Connection state LONG
+$ENDGROUP Stn_32
+$GROUP Stn_33
+f_ConS	PEQU	F		;Connection state SHORT
+f_ConL	PEQU	F		;Connection state LONG
+$ENDGROUP Stn_33
+$GROUP Stn_34
+f_ConS	PEQU	F		;Connection state SHORT
+f_ConL	PEQU	F		;Connection state LONG
+$ENDGROUP Stn_34
+$GROUP Stn_35
+f_ConS	PEQU	F		;Connection state SHORT
+f_ConL	PEQU	F		;Connection state SHORT
+$ENDGROUP Stn_35
+$GROUP Stn_36
+f_ConS	PEQU	F		;Connection state LONG
+f_ConL	PEQU	F		;Connection state SHORT
+$ENDGROUP Stn_36
+$GROUP Stn_37
+f_ConS	PEQU	F		;Connection state LONG
+f_ConL	PEQU	F		;Connection state SHORT
+$ENDGROUP Stn_37
+$GROUP Stn_38
+f_ConS	PEQU	F		;Connection state LONG
+f_ConL	PEQU	F		;Connection state SHORT
+$ENDGROUP Stn_38
+$GROUP Stn_39
+f_ConS	PEQU	F		;Connection state LONG
+f_ConL	PEQU	F		;Connection state SHORT
+$ENDGROUP Stn_39
+$GROUP Stn_40
+f_ConS	PEQU	F		;Connection state LONG
+f_ConL	PEQU	F		;Connection state SHORT
+$ENDGROUP Stn_40
+$GROUP Stn_41
+f_ConS	PEQU	F		;Connection state LONG
+f_ConL	PEQU	F		;Connection state SHORT
+$ENDGROUP Stn_41
+$ENDGROUP SBus2
+$ENDIF

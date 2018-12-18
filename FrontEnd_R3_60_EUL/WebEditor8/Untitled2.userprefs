@@ -1,0 +1,21 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Testrigg\BUS3.wev">
+    <Files>
+      <File FileName="Testrigg\Start.wev" />
+      <File FileName="Testrigg\Bus2.wev" />
+      <File FileName="Testrigg\bakgrunn.wev" />
+      <File FileName="Testrigg\BUS3.wev" />
+      <File FileName="Testrigg\BUS4.wev" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="FrontEnd" expanded="True">
+            <Node name="BUS3.wev" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+</Properties>

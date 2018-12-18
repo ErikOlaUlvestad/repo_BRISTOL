@@ -1,0 +1,17 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8AA0FC8F-7322-440D-98F4-774A55CC19F6}") = "FrontEnd", "Testrigg\FrontEnd.weproj", "{D6046FA7-3583-44E6-A222-3F3DE32918B2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Any CPU = Default|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D6046FA7-3583-44E6-A222-3F3DE32918B2}.Default|Any CPU.ActiveCfg = Default|Any CPU
+		{D6046FA7-3583-44E6-A222-3F3DE32918B2}.Default|Any CPU.Build.0 = Default|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Testrigg\FrontEnd.weproj
+	EndGlobalSection
+EndGlobal

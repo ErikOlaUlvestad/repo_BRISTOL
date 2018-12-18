@@ -1,0 +1,733 @@
+$HIDE ;;Hidden section inserted by S-Edit
+$GROUP	SBus1
+$GROUP	Stn_00
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_00
+$GROUP	Stn_01
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_01
+$GROUP	Stn_02
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_02
+$GROUP	Stn_03
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_03
+$GROUP	Stn_04
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_04
+$GROUP	Stn_05
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_05
+$GROUP	Stn_06
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_06
+$GROUP	Stn_07
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_07
+$GROUP	Stn_08
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_08
+$GROUP	Stn_09
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_09
+$GROUP	Stn_10
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_10
+$GROUP	Stn_11
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_11
+$GROUP	Stn_12
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_12
+$GROUP	Stn_13
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_13
+$GROUP	Stn_14
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_14
+$GROUP	Stn_15
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_15
+$GROUP	Stn_16
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_16
+$GROUP	Stn_17
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_17
+$GROUP	Stn_18
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_18
+$GROUP	Stn_19
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_19
+$GROUP	Stn_20
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_20
+$GROUP	Stn_21
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_21
+$GROUP	Stn_22
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_22
+$GROUP	Stn_23
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_23
+$GROUP	Stn_24
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_24
+$GROUP	Stn_25
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_25
+$GROUP	Stn_26
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_26
+$GROUP	Stn_27
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_27
+$GROUP	Stn_28
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_28
+$GROUP	Stn_29
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_29
+$GROUP	Stn_30
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_30
+$GROUP	Stn_31
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_31
+$GROUP	Stn_32
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_32
+$GROUP	Stn_33
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_33
+$GROUP	Stn_34
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_34
+$GROUP	Stn_35
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_35
+$GROUP	Stn_36
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_36
+$GROUP	Stn_37
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_37
+$GROUP	Stn_38
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_38
+$GROUP	Stn_39
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_39
+$GROUP	Stn_40
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_40
+$ENDGROUP	SBus1
+$GROUP	SBus2
+$GROUP	Stn_00
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_00
+$GROUP	Stn_01
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_01
+$GROUP	Stn_02
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_02
+$GROUP	Stn_03
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_03
+$GROUP	Stn_04
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_04
+$GROUP	Stn_05
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_05
+$GROUP	Stn_06
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_06
+$GROUP	Stn_07
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_07
+$GROUP	Stn_08
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_08
+$GROUP	Stn_09
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_09
+$GROUP	Stn_10
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_10
+$GROUP	Stn_11
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_11
+$GROUP	Stn_12
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_12
+$GROUP	Stn_13
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_13
+$GROUP	Stn_14
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_14
+$GROUP	Stn_15
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_15
+$GROUP	Stn_16
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_16
+$GROUP	Stn_17
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_17
+$GROUP	Stn_18
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_18
+$GROUP	Stn_19
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_19
+$GROUP	Stn_20
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_20
+$GROUP	Stn_21
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_21
+$GROUP	Stn_22
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_22
+$GROUP	Stn_23
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_23
+$GROUP	Stn_24
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_24
+$GROUP	Stn_25
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_25
+$GROUP	Stn_26
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_26
+$GROUP	Stn_27
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_27
+$GROUP	Stn_28
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_28
+$GROUP	Stn_29
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_29
+$GROUP	Stn_30
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_30
+$GROUP	Stn_31
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_31
+$GROUP	Stn_32
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_32
+$GROUP	Stn_33
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_33
+$GROUP	Stn_34
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_34
+$GROUP	Stn_35
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_35
+$GROUP	Stn_36
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_36
+$GROUP	Stn_37
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_37
+$GROUP	Stn_38
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_38
+$GROUP	Stn_39
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_39
+$GROUP	Stn_40
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_40
+$ENDGROUP	SBus2
+$GROUP	SBus3
+$GROUP	Stn_00
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_00
+$GROUP	Stn_01
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_01
+$GROUP	Stn_02
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_02
+$GROUP	Stn_03
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_03
+$GROUP	Stn_04
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_04
+$GROUP	Stn_05
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_05
+$GROUP	Stn_06
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_06
+$GROUP	Stn_07
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_07
+$GROUP	Stn_08
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_08
+$GROUP	Stn_09
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_09
+$GROUP	Stn_10
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_10
+$GROUP	Stn_11
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_11
+$GROUP	Stn_12
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_12
+$GROUP	Stn_13
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_13
+$GROUP	Stn_14
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_14
+$GROUP	Stn_15
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_15
+$GROUP	Stn_16
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_16
+$GROUP	Stn_17
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_17
+$GROUP	Stn_18
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_18
+$GROUP	Stn_19
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_19
+$GROUP	Stn_20
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_20
+$GROUP	Stn_21
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_21
+$GROUP	Stn_22
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_22
+$GROUP	Stn_23
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_23
+$GROUP	Stn_24
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_24
+$GROUP	Stn_25
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_25
+$GROUP	Stn_26
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_26
+$GROUP	Stn_27
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_27
+$GROUP	Stn_28
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_28
+$GROUP	Stn_29
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_29
+$GROUP	Stn_30
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_30
+$GROUP	Stn_31
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_31
+$GROUP	Stn_32
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_32
+$GROUP	Stn_33
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_33
+$GROUP	Stn_34
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_34
+$GROUP	Stn_35
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_35
+$GROUP	Stn_36
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_36
+$GROUP	Stn_37
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_37
+$GROUP	Stn_38
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_38
+$GROUP	Stn_39
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_39
+$GROUP	Stn_40
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_40
+$ENDGROUP	SBus3
+$GROUP	SBus4
+$GROUP	Stn_01
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_01
+$GROUP	Stn_02
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_02
+$GROUP	Stn_03
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_03
+$GROUP	Stn_04
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_04
+$GROUP	Stn_05
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_05
+$GROUP	Stn_06
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_06
+$GROUP	Stn_07
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_07
+$GROUP	Stn_08
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_08
+$GROUP	Stn_09
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_09
+$GROUP	Stn_10
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_10
+$GROUP	Stn_11
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_11
+$GROUP	Stn_12
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_12
+$GROUP	Stn_13
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_13
+$GROUP	Stn_14
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_14
+$GROUP	Stn_15
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_15
+$GROUP	Stn_16
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_16
+$GROUP	Stn_17
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_17
+$GROUP	Stn_18
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_18
+$GROUP	Stn_19
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_19
+$GROUP	Stn_20
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_20
+$GROUP	Stn_21
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_21
+$GROUP	Stn_22
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_22
+$GROUP	Stn_23
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_23
+$GROUP	Stn_24
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_24
+$GROUP	Stn_25
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_25
+$GROUP	Stn_26
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_26
+$GROUP	Stn_27
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_27
+$GROUP	Stn_28
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_28
+$GROUP	Stn_29
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_29
+$GROUP	Stn_30
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_30
+$GROUP	Stn_31
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_31
+$GROUP	Stn_32
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_32
+$GROUP	Stn_33
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_33
+$GROUP	Stn_34
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_34
+$GROUP	Stn_35
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_35
+$GROUP	Stn_36
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_36
+$GROUP	Stn_37
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_37
+$GROUP	Stn_38
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_38
+$GROUP	Stn_39
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_39
+$GROUP	Stn_40
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_40
+$GROUP	Stn_41
+tag	PEQU	TEXT	
+$ENDGROUP	Stn_41
+$ENDGROUP	SBus4
+$ENDHIDE
+
+; Tagkoding pr sbus device
+
+TEXT SBus1.Stn_01.tag  "Kontordel , 563.060-OU57" ;  1
+TEXT SBus1.Stn_02.tag  "Kontordel , 563.060-OU58" ;  2
+TEXT SBus1.Stn_03.tag  "Kontordel , 563.060-OU59" ;  3
+TEXT SBus1.Stn_04.tag  "Kontordel , 563.060-OU60" ;  4
+TEXT SBus1.Stn_05.tag  "Kontordel , 563.060-OU61" ;  5
+TEXT SBus1.Stn_06.tag  "Kontordel , 563.060-OU62" ;  6
+TEXT SBus1.Stn_07.tag  "Trimrom 1 , 563.060-OU63" ;  7
+TEXT SBus1.Stn_08.tag  "Trimrom 2 , 563.060-OU64" ;  8
+TEXT SBus1.Stn_09.tag  "Trimrom 3 , 563.060-OU65" ;  9
+
+TEXT SBus1.Stn_10.tag  "313 , 563.060-OU001" ;  10
+TEXT SBus1.Stn_11.tag  "314 , 563.060-OU002" ;  11
+TEXT SBus1.Stn_12.tag  "380 , 563.060-OU003" ;  12
+TEXT SBus1.Stn_13.tag  "381 , 563.060-OU004" ;  13
+TEXT SBus1.Stn_14.tag  "382 , 563.060-OU005" ;  14
+TEXT SBus1.Stn_15.tag  "383 , 563.060-OU006" ;  15
+TEXT SBus1.Stn_16.tag  "384 , 563.060-OU007" ;  16
+TEXT SBus1.Stn_17.tag  "385 , 563.060-OU008" ;  17
+TEXT SBus1.Stn_18.tag  "386 , 563.060-OU009" ;  18
+TEXT SBus1.Stn_19.tag  "387 , 563.060-OU010" ;  19
+TEXT SBus1.Stn_20.tag  "388 , 563.060-OU011" ;  20
+TEXT SBus1.Stn_21.tag  "389 , 563.060-OU012" ;  21
+TEXT SBus1.Stn_22.tag  "413 , 563.060-OU013" ;  22
+TEXT SBus1.Stn_23.tag  "414 , 563.060-OU014" ;  23
+TEXT SBus1.Stn_24.tag  "480 , 563.060-OU015" ;  24
+TEXT SBus1.Stn_25.tag  "481 , 563.060-OU016" ;  25
+TEXT SBus1.Stn_26.tag  "482 , 563.060-OU017" ;  26
+TEXT SBus1.Stn_27.tag  "483 , 563.060-OU018" ;  27
+TEXT SBus1.Stn_28.tag  "484 , 563.060-OU019" ;  28
+TEXT SBus1.Stn_29.tag  "485 , 563.060-OU020" ;  29
+TEXT SBus1.Stn_30.tag  "486 , 563.060-OU021" ;  30
+TEXT SBus1.Stn_31.tag  "487 , 563.060-OU022" ;  31
+TEXT SBus1.Stn_32.tag  "488 , 563.060-OU023" ;  32
+TEXT SBus1.Stn_33.tag  "489 , 563.060-OU024" ;  33
+TEXT SBus1.Stn_34.tag  "480 , 563.060-OU025" ;  34
+TEXT SBus1.Stn_35.tag  "ubrukt"        ;  35
+TEXT SBus1.Stn_36.tag  "ubrukt"        ;  36
+TEXT SBus1.Stn_37.tag  "ubrukt"        ;  37
+TEXT SBus1.Stn_38.tag  "ubrukt"        ;  38
+TEXT SBus1.Stn_39.tag  "ubrukt"        ;  39
+TEXT SBus1.Stn_40.tag  "ubrukt"        ;  40
+
+
+;2
+
+
+TEXT Sbus2.Stn_01.tag  "513 , 563.080-OU025"
+TEXT Sbus2.Stn_02.tag  "514 , 563.080-OU026"
+TEXT Sbus2.Stn_03.tag  "580 , 563.080-OU027"
+TEXT Sbus2.Stn_04.tag  "581 , 563.080-OU028"
+TEXT Sbus2.Stn_05.tag  "582 , 563.080-OU029"
+TEXT Sbus2.Stn_06.tag  "583 , 563.080-OU030"
+TEXT Sbus2.Stn_07.tag  "584 , 563.080-OU031"
+TEXT Sbus2.Stn_08.tag  "585 , 563.080-OU032"
+TEXT Sbus2.Stn_09.tag  "586 , 563.080-OU033"
+TEXT Sbus2.Stn_10.tag  "587 , 563.080-OU034"
+TEXT SBus2.Stn_11.tag  "588 , 563.080-OU035"
+TEXT SBus2.Stn_12.tag  "589 , 563.080-OU036"
+TEXT SBus2.Stn_13.tag  "590 , 563.080-OU037"
+TEXT SBus2.Stn_14.tag  "613 , 563.060-OU048"
+TEXT SBus2.Stn_15.tag  "614 , 563.060-OU049"
+TEXT SBus2.Stn_16.tag  "680 , 563.060-OU050"
+TEXT SBus2.Stn_17.tag  "681 , 563.060-OU051" ;Suite
+TEXT SBus2.Stn_32.tag  "681 , 563.060-OU051A" ;Suite soverom
+TEXT SBus2.Stn_18.tag  "682 , 563.060-OU052" ;
+TEXT SBus2.Stn_19.tag  "683 , 563.060-OU053" ;Suite
+TEXT SBus2.Stn_33.tag  "683 , 563.060-OU053A" ;Suite soverom
+TEXT SBus2.Stn_20.tag  "684 , 563.060-OU054" ;
+TEXT SBus2.Stn_21.tag  "685 , 563.060-OU055" ;Suite
+TEXT SBus2.Stn_34.tag  "685 , 563.060-OU055A" ;Suite soverom
+TEXT SBus2.Stn_22.tag  "686 , 563.060-OU056" ;
+TEXT SBus2.Stn_23.tag  "688 , 563.060-OU057" ;
+TEXT SBus2.Stn_24.tag  "780 , 563.060-OU048" ;
+TEXT SBus2.Stn_25.tag  "781 , 563.060-OU049" ;Suite
+TEXT SBus2.Stn_35.tag  "781 , 563.060-OU049A" ;Suite soverom
+TEXT SBus2.Stn_26.tag  "782 , 563.060-OU050" ;
+TEXT SBus2.Stn_27.tag  "783 , 563.060-OU051" ;Suite
+TEXT SBus2.Stn_36.tag  "783 , 563.060-OU051A" ;Suite soverom
+TEXT SBus2.Stn_28.tag  "784 , 563.060-OU052" ;
+TEXT SBus2.Stn_29.tag  "785 , 563.060-OU053" ;Suite
+TEXT SBus2.Stn_37.tag  "785 , 563.060-OU053A" ;Suite soverom
+TEXT SBus2.Stn_30.tag  "786 , 563.060-OU054" ;
+TEXT SBus2.Stn_31.tag  "788 , 563.060-OU056" ;
+
+TEXT SBus2.Stn_38.tag  "ubrukt"        ;  38
+TEXT SBus2.Stn_39.tag  "ubrukt"        ;  39
+TEXT SBus2.Stn_40.tag  "ubrukt"        ;  40
+
+
+
+;3
+
+TEXT SBus3.Stn_01.tag  "ubrukt"        ;  1
+TEXT SBus3.Stn_02.tag  "ubrukt"        ;  2
+TEXT SBus3.Stn_03.tag  "ubrukt"        ;  3
+TEXT SBus3.Stn_04.tag  "ubrukt"        ;  4
+TEXT SBus3.Stn_05.tag  "ubrukt"        ;  5
+TEXT SBus3.Stn_06.tag  "ubrukt"        ;  6
+TEXT SBus3.Stn_07.tag  "ubrukt"        ;  7
+TEXT SBus3.Stn_08.tag  "ubrukt"        ;  8
+TEXT SBus3.Stn_09.tag  "ubrukt"        ;  9
+
+TEXT SBus3.Stn_10.tag  "361 , 563.060-OU001" ;  10
+TEXT SBus3.Stn_11.tag  "362 , 563.060-OU002" ;  11
+TEXT SBus3.Stn_12.tag  "363 , 563.060-OU003" ;  12
+TEXT SBus3.Stn_13.tag  "364 , 563.060-OU004" ;  13
+TEXT SBus3.Stn_14.tag  "365 , 563.060-OU005" ;  14
+TEXT SBus3.Stn_15.tag  "366 , 563.060-OU006" ;  15
+TEXT SBus3.Stn_16.tag  "367 , 563.060-OU007" ;  16
+TEXT SBus3.Stn_17.tag  "368 , 563.060-OU008" ;  17
+TEXT SBus3.Stn_18.tag  "369 , 563.060-OU009" ;  18
+TEXT SBus3.Stn_19.tag  "370 , 563.060-OU010" ;  19
+TEXT SBus3.Stn_20.tag  "371 , 563.060-OU011" ;  20
+TEXT SBus3.Stn_21.tag  "372 , 563.060-OU012" ;  21
+TEXT SBus3.Stn_22.tag  "373 , 563.060-OU013" ;  22
+TEXT SBus3.Stn_23.tag  "374 , 563.060-OU014" ;  23
+TEXT SBus3.Stn_24.tag  "376 , 563.060-OU015" ;  24
+TEXT SBus3.Stn_25.tag  "461 , 563.060-OU016" ;  25
+TEXT SBus3.Stn_26.tag  "462 , 563.060-OU017" ;  26
+TEXT SBus3.Stn_27.tag  "463 , 563.060-OU018" ;  27
+TEXT SBus3.Stn_28.tag  "464 , 563.060-OU019" ;  28
+TEXT SBus3.Stn_29.tag  "465 , 563.060-OU020" ;  29
+TEXT SBus3.Stn_30.tag  "466 , 563.060-OU021" ;  30
+TEXT SBus3.Stn_31.tag  "467 , 563.060-OU022" ;  31
+TEXT SBus3.Stn_32.tag  "468 , 563.060-OU023" ;  32
+TEXT SBus3.Stn_33.tag  "469 , 563.060-OU024" ;  33
+TEXT SBus3.Stn_34.tag  "470 , 563.060-OU025" ;  34
+TEXT SBus3.Stn_35.tag  "471 , 563.060-OU026" ;  35
+TEXT SBus3.Stn_36.tag  "472 , 563.060-OU027" ;  36
+TEXT SBus3.Stn_37.tag  "473 , 563.060-OU028" ;  37
+TEXT SBus3.Stn_38.tag  "474 , 563.060-OU029" ;  38
+TEXT SBus3.Stn_39.tag  "475 , 563.060-OU030" ;  39
+TEXT SBus3.Stn_40.tag  "476 , 563.060-OU031" ; 40
+
+
+;4
+
+TEXT SBus4.Stn_01.tag  "ubrukt"        ;  1
+TEXT SBus4.Stn_02.tag  "ubrukt"        ;  2
+TEXT SBus4.Stn_03.tag  "ubrukt"        ;  3
+TEXT SBus4.Stn_04.tag  "ubrukt"        ;  4
+TEXT SBus4.Stn_05.tag  "ubrukt"        ;  5
+TEXT SBus4.Stn_06.tag  "ubrukt"        ;  6
+TEXT SBus4.Stn_07.tag  "ubrukt"        ;  7
+TEXT SBus4.Stn_08.tag  "ubrukt"        ;  8
+TEXT SBus4.Stn_09.tag  "ubrukt"        ;  9
+
+TEXT Sbus4.Stn_10.tag  "561 , 563.060-OU032" ;kommentar
+TEXT Sbus4.Stn_11.tag  "562 , 563.060-OU033" ;kommentar
+TEXT Sbus4.Stn_12.tag  "563 , 563.060-OU034" ;kommentar
+TEXT Sbus4.Stn_13.tag  "564 , 563.060-OU035" ;kommentar
+TEXT Sbus4.Stn_14.tag  "565 , 563.060-OU036" ;kommentar
+TEXT Sbus4.Stn_15.tag  "566 , 563.060-OU037" ;kommentar
+TEXT Sbus4.Stn_16.tag  "567 , 563.060-OU038" ;kommentar
+TEXT Sbus4.Stn_17.tag  "568 , 563.060-OU039" ;kommentar
+TEXT Sbus4.Stn_18.tag  "569 , 563.060-OU040" ;kommentar
+TEXT Sbus4.Stn_19.tag  "570 , 563.060-OU041" ;kommentar
+TEXT Sbus4.Stn_20.tag  "571 , 563.060-OU042" ;kommentar
+TEXT Sbus4.Stn_21.tag  "572 , 563.060-OU043" ;kommentar
+TEXT Sbus4.Stn_22.tag  "573 , 563.060-OU044" ;kommentar
+TEXT Sbus4.Stn_23.tag  "574 , 563.060-OU045" ;kommentar
+TEXT Sbus4.Stn_24.tag  "575 , 563.060-OU046" ;kommentar
+TEXT Sbus4.Stn_25.tag  "576 , 563.060-OU047" ;kommentar
+TEXT Sbus4.Stn_26.tag  "661 , 563.060-OU048" ;kommentar
+TEXT Sbus4.Stn_27.tag  "662 , 563.060-OU049" ;kommentar
+TEXT Sbus4.Stn_28.tag  "663 , 563.060-OU050" ;kommentar
+TEXT Sbus4.Stn_29.tag  "664 , 563.060-OU051" ;kommentar
+TEXT Sbus4.Stn_30.tag  "665 , 563.060-OU052" ;kommentar
+TEXT Sbus4.Stn_31.tag  "666 , 563.060-OU053" ;kommentar
+TEXT Sbus4.Stn_32.tag  "667 , 563.060-OU054" ;kommentar
+TEXT Sbus4.Stn_33.tag  "668 , 563.060-OU055" ;kommentar
+TEXT Sbus4.Stn_34.tag  "669 , 563.060-OU056" ;kommentar
+TEXT Sbus4.Stn_35.tag  "670 , 563.060-OU057" ;kommentar
+TEXT Sbus4.Stn_36.tag  "671 , 563.060-OU058" ;kommentar
+TEXT Sbus4.Stn_37.tag  "672 , 563.060-OU059" ;kommentar
+TEXT Sbus4.Stn_38.tag  "673 , 563.060-OU060" ;kommentar
+TEXT Sbus4.Stn_39.tag  "674 , 563.060-OU061" ;kommentar
+TEXT Sbus4.Stn_40.tag  "675 , 563.060-OU062" ;kommentar
+TEXT Sbus4.Stn_41.tag  "676 , 563.060-OU063" ;kommentar
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

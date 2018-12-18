@@ -1,0 +1,33 @@
+[Project]
+FileRevision=2
+UserName=Malthe Winje Automasjon AS
+PG5Version=V2.3.165
+Name=repo_BRISTOL
+Description=Created by restore from file: Device FrontEnd_R3_60_EUL_23165_20181218_1008.zip
+DownloadAllOptions=0xFFFFFFFF
+NumberOfCpus=1
+LastActive=FrontEnd_R3_60_EUL
+BackupsDir=D:\_PG5 prosjekt INN UT\KlimaControl
+BackupOptions=0x00000000
+
+[LibraryFiles]
+NumberOfLibs=-1
+
+[CommonFiles]
+NumberOfFiles=0
+
+[CPU1]
+Path=FrontEnd_R3_60_EUL
+DownloadSeq=1
+DownloadChecked=1
+
+[Redundancy]
+RedundancyEnabled=0
+SingleSymbolFile=0
+PrimaryDeviceName=
+PrimarySymbolFile=
+SecondaryDeviceName=
+SecondarySymbolFile=
+RedundantDeviceName=
+RedundantSymbolFile=
+DownloadOptions=0x00000000

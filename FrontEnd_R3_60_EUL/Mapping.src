@@ -1,0 +1,779 @@
+$HIDE ;;Hidden section inserted by S-Edit
+pb_LoopBus1	EQU	PB	
+pb_LoopBus2	EQU	PB	
+pb_LoopBus3	EQU	PB	
+pb_LoopBus4	EQU	PB	
+pb_Bus2SuiterSpecial	EQU	PB	
+$GROUP	SBus1
+$GROUP	Stn_01
+EXTN	data_rx_base	R
+$ENDGROUP	Stn_01
+$ENDGROUP	SBus1
+EXTN	rx_base1	R
+$GROUP	Common
+EXTN	rx_num	
+$ENDGROUP	Common
+EXTN	rx_base2	
+$GROUP	SBus2
+$GROUP	Stn_18
+EXTN	data_rx_base	R
+$ENDGROUP	Stn_18
+$GROUP	Stn_19
+EXTN	data_rx_base	R
+$ENDGROUP	Stn_19
+$GROUP	Stn_20
+EXTN	data_rx_base	R
+$ENDGROUP	Stn_20
+$GROUP	Stn_21
+EXTN	data_rx_base	R
+$ENDGROUP	Stn_21
+$GROUP	Stn_22
+EXTN	data_rx_base	R
+$ENDGROUP	Stn_22
+$GROUP	Stn_23
+EXTN	data_rx_base	R
+$ENDGROUP	Stn_23
+$GROUP	Stn_24
+EXTN	data_rx_base	R
+$ENDGROUP	Stn_24
+$GROUP	Stn_25
+EXTN	data_rx_base	R
+$ENDGROUP	Stn_25
+$GROUP	Stn_26
+EXTN	data_rx_base	R
+$ENDGROUP	Stn_26
+$GROUP	Stn_27
+EXTN	data_rx_base	R
+$ENDGROUP	Stn_27
+$GROUP	Stn_28
+EXTN	data_rx_base	R
+$ENDGROUP	Stn_28
+$GROUP	Stn_29
+EXTN	data_rx_base	R
+$ENDGROUP	Stn_29
+$GROUP	Stn_30
+EXTN	data_rx_base	R
+$ENDGROUP	Stn_30
+$GROUP	Stn_31
+EXTN	data_rx_base	R
+$ENDGROUP	Stn_31
+$GROUP	Stn_17
+EXTN	data_rx_base	R
+$ENDGROUP	Stn_17
+$GROUP	Stn_32
+EXTN	data_rx_base	
+$ENDGROUP	Stn_32
+$GROUP	Stn_33
+EXTN	data_rx_base	R
+$ENDGROUP	Stn_33
+$GROUP	Stn_34
+EXTN	data_rx_base	R
+$ENDGROUP	Stn_34
+$GROUP	Stn_35
+EXTN	data_rx_base	R
+$ENDGROUP	Stn_35
+$GROUP	Stn_36
+EXTN	data_rx_base	R
+$ENDGROUP	Stn_36
+$GROUP	Stn_37
+EXTN	data_rx_base	R
+$ENDGROUP	Stn_37
+$ENDGROUP	SBus2
+$ENDHIDE
+
+
+
+
+$COBSEG
+            CPB    pb_LoopBus1
+            CPB    pb_LoopBus2 
+            CPB    pb_Bus2SuiterSpecial
+
+            CPB    pb_LoopBus3
+            CPB    pb_LoopBus4
+
+$ENDCOBSEG
+
+
+; loope gjennom pr bus 1-2-3-4
+
+; for kvar sbus id 1-10-41
+
+; kopier base_pr_id +  8 til modbus_r_1
+; kopier base_pr_id + 12 til modbus_r_2
+; kopier base_pr_id + 15 til modbus_r_3
+; kopier base_pr_id + 16 til modbus_r_4
+; kopier base_pr_id + 17 til modbus_r_5     
+
+
+;***********************************************************************************************************
+;macro start macro start macro start macro start macro start macro start macro start macro start macro start 
+$SKIP
+$ENDSKIP
+; Param # 1:       [R]    p_topicOffset     - ...
+; Param # 2:       [R]    p_srcPointer        - ...
+; Param # 3:       [R]    p_ModbusPointer     - ...
+; Param # 4:       [R]    p_ModbusBase     - ...
+;-----------------------------------------------------------------------------------------------------------
+mac_pushToModbus MACRO p_topicOffset, p_srcPointer,p_ModbusPointer,p_ModbusBase
+;-----------------------------------------------------------------------------------------------------------
+_srcAdrItem LEQU   R                   ; address of source data
+_itemValue  LEQU   R
+_REG_BASE_NULL LEQU R 0
+_Modbus_R0_offset LEQU R
+
+
+
+            ADD    p_srcPointer
+                   p_topicOffset
+                   _srcAdrItem
+
+            RSI    _srcAdrItem
+
+            GETX   _REG_BASE_NULL
+                   _itemValue
+; to Modbus:
+
+            ADD    p_ModbusPointer
+                   p_ModbusBase
+                   _Modbus_R0_offset
+
+            RSI    _Modbus_R0_offset
+
+            PUTX   _itemValue
+                   _REG_BASE_NULL
+
+            INC    p_ModbusPointer
+
+ 
+            ENDM
+;macro end macro end macro end macro end macro end macro end macro end macro end macro end macro end macro
+;===========================================================================================================
+
+
+
+
+
+
+
+
+
+
+
+; Offsets i struktur frå romkontrollere:
+
+offs_temp   EQU    8
+offs_setpkt EQU    12
+offs_spGrunn EQU   17
+offs_varme  EQU    16
+offs_kjol   EQU    15
+
+                            
+
+
+
+;**********************************************************************************************************   
+$SKIP
+$ENDSKIP
+;----------------------------------------------------------------------------------------------------------
+            PB     pb_LoopBus1
+
+_indexBuffered LEQU R                  ; stack push for current IndexRegister
+_indexDEVICE LEQU  R
+_baseModbusReg LEQU R
+_indexModbusReg LEQU R
+_offsetModbusReg LEQU R
+
+_maxNumDEVICES LEQU R
+
+_srcAdrBase LEQU   R                   ; address of source data
+_adrDeviceOffset LEQU R
+_r_scrap1   LEQU   R
+
+
+_r_temp     LEQU   R
+_r_SP       LEQU   R
+_r_SP_grunn LEQU   R
+_r_heat     LEQU   R
+_r_cool     LEQU   R
+
+
+;Push:
+            STI    _indexBuffered
+            SEI    K 1                 ;first device id "1"
+
+            LD     _maxNumDEVICES
+                   34
+
+;SBUS:
+            LD     _adrDeviceOffset
+                   rx_base1
+
+;MODBUS:
+            LD     _baseModbusReg
+                   1000
+            LD     _indexModbusReg
+                   5
+
+loopDEVICE: NOP
+;Use current indexRegister as item pointer
+
+;...store index for loop:
+            STI    _indexDEVICE
+
+; add for 1 device data set:
+            ADD    _adrDeviceOffset
+                   Common.rx_num       ; numer of data per device
+                   _adrDeviceOffset    ; offset to device (base)
+
+
+; Temperatur:
+            mac_pushToModbus(offs_temp,_adrDeviceOffset,_indexModbusReg,_baseModbusReg)
+; SetPunkt:
+            mac_pushToModbus(offs_setpkt,_adrDeviceOffset,_indexModbusReg,_baseModbusReg)
+; Setpunkt grunn:
+            mac_pushToModbus(offs_spGrunn,_adrDeviceOffset,_indexModbusReg,_baseModbusReg)
+; Varme:
+            mac_pushToModbus(offs_varme,_adrDeviceOffset,_indexModbusReg,_baseModbusReg)
+; Kjøling:
+            mac_pushToModbus(offs_kjol,_adrDeviceOffset,_indexModbusReg,_baseModbusReg)
+
+
+; Prepare for next iteration:
+
+                
+;...restore index for loop:
+            RSI    _indexDEVICE
+            INI    _maxNumDEVICES
+            JR     H loopDEVICE
+;------------------
+
+
+; Pop:
+            RSI    _indexBuffered
+            EPB
+;==========================================================================================================
+
+
+
+;**********************************************************************************************************   
+$SKIP
+$ENDSKIP
+;----------------------------------------------------------------------------------------------------------
+            PB     pb_LoopBus2
+
+_indexBuffered LEQU R                  ; stack push for current IndexRegister
+_indexDEVICE LEQU  R
+_baseModbusReg LEQU R
+_indexModbusReg LEQU R
+_offsetModbusReg LEQU R
+
+_maxNumDEVICES LEQU R
+
+_srcAdrBase LEQU   R                   ; address of source data
+_adrDeviceOffset LEQU R
+_r_scrap1   LEQU   R
+
+
+_r_temp     LEQU   R
+_r_SP       LEQU   R
+_r_SP_grunn LEQU   R
+_r_heat     LEQU   R
+_r_cool     LEQU   R
+
+
+;Push:
+            STI    _indexBuffered
+            SEI    K 1                 ;first device id "1"
+
+            LD     _maxNumDEVICES
+                   16
+
+;SBUS:
+            LD     _adrDeviceOffset
+                   rx_base2
+
+;MODBUS:
+            LD     _baseModbusReg
+                   1175
+            LD     _indexModbusReg
+                   0
+
+loopDEVICE: NOP
+;Use current indexRegister as item pointer
+
+;...store index for loop:
+            STI    _indexDEVICE
+
+; add for 1 device data set:
+            ADD    _adrDeviceOffset
+                   Common.rx_num       ; numer of data per device
+                   _adrDeviceOffset    ; offset to device (base)
+
+
+; Temperatur:
+            mac_pushToModbus(offs_temp,_adrDeviceOffset,_indexModbusReg,_baseModbusReg)
+; SetPunkt:
+            mac_pushToModbus(offs_setpkt,_adrDeviceOffset,_indexModbusReg,_baseModbusReg)
+; Setpunkt grunn:
+            mac_pushToModbus(offs_spGrunn,_adrDeviceOffset,_indexModbusReg,_baseModbusReg)
+; Varme:
+            mac_pushToModbus(offs_varme,_adrDeviceOffset,_indexModbusReg,_baseModbusReg)
+; Kjøling:
+            mac_pushToModbus(offs_kjol,_adrDeviceOffset,_indexModbusReg,_baseModbusReg)
+
+
+; Prepare for next iteration:
+
+                
+;...restore index for loop:
+            RSI    _indexDEVICE
+            INI    _maxNumDEVICES
+            JR     H loopDEVICE
+;------------------
+
+
+; Pop:
+            RSI    _indexBuffered
+            EPB
+;==========================================================================================================
+
+
+            PB     pb_Bus2SuiterSpecial
+   
+$SKIP
+
+offs_temp   EQU    8
+offs_sepkt  EQU    12
+offs_spGrunn EQU   17
+offs_varme  EQU    16
+offs_kjol   EQU    15
+
+$ENDSKIP
+; Rom 681 -Device 17:
+            COPY   SBus2.Stn_17.data_rx_base+offs_temp
+                   R 1255
+            COPY   SBus2.Stn_17.data_rx_base + offs_setpkt
+                   R 1256
+            COPY   SBus2.Stn_17.data_rx_base + offs_spGrunn
+                   R 1257
+            COPY   SBus2.Stn_17.data_rx_base + offs_varme
+                   R 1258
+            COPY   SBus2.Stn_17.data_rx_base + offs_kjol
+                   R 1259
+; Rom 681-A - Device 32
+            COPY   SBus2.Stn_32.data_rx_base + offs_temp
+                   R 1260
+            COPY   SBus2.Stn_32.data_rx_base + offs_setpkt
+                   R 1261
+            COPY   SBus2.Stn_32.data_rx_base + offs_spGrunn
+                   R 1262
+            COPY   SBus2.Stn_32.data_rx_base + offs_varme
+                   R 1263
+            COPY   SBus2.Stn_32.data_rx_base + offs_kjol
+                   R 1264
+; Rom 682 -Device 18:
+            COPY   SBus2.Stn_18.data_rx_base + offs_temp
+                   R 1265
+            COPY   SBus2.Stn_18.data_rx_base + offs_setpkt
+                   R 1266
+            COPY   SBus2.Stn_18.data_rx_base + offs_spGrunn
+                   R 1267
+            COPY   SBus2.Stn_18.data_rx_base + offs_varme
+                   R 1268
+            COPY   SBus2.Stn_18.data_rx_base + offs_kjol
+                   R 1269
+; Rom 683 -Device 19:
+            COPY   SBus2.Stn_19.data_rx_base + offs_temp
+                   R 1270
+            COPY   SBus2.Stn_19.data_rx_base + offs_setpkt
+                   R 1271
+            COPY   SBus2.Stn_19.data_rx_base + offs_spGrunn
+                   R 1272
+            COPY   SBus2.Stn_19.data_rx_base + offs_varme
+                   R 1273
+            COPY   SBus2.Stn_19.data_rx_base + offs_kjol
+                   R 1274
+; Rom 683-A - Device 33
+            COPY   SBus2.Stn_33.data_rx_base + offs_temp
+                   R 1275
+            COPY   SBus2.Stn_33.data_rx_base + offs_setpkt
+                   R 1276
+            COPY   SBus2.Stn_33.data_rx_base + offs_spGrunn
+                   R 1277
+            COPY   SBus2.Stn_33.data_rx_base + offs_varme
+                   R 1278
+            COPY   SBus2.Stn_33.data_rx_base + offs_kjol
+                   R 1279
+; Rom 684 -Device 20:
+            COPY   SBus2.Stn_20.data_rx_base + offs_temp
+                   R 1280
+            COPY   SBus2.Stn_20.data_rx_base + offs_setpkt
+                   R 1281
+            COPY   SBus2.Stn_20.data_rx_base + offs_spGrunn
+                   R 1282
+            COPY   SBus2.Stn_20.data_rx_base + offs_varme
+                   R 1283
+            COPY   SBus2.Stn_20.data_rx_base + offs_kjol
+                   R 1284
+; Rom 685 -Device 21:
+            COPY   SBus2.Stn_21.data_rx_base + offs_temp
+                   R 1285
+            COPY   SBus2.Stn_21.data_rx_base + offs_setpkt
+                   R 1286
+            COPY   SBus2.Stn_21.data_rx_base + offs_spGrunn
+                   R 1287
+            COPY   SBus2.Stn_21.data_rx_base + offs_varme
+                   R 1288
+            COPY   SBus2.Stn_21.data_rx_base + offs_kjol
+                   R 1289
+; Rom 685-A - Device 34
+            COPY   SBus2.Stn_34.data_rx_base + offs_temp
+                   R 1290
+            COPY   SBus2.Stn_34.data_rx_base + offs_setpkt
+                   R 1291
+            COPY   SBus2.Stn_34.data_rx_base + offs_spGrunn
+                   R 1292
+            COPY   SBus2.Stn_34.data_rx_base + offs_varme
+                   R 1293
+            COPY   SBus2.Stn_34.data_rx_base + offs_kjol
+                   R 1294
+; Rom 686 -Device 22:
+            COPY   SBus2.Stn_22.data_rx_base + offs_temp
+                   R 1295
+            COPY   SBus2.Stn_22.data_rx_base + offs_setpkt
+                   R 1296
+            COPY   SBus2.Stn_22.data_rx_base + offs_spGrunn
+                   R 1297
+            COPY   SBus2.Stn_22.data_rx_base + offs_varme
+                   R 1298
+            COPY   SBus2.Stn_22.data_rx_base + offs_kjol
+                   R 1299
+; Rom 688 -Device 23:
+            COPY   SBus2.Stn_23.data_rx_base + offs_temp
+                   R 1300
+            COPY   SBus2.Stn_23.data_rx_base + offs_setpkt
+                   R 1301
+            COPY   SBus2.Stn_23.data_rx_base + offs_spGrunn
+                   R 1302
+            COPY   SBus2.Stn_23.data_rx_base + offs_varme
+                   R 1303
+            COPY   SBus2.Stn_23.data_rx_base + offs_kjol
+                   R 1304
+; Rom 780 -Device 24:
+            COPY   SBus2.Stn_24.data_rx_base + offs_temp
+                   R 1305
+            COPY   SBus2.Stn_24.data_rx_base + offs_setpkt
+                   R 1306
+            COPY   SBus2.Stn_24.data_rx_base + offs_spGrunn
+                   R 1307
+            COPY   SBus2.Stn_24.data_rx_base + offs_varme
+                   R 1308
+            COPY   SBus2.Stn_24.data_rx_base + offs_kjol
+                   R 1309
+; Rom 781 -Device 25:
+            COPY   SBus2.Stn_25.data_rx_base + offs_temp
+                   R 1310
+            COPY   SBus2.Stn_25.data_rx_base + offs_setpkt
+                   R 1311
+            COPY   SBus2.Stn_25.data_rx_base + offs_spGrunn
+                   R 1312
+            COPY   SBus2.Stn_25.data_rx_base + offs_varme
+                   R 1313
+            COPY   SBus2.Stn_25.data_rx_base + offs_kjol
+                   R 1314
+; Rom 781_A -Device 35:
+            COPY   SBus2.Stn_35.data_rx_base + offs_temp
+                   R 1315
+            COPY   SBus2.Stn_35.data_rx_base + offs_setpkt
+                   R 1316
+            COPY   SBus2.Stn_35.data_rx_base + offs_spGrunn
+                   R 1317
+            COPY   SBus2.Stn_35.data_rx_base + offs_varme
+                   R 1318
+            COPY   SBus2.Stn_35.data_rx_base + offs_kjol
+                   R 1319
+; Rom 782 -Device 26:
+            COPY   SBus2.Stn_26.data_rx_base + offs_temp
+                   R 1320
+            COPY   SBus2.Stn_26.data_rx_base + offs_setpkt
+                   R 1321
+            COPY   SBus2.Stn_26.data_rx_base + offs_spGrunn
+                   R 1322
+            COPY   SBus2.Stn_26.data_rx_base + offs_varme
+                   R 1323
+            COPY   SBus2.Stn_26.data_rx_base + offs_kjol
+                   R 1324
+; Rom 783 -Device 27:
+            COPY   SBus2.Stn_27.data_rx_base + offs_temp
+                   R 1325
+            COPY   SBus2.Stn_27.data_rx_base + offs_setpkt
+                   R 1326
+            COPY   SBus2.Stn_27.data_rx_base + offs_spGrunn
+                   R 1327
+            COPY   SBus2.Stn_27.data_rx_base + offs_varme
+                   R 1328
+            COPY   SBus2.Stn_27.data_rx_base + offs_kjol
+                   R 1329
+; Rom 783_A -Device 36:
+            COPY   SBus2.Stn_36.data_rx_base + offs_temp
+                   R 1330
+            COPY   SBus2.Stn_36.data_rx_base + offs_setpkt
+                   R 1331
+            COPY   SBus2.Stn_36.data_rx_base + offs_spGrunn
+                   R 1332
+            COPY   SBus2.Stn_36.data_rx_base + offs_varme
+                   R 1333
+            COPY   SBus2.Stn_36.data_rx_base + offs_kjol
+                   R 1334
+; Rom 784 -Device 28:
+            COPY   SBus2.Stn_28.data_rx_base + offs_temp
+                   R 1335
+            COPY   SBus2.Stn_28.data_rx_base + offs_setpkt
+                   R 1336
+            COPY   SBus2.Stn_28.data_rx_base + offs_spGrunn
+                   R 1337
+            COPY   SBus2.Stn_28.data_rx_base + offs_varme
+                   R 1338
+            COPY   SBus2.Stn_28.data_rx_base + offs_kjol
+                   R 1339
+; Rom 785 -Device 29:
+            COPY   SBus2.Stn_29.data_rx_base + offs_temp
+                   R 1340
+            COPY   SBus2.Stn_29.data_rx_base + offs_setpkt
+                   R 1341
+            COPY   SBus2.Stn_29.data_rx_base + offs_spGrunn
+                   R 1342
+            COPY   SBus2.Stn_29.data_rx_base + offs_varme
+                   R 1343
+            COPY   SBus2.Stn_29.data_rx_base + offs_kjol
+                   R 1344
+; Rom 785_A -Device 37:
+            COPY   SBus2.Stn_37.data_rx_base + offs_temp
+                   R 1345
+            COPY   SBus2.Stn_37.data_rx_base + offs_setpkt
+                   R 1346
+            COPY   SBus2.Stn_37.data_rx_base + offs_spGrunn
+                   R 1347
+            COPY   SBus2.Stn_37.data_rx_base + offs_varme
+                   R 1348
+            COPY   SBus2.Stn_37.data_rx_base + offs_kjol
+                   R 1349
+; Rom 786 -Device 30:
+            COPY   SBus2.Stn_30.data_rx_base + offs_temp
+                   R 1350
+            COPY   SBus2.Stn_30.data_rx_base + offs_setpkt
+                   R 1351
+            COPY   SBus2.Stn_30.data_rx_base + offs_spGrunn
+                   R 1352
+            COPY   SBus2.Stn_30.data_rx_base + offs_varme
+                   R 1353
+            COPY   SBus2.Stn_30.data_rx_base + offs_kjol
+                   R 1354
+; Rom 788 -Device 31:
+            COPY   SBus2.Stn_31.data_rx_base + offs_temp
+                   R 1355
+            COPY   SBus2.Stn_31.data_rx_base + offs_setpkt
+                   R 1356
+            COPY   SBus2.Stn_31.data_rx_base + offs_spGrunn
+                   R 1357
+            COPY   SBus2.Stn_31.data_rx_base + offs_varme
+                   R 1358
+            COPY   SBus2.Stn_31.data_rx_base + offs_kjol
+                   R 1359
+
+
+
+
+            EPB
+
+
+
+;**********************************************************************************************************   
+$SKIP
+$ENDSKIP
+;----------------------------------------------------------------------------------------------------------
+            PB     pb_LoopBus3
+
+_indexBuffered LEQU R                  ; stack push for current IndexRegister
+_indexDEVICE LEQU  R
+_baseModbusReg LEQU R
+_indexModbusReg LEQU R
+_offsetModbusReg LEQU R
+
+_maxNumDEVICES LEQU R
+
+_srcAdrBase LEQU   R                   ; address of source data
+_adrDeviceOffset LEQU R
+_r_scrap1   LEQU   R
+
+
+_r_temp     LEQU   R
+_r_SP       LEQU   R
+_r_SP_grunn LEQU   R
+_r_heat     LEQU   R
+_r_cool     LEQU   R
+
+
+;Push:
+            STI    _indexBuffered
+            SEI    K 10                 ;first device id "1"
+
+            LD     _maxNumDEVICES
+                   40
+
+;SBUS:
+            LD     _adrDeviceOffset
+                   rx_base2
+
+;MODBUS:
+            LD     _baseModbusReg
+                   1400
+            LD     _indexModbusReg
+                   0
+
+loopDEVICE: NOP
+;Use current indexRegister as item pointer
+
+;...store index for loop:
+            STI    _indexDEVICE
+
+; add for 1 device data set:
+            ADD    _adrDeviceOffset
+                   Common.rx_num       ; numer of data per device
+                   _adrDeviceOffset    ; offset to device (base)
+
+
+; Temperatur:
+            mac_pushToModbus(offs_temp,_adrDeviceOffset,_indexModbusReg,_baseModbusReg)
+; SetPunkt:
+            mac_pushToModbus(offs_setpkt,_adrDeviceOffset,_indexModbusReg,_baseModbusReg)
+; Setpunkt grunn:
+            mac_pushToModbus(offs_spGrunn,_adrDeviceOffset,_indexModbusReg,_baseModbusReg)
+; Varme:
+            mac_pushToModbus(offs_varme,_adrDeviceOffset,_indexModbusReg,_baseModbusReg)
+; Kjøling:
+            mac_pushToModbus(offs_kjol,_adrDeviceOffset,_indexModbusReg,_baseModbusReg)
+
+
+; Prepare for next iteration:
+
+                
+;...restore index for loop:
+            RSI    _indexDEVICE
+            INI    _maxNumDEVICES
+            JR     H loopDEVICE
+;------------------
+
+
+; Pop:
+            RSI    _indexBuffered
+            EPB
+;==========================================================================================================
+
+
+
+
+
+
+;**********************************************************************************************************   
+$SKIP
+$ENDSKIP
+;----------------------------------------------------------------------------------------------------------
+            PB     pb_LoopBus4
+
+_indexBuffered LEQU R                  ; stack push for current IndexRegister
+_indexDEVICE LEQU  R
+_baseModbusReg LEQU R
+_indexModbusReg LEQU R
+_offsetModbusReg LEQU R
+
+_maxNumDEVICES LEQU R
+
+_srcAdrBase LEQU   R                   ; address of source data
+_adrDeviceOffset LEQU R
+_r_scrap1   LEQU   R
+
+
+_r_temp     LEQU   R
+_r_SP       LEQU   R
+_r_SP_grunn LEQU   R
+_r_heat     LEQU   R
+_r_cool     LEQU   R
+
+
+;Push:
+            STI    _indexBuffered
+            SEI    K 10                 ;first device id "1"
+
+            LD     _maxNumDEVICES
+                   41
+
+;SBUS:
+            LD     _adrDeviceOffset
+                   rx_base2
+
+;MODBUS:
+            LD     _baseModbusReg
+                   1555
+            LD     _indexModbusReg
+                   0
+
+loopDEVICE: NOP
+;Use current indexRegister as item pointer
+
+;...store index for loop:
+            STI    _indexDEVICE
+
+; add for 1 device data set:
+            ADD    _adrDeviceOffset
+                   Common.rx_num       ; numer of data per device
+                   _adrDeviceOffset    ; offset to device (base)
+
+
+; Temperatur:
+            mac_pushToModbus(offs_temp,_adrDeviceOffset,_indexModbusReg,_baseModbusReg)
+; SetPunkt:
+            mac_pushToModbus(offs_setpkt,_adrDeviceOffset,_indexModbusReg,_baseModbusReg)
+; Setpunkt grunn:
+            mac_pushToModbus(offs_spGrunn,_adrDeviceOffset,_indexModbusReg,_baseModbusReg)
+; Varme:
+            mac_pushToModbus(offs_varme,_adrDeviceOffset,_indexModbusReg,_baseModbusReg)
+; Kjøling:
+            mac_pushToModbus(offs_kjol,_adrDeviceOffset,_indexModbusReg,_baseModbusReg)
+
+
+; Prepare for next iteration:
+
+                
+;...restore index for loop:
+            RSI    _indexDEVICE
+            INI    _maxNumDEVICES
+            JR     H loopDEVICE
+;------------------
+
+
+; Pop:
+            RSI    _indexBuffered
+            EPB
+;==========================================================================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,668 @@
+﻿[10.08.2018 11:00:39]
+ 
+Start MicroBrowser (uBXP)...
+
+Version        1.6.30.146
+OS Name        Windows 10 (x64)
+OS Version     10.0.0.2
+Screen         1920 x 1080, 32 bpp
+Config File V. 140
+
+Configuration File: "SBC_MicroBrowser.xml"
+
+- version		: "140"
+- start_page		: "mb_config/mb_config.html"
+- log_file		: "SBC_MicroBrowser_Log.txt"
+- proxy_host		: ""
+- proxy_port		: "80"
+- vpi_user		: ""
+- vpi_pass		: ""
+- reg_code		: "DDF2DF8ABD8CD274"
+- reg_cds		: ""
+- prompt_url		: "0"
+- full_redraw		: "1"
+- debug_level		: "1"
+- kiosk			: "5"
+- keep_alive		: "1"
+- httpd_enabled		: "0"
+- httpd_port		: "80"
+- sip			: "1"
+- img_mem_max		: "104857600"
+- temp_dir		: "~mb~"
+- warn_btn		: "1;5;!;1,1,50,50;255,128,64;0,0,0;"
+- remote_mode		: "0"
+- teq_cache		: "0"
+- loading_msg		: "1;0;Loading...;0,0,0,0;0,0,0;0,0,0;"
+- show_selection	: "0"
+- config_page		: "mb_config/mb_config.html"
+- config_file		: "mb_config.ini"
+- httpd_debug_level	: "0"
+- boot_delay_sec	: "0"
+- set_width		: "0"
+- set_height		: "0"
+- inactivity_to_sec	: "0"
+- inactivity_pts_ms	: "0"
+- tmz_en		: "0"
+- mem_ramdisk_kb	: "0"
+- mem_heap1_kb		: "0"
+- mem_heap2_kb		: "0"
+- mem_heap3_kb		: "0"
+- mem_heap4_kb		: "0"
+- mem_lrheap_kb		: "0"
+- mfc_http_en		: "3"
+- mfc_http_cache	: "1"
+- http_version		: "1"
+- shift_hotkeys_en	: "1"
+- perco_file		: "SBC_MicroBrowser_Perco.xml"
+- storage_path		: ""
+- built_in_dialog	: "0"
+- scale_factor		: "1"
+- export_en		: "0"
+- export_path		: ""
+- check_for_update	: "0"
+- cookie		: ""
+- soc_contimeo_ms	: "0"
+- soc_rcvtimeo_ms	: "0"
+- soc_sndtimeo_ms	: "0"
+- view_alignment	: "0"
+- bg_color		: ""
+- optimize_first_redraw	: "1"
+- return_to_config_page_sec	: "2"
+- srv_code_page_file	: ""
+
+Platform  : uBXP
+AppPath   : C:\Users\mats_\SBC\PG5 V2.3.1xx\Projects\Testrigg\Device1\WebEditor8\
+SAIA OFT  : 1
+SAIA Alrm : 1
+
+Network:
+Hostname: Mats-L570
+ IfaceNr: 0
+ Adapter: {4DB05F3A-CB8F-4F26-94D3-F84028F3D267}
+ Desc.  : Intel(R) Ethernet Connection (4) I219-V
+ MAC    : FC-45-96-AD-22-87
+ IP     : 192.168.1.187
+ Subnet : 255.255.255.0
+ Is DHCP: 1
+
+-- Time Info --
+Local time:				Fri 2018.08.10 11:00:39 383 ms
+System time in UTC:			Fri 2018.08.10 09:00:39 383 ms
+Zone difference in min. from UTC:	-60
+Daylight bias:				-60
+Daylight savings:			YES
+Standard name:				Vest-Europa (normaltid)
+Dayligh name:				Vest-Europa (sommertid)
+Standard date:				Sun 0.10.05 03:00:00
+Daylight date:				Sun 0.03.05 02:00:00
+Time in seconds since UTC 1/1/70:	1533891639 (0x0)
+---
+OS date:				08/10/18
+OS time:				11:00:39
+Time in seconds since UTC 1/1/70:	1533891639 (0x0)
+UNIX time and date:			Fri Aug 10 11:00:39 2018
+Coordinated universal time:		Fri Aug 10 09:00:39 2018
+12-hour time:				11:00:39 AM
+Plus milliseconds:			383
+Zone difference in min. from UTC:	-60
+Time zone name:				Vest-Europa (normaltid)
+Daylight savings:			YES
+Today is Friday, day 10 of August in the year 2018,
+ week nr. 31, 11:00:39 (11:00 AM)
+Long date and time representation, appropriate for current locale:
+ 08/10/18 11:00:39
+---------------
+
+Default Heap Sizes:
+ RAM-Disk: 4096 KB
+ Heap1   : 4096 KB
+ Heap2   : 4096 KB
+ Heap3   : 4096 KB
+ Heap4   : 4096 KB
+ LRHeap  : 2048 KB
+
+Current Heap Sizes:
+ RAM-Disk: 4096 KB
+ Heap1   : 4096 KB
+ Heap2   : 4096 KB
+ Heap3   : 4096 KB
+ Heap4   : 4096 KB
+ LRHeap  : 2048 KB
+
+Non-Lauer panel (2)
+Init (4)
+CDS  (0)
+spcimgapi.dll not found
+Command line argument: http://localhost:48623/start.html
+Clear Heap 3
+Clear Heap 4
+[10.08.2018 11:00:39]
+ ----
+Start: http://localhost:48623/start.html
+Host: localhost:48623
+IP  : 127.0.0.1:-16913
+Clear Heap 3
+Clear Heap 4
+ Applet           : IMasterSaia5_15_03 (800 x 480)
+ ProjectName      : Testrigg
+ Period           : 1000
+ Nr.of TEQ files  : 2
+ encodeSpecialChar: 1
+ SOAPIF           : OFF
+ MainTEQName      : Start.teq
+ MessageBox       : MsgBox.teq
+ Nr.Errors/Warn   : 1
+ Warn display time: 5
+ TEQ disp. factor : 1.000000 / 1.000000
+Open Teq File: $CI_po8ik3.itq
+Open TCR File: $CP_po8ik3.tcr
+Empty body for: cgi-bin/GetSrvInfo.exe
+[10.08.2018 11:00:42]
+ Error 404:  Failed to download file:
+ cgi-bin/GetSrvInfo.exe
+Open Teq File: Start.teq
+[10.08.2018 11:10:20]
+ orderValues() failed!
+<html><head><title>Saia PCD Web Server</title><style type="text/css">    *{font-family:arial;color:#036;font-size:10pt;}    body{background-color:#fff;margin:0px;}    table.infoBox{width:250px;border:1px solid #aaa;text-align:left;border-collapse:collapse
+[10.08.2018 11:10:20]
+ Failed to update PPOs!
+ HTTP code: 200
+[10.08.2018 11:10:21]
+ orderValues() failed!
+<html><head><title>Saia PCD Web Server</title><style type="text/css">    *{font-family:arial;color:#036;font-size:10pt;}    body{background-color:#fff;margin:0px;}    table.infoBox{width:250px;border:1px solid #aaa;text-align:left;border-collapse:collapse
+[10.08.2018 11:10:21]
+ Failed to update PPOs!
+ HTTP code: 200
+[10.08.2018 11:10:23]
+ orderValues() failed!
+<html><head><title>Saia PCD Web Server</title><style type="text/css">    *{font-family:arial;color:#036;font-size:10pt;}    body{background-color:#fff;margin:0px;}    table.infoBox{width:250px;border:1px solid #aaa;text-align:left;border-collapse:collapse
+[10.08.2018 11:10:23]
+ Failed to update PPOs!
+ HTTP code: 200
+[10.08.2018 11:10:24]
+ orderValues() failed!
+<html><head><title>Saia PCD Web Server</title><style type="text/css">    *{font-family:arial;color:#036;font-size:10pt;}    body{background-color:#fff;margin:0px;}    table.infoBox{width:250px;border:1px solid #aaa;text-align:left;border-collapse:collapse
+[10.08.2018 11:10:24]
+ Failed to update PPOs!
+ HTTP code: 200
+[10.08.2018 11:10:25]
+ orderValues() failed!
+<html><head><title>Saia PCD Web Server</title><style type="text/css">    *{font-family:arial;color:#036;font-size:10pt;}    body{background-color:#fff;margin:0px;}    table.infoBox{width:250px;border:1px solid #aaa;text-align:left;border-collapse:collapse
+[10.08.2018 11:10:25]
+ Failed to update PPOs!
+ HTTP code: 200
+[10.08.2018 11:10:27]
+ orderValues() failed!
+<html><head><title>Saia PCD Web Server</title><style type="text/css">    *{font-family:arial;color:#036;font-size:10pt;}    body{background-color:#fff;margin:0px;}    table.infoBox{width:250px;border:1px solid #aaa;text-align:left;border-collapse:collapse
+[10.08.2018 11:10:27]
+ Failed to update PPOs!
+ HTTP code: 200
+[10.08.2018 11:10:28]
+ orderValues() failed!
+<html><head><title>Saia PCD Web Server</title><style type="text/css">    *{font-family:arial;color:#036;font-size:10pt;}    body{background-color:#fff;margin:0px;}    table.infoBox{width:250px;border:1px solid #aaa;text-align:left;border-collapse:collapse
+[10.08.2018 11:10:28]
+ Failed to update PPOs!
+ HTTP code: 200
+[10.08.2018 11:10:29]
+ orderValues() failed!
+<html><head><title>Saia PCD Web Server</title><style type="text/css">    *{font-family:arial;color:#036;font-size:10pt;}    body{background-color:#fff;margin:0px;}    table.infoBox{width:250px;border:1px solid #aaa;text-align:left;border-collapse:collapse
+[10.08.2018 11:10:29]
+ Failed to update PPOs!
+ HTTP code: 200
+[10.08.2018 11:10:30]
+ orderValues() failed!
+<html><head><title>Saia PCD Web Server</title><style type="text/css">    *{font-family:arial;color:#036;font-size:10pt;}    body{background-color:#fff;margin:0px;}    table.infoBox{width:250px;border:1px solid #aaa;text-align:left;border-collapse:collapse
+[10.08.2018 11:10:30]
+ Failed to update PPOs!
+ HTTP code: 200
+[10.08.2018 11:10:32]
+ orderValues() failed!
+<html><head><title>Saia PCD Web Server</title><style type="text/css">    *{font-family:arial;color:#036;font-size:10pt;}    body{background-color:#fff;margin:0px;}    table.infoBox{width:250px;border:1px solid #aaa;text-align:left;border-collapse:collapse
+[10.08.2018 11:10:32]
+ Failed to update PPOs!
+ HTTP code: 200
+[10.08.2018 11:10:33]
+ orderValues() failed!
+<html><head><title>Saia PCD Web Server</title><style type="text/css">    *{font-family:arial;color:#036;font-size:10pt;}    body{background-color:#fff;margin:0px;}    table.infoBox{width:250px;border:1px solid #aaa;text-align:left;border-collapse:collapse
+[10.08.2018 11:10:33]
+ Failed to update PPOs!
+ HTTP code: 200
+[10.08.2018 11:10:34]
+ orderValues() failed!
+<html><head><title>Saia PCD Web Server</title><style type="text/css">    *{font-family:arial;color:#036;font-size:10pt;}    body{background-color:#fff;margin:0px;}    table.infoBox{width:250px;border:1px solid #aaa;text-align:left;border-collapse:collapse
+[10.08.2018 11:10:34]
+ Failed to update PPOs!
+ HTTP code: 200
+[10.08.2018 11:10:35]
+ orderValues() failed!
+<html><head><title>Saia PCD Web Server</title><style type="text/css">    *{font-family:arial;color:#036;font-size:10pt;}    body{background-color:#fff;margin:0px;}    table.infoBox{width:250px;border:1px solid #aaa;text-align:left;border-collapse:collapse
+[10.08.2018 11:10:35]
+ Failed to update PPOs!
+ HTTP code: 200
+[10.08.2018 11:10:37]
+ orderValues() failed!
+<html><head><title>Saia PCD Web Server</title><style type="text/css">    *{font-family:arial;color:#036;font-size:10pt;}    body{background-color:#fff;margin:0px;}    table.infoBox{width:250px;border:1px solid #aaa;text-align:left;border-collapse:collapse
+[10.08.2018 11:10:37]
+ Failed to update PPOs!
+ HTTP code: 200
+[10.08.2018 11:10:38]
+ orderValues() failed!
+<html><head><title>Saia PCD Web Server</title><style type="text/css">    *{font-family:arial;color:#036;font-size:10pt;}    body{background-color:#fff;margin:0px;}    table.infoBox{width:250px;border:1px solid #aaa;text-align:left;border-collapse:collapse
+[10.08.2018 11:10:38]
+ Failed to update PPOs!
+ HTTP code: 200
+[10.08.2018 11:10:39]
+ orderValues() failed!
+<html><head><title>Saia PCD Web Server</title><style type="text/css">    *{font-family:arial;color:#036;font-size:10pt;}    body{background-color:#fff;margin:0px;}    table.infoBox{width:250px;border:1px solid #aaa;text-align:left;border-collapse:collapse
+[10.08.2018 11:10:39]
+ Failed to update PPOs!
+ HTTP code: 200
+[10.08.2018 11:10:40]
+ orderValues() failed!
+<html><head><title>Saia PCD Web Server</title><style type="text/css">    *{font-family:arial;color:#036;font-size:10pt;}    body{background-color:#fff;margin:0px;}    table.infoBox{width:250px;border:1px solid #aaa;text-align:left;border-collapse:collapse
+[10.08.2018 11:10:40]
+ Failed to update PPOs!
+ HTTP code: 200
+[10.08.2018 11:10:42]
+ orderValues() failed!
+<html><head><title>Saia PCD Web Server</title><style type="text/css">    *{font-family:arial;color:#036;font-size:10pt;}    body{background-color:#fff;margin:0px;}    table.infoBox{width:250px;border:1px solid #aaa;text-align:left;border-collapse:collapse
+[10.08.2018 11:10:42]
+ Failed to update PPOs!
+ HTTP code: 200
+[10.08.2018 11:10:43]
+ orderValues() failed!
+<html><head><title>Saia PCD Web Server</title><style type="text/css">    *{font-family:arial;color:#036;font-size:10pt;}    body{background-color:#fff;margin:0px;}    table.infoBox{width:250px;border:1px solid #aaa;text-align:left;border-collapse:collapse
+[10.08.2018 11:10:43]
+ Failed to update PPOs!
+ HTTP code: 200
+[10.08.2018 11:10:44]
+ orderValues() failed!
+<html><head><title>Saia PCD Web Server</title><style type="text/css">    *{font-family:arial;color:#036;font-size:10pt;}    body{background-color:#fff;margin:0px;}    table.infoBox{width:250px;border:1px solid #aaa;text-align:left;border-collapse:collapse
+[10.08.2018 11:10:44]
+ Failed to update PPOs!
+ HTTP code: 200
+[10.08.2018 11:10:45]
+ orderValues() failed!
+<html><head><title>Saia PCD Web Server</title><style type="text/css">    *{font-family:arial;color:#036;font-size:10pt;}    body{background-color:#fff;margin:0px;}    table.infoBox{width:250px;border:1px solid #aaa;text-align:left;border-collapse:collapse
+[10.08.2018 11:10:45]
+ Failed to update PPOs!
+ HTTP code: 200
+[10.08.2018 11:10:47]
+ orderValues() failed!
+<html><head><title>Saia PCD Web Server</title><style type="text/css">    *{font-family:arial;color:#036;font-size:10pt;}    body{background-color:#fff;margin:0px;}    table.infoBox{width:250px;border:1px solid #aaa;text-align:left;border-collapse:collapse
+[10.08.2018 11:10:47]
+ Failed to update PPOs!
+ HTTP code: 200
+[10.08.2018 11:10:48]
+ orderValues() failed!
+<html><head><title>Saia PCD Web Server</title><style type="text/css">    *{font-family:arial;color:#036;font-size:10pt;}    body{background-color:#fff;margin:0px;}    table.infoBox{width:250px;border:1px solid #aaa;text-align:left;border-collapse:collapse
+[10.08.2018 11:10:48]
+ Failed to update PPOs!
+ HTTP code: 200
+[10.08.2018 11:10:49]
+ orderValues() failed!
+<html><head><title>Saia PCD Web Server</title><style type="text/css">    *{font-family:arial;color:#036;font-size:10pt;}    body{background-color:#fff;margin:0px;}    table.infoBox{width:250px;border:1px solid #aaa;text-align:left;border-collapse:collapse
+[10.08.2018 11:10:49]
+ Failed to update PPOs!
+ HTTP code: 200
+[10.08.2018 11:10:50]
+ orderValues() failed!
+<html><head><title>Saia PCD Web Server</title><style type="text/css">    *{font-family:arial;color:#036;font-size:10pt;}    body{background-color:#fff;margin:0px;}    table.infoBox{width:250px;border:1px solid #aaa;text-align:left;border-collapse:collapse
+[10.08.2018 11:10:50]
+ Failed to update PPOs!
+ HTTP code: 200
+[10.08.2018 11:10:52]
+ orderValues() failed!
+<html><head><title>Saia PCD Web Server</title><style type="text/css">    *{font-family:arial;color:#036;font-size:10pt;}    body{background-color:#fff;margin:0px;}    table.infoBox{width:250px;border:1px solid #aaa;text-align:left;border-collapse:collapse
+[10.08.2018 11:10:52]
+ Failed to update PPOs!
+ HTTP code: 200
+[10.08.2018 11:10:53]
+ orderValues() failed!
+<html><head><title>Saia PCD Web Server</title><style type="text/css">    *{font-family:arial;color:#036;font-size:10pt;}    body{background-color:#fff;margin:0px;}    table.infoBox{width:250px;border:1px solid #aaa;text-align:left;border-collapse:collapse
+[10.08.2018 11:10:53]
+ Failed to update PPOs!
+ HTTP code: 200
+[10.08.2018 11:10:54]
+ orderValues() failed!
+<html><head><title>Saia PCD Web Server</title><style type="text/css">    *{font-family:arial;color:#036;font-size:10pt;}    body{background-color:#fff;margin:0px;}    table.infoBox{width:250px;border:1px solid #aaa;text-align:left;border-collapse:collapse
+[10.08.2018 11:10:54]
+ Failed to update PPOs!
+ HTTP code: 200
+[10.08.2018 11:10:55]
+ orderValues() failed!
+<html><head><title>Saia PCD Web Server</title><style type="text/css">    *{font-family:arial;color:#036;font-size:10pt;}    body{background-color:#fff;margin:0px;}    table.infoBox{width:250px;border:1px solid #aaa;text-align:left;border-collapse:collapse
+[10.08.2018 11:10:55]
+ Failed to update PPOs!
+ HTTP code: 200
+[10.08.2018 11:10:57]
+ orderValues() failed!
+<html><head><title>Saia PCD Web Server</title><style type="text/css">    *{font-family:arial;color:#036;font-size:10pt;}    body{background-color:#fff;margin:0px;}    table.infoBox{width:250px;border:1px solid #aaa;text-align:left;border-collapse:collapse
+[10.08.2018 11:10:57]
+ Failed to update PPOs!
+ HTTP code: 200
+[10.08.2018 11:10:58]
+ orderValues() failed!
+<html><head><title>Saia PCD Web Server</title><style type="text/css">    *{font-family:arial;color:#036;font-size:10pt;}    body{background-color:#fff;margin:0px;}    table.infoBox{width:250px;border:1px solid #aaa;text-align:left;border-collapse:collapse
+[10.08.2018 11:10:58]
+ Failed to update PPOs!
+ HTTP code: 200
+[10.08.2018 11:10:59]
+ orderValues() failed!
+<html><head><title>Saia PCD Web Server</title><style type="text/css">    *{font-family:arial;color:#036;font-size:10pt;}    body{background-color:#fff;margin:0px;}    table.infoBox{width:250px;border:1px solid #aaa;text-align:left;border-collapse:collapse
+[10.08.2018 11:10:59]
+ Failed to update PPOs!
+ HTTP code: 200
+[10.08.2018 11:11:00]
+ orderValues() failed!
+<html><head><title>Saia PCD Web Server</title><style type="text/css">    *{font-family:arial;color:#036;font-size:10pt;}    body{background-color:#fff;margin:0px;}    table.infoBox{width:250px;border:1px solid #aaa;text-align:left;border-collapse:collapse
+[10.08.2018 11:11:00]
+ Failed to update PPOs!
+ HTTP code: 200
+[10.08.2018 11:11:02]
+ orderValues() failed!
+<html><head><title>Saia PCD Web Server</title><style type="text/css">    *{font-family:arial;color:#036;font-size:10pt;}    body{background-color:#fff;margin:0px;}    table.infoBox{width:250px;border:1px solid #aaa;text-align:left;border-collapse:collapse
+[10.08.2018 11:11:02]
+ Failed to update PPOs!
+ HTTP code: 200
+[10.08.2018 11:11:03]
+ orderValues() failed!
+<html><head><title>Saia PCD Web Server</title><style type="text/css">    *{font-family:arial;color:#036;font-size:10pt;}    body{background-color:#fff;margin:0px;}    table.infoBox{width:250px;border:1px solid #aaa;text-align:left;border-collapse:collapse
+[10.08.2018 11:11:03]
+ Failed to update PPOs!
+ HTTP code: 200
+[10.08.2018 11:11:04]
+ orderValues() failed!
+<html><head><title>Saia PCD Web Server</title><style type="text/css">    *{font-family:arial;color:#036;font-size:10pt;}    body{background-color:#fff;margin:0px;}    table.infoBox{width:250px;border:1px solid #aaa;text-align:left;border-collapse:collapse
+[10.08.2018 11:11:04]
+ Failed to update PPOs!
+ HTTP code: 200
+[10.08.2018 11:11:05]
+ orderValues() failed!
+<html><head><title>Saia PCD Web Server</title><style type="text/css">    *{font-family:arial;color:#036;font-size:10pt;}    body{background-color:#fff;margin:0px;}    table.infoBox{width:250px;border:1px solid #aaa;text-align:left;border-collapse:collapse
+[10.08.2018 11:11:05]
+ Failed to update PPOs!
+ HTTP code: 200
+[10.08.2018 11:11:07]
+ orderValues() failed!
+<html><head><title>Saia PCD Web Server</title><style type="text/css">    *{font-family:arial;color:#036;font-size:10pt;}    body{background-color:#fff;margin:0px;}    table.infoBox{width:250px;border:1px solid #aaa;text-align:left;border-collapse:collapse
+[10.08.2018 11:11:07]
+ Failed to update PPOs!
+ HTTP code: 200
+[10.08.2018 11:11:08]
+ orderValues() failed!
+<html><head><title>Saia PCD Web Server</title><style type="text/css">    *{font-family:arial;color:#036;font-size:10pt;}    body{background-color:#fff;margin:0px;}    table.infoBox{width:250px;border:1px solid #aaa;text-align:left;border-collapse:collapse
+[10.08.2018 11:11:08]
+ Failed to update PPOs!
+ HTTP code: 200
+[10.08.2018 11:11:09]
+ orderValues() failed!
+<html><head><title>Saia PCD Web Server</title><style type="text/css">    *{font-family:arial;color:#036;font-size:10pt;}    body{background-color:#fff;margin:0px;}    table.infoBox{width:250px;border:1px solid #aaa;text-align:left;border-collapse:collapse
+[10.08.2018 11:11:09]
+ Failed to update PPOs!
+ HTTP code: 200
+[10.08.2018 11:11:10]
+ orderValues() failed!
+<html><head><title>Saia PCD Web Server</title><style type="text/css">    *{font-family:arial;color:#036;font-size:10pt;}    body{background-color:#fff;margin:0px;}    table.infoBox{width:250px;border:1px solid #aaa;text-align:left;border-collapse:collapse
+[10.08.2018 11:11:10]
+ Failed to update PPOs!
+ HTTP code: 200
+[10.08.2018 11:11:12]
+ orderValues() failed!
+<html><head><title>Saia PCD Web Server</title><style type="text/css">    *{font-family:arial;color:#036;font-size:10pt;}    body{background-color:#fff;margin:0px;}    table.infoBox{width:250px;border:1px solid #aaa;text-align:left;border-collapse:collapse
+[10.08.2018 11:11:12]
+ Failed to update PPOs!
+ HTTP code: 200
+[10.08.2018 11:11:13]
+ orderValues() failed!
+<html><head><title>Saia PCD Web Server</title><style type="text/css">    *{font-family:arial;color:#036;font-size:10pt;}    body{background-color:#fff;margin:0px;}    table.infoBox{width:250px;border:1px solid #aaa;text-align:left;border-collapse:collapse
+[10.08.2018 11:11:13]
+ Failed to update PPOs!
+ HTTP code: 200
+[10.08.2018 11:11:14]
+ orderValues() failed!
+<html><head><title>Saia PCD Web Server</title><style type="text/css">    *{font-family:arial;color:#036;font-size:10pt;}    body{background-color:#fff;margin:0px;}    table.infoBox{width:250px;border:1px solid #aaa;text-align:left;border-collapse:collapse
+[10.08.2018 11:11:14]
+ Failed to update PPOs!
+ HTTP code: 200
+[10.08.2018 11:11:15]
+ orderValues() failed!
+<html><head><title>Saia PCD Web Server</title><style type="text/css">    *{font-family:arial;color:#036;font-size:10pt;}    body{background-color:#fff;margin:0px;}    table.infoBox{width:250px;border:1px solid #aaa;text-align:left;border-collapse:collapse
+[10.08.2018 11:11:15]
+ Failed to update PPOs!
+ HTTP code: 200
+[10.08.2018 11:11:17]
+ orderValues() failed!
+<html><head><title>Saia PCD Web Server</title><style type="text/css">    *{font-family:arial;color:#036;font-size:10pt;}    body{background-color:#fff;margin:0px;}    table.infoBox{width:250px;border:1px solid #aaa;text-align:left;border-collapse:collapse
+[10.08.2018 11:11:17]
+ Failed to update PPOs!
+ HTTP code: 200
+[10.08.2018 11:11:18]
+ orderValues() failed!
+<html><head><title>Saia PCD Web Server</title><style type="text/css">    *{font-family:arial;color:#036;font-size:10pt;}    body{background-color:#fff;margin:0px;}    table.infoBox{width:250px;border:1px solid #aaa;text-align:left;border-collapse:collapse
+[10.08.2018 11:11:18]
+ Failed to update PPOs!
+ HTTP code: 200
+[10.08.2018 11:11:19]
+ orderValues() failed!
+<html><head><title>Saia PCD Web Server</title><style type="text/css">    *{font-family:arial;color:#036;font-size:10pt;}    body{background-color:#fff;margin:0px;}    table.infoBox{width:250px;border:1px solid #aaa;text-align:left;border-collapse:collapse
+[10.08.2018 11:11:19]
+ Failed to update PPOs!
+ HTTP code: 200
+[10.08.2018 11:11:20]
+ orderValues() failed!
+<html><head><title>Saia PCD Web Server</title><style type="text/css">    *{font-family:arial;color:#036;font-size:10pt;}    body{background-color:#fff;margin:0px;}    table.infoBox{width:250px;border:1px solid #aaa;text-align:left;border-collapse:collapse
+[10.08.2018 11:11:20]
+ Failed to update PPOs!
+ HTTP code: 200
+[10.08.2018 11:11:22]
+ orderValues() failed!
+<html><head><title>Saia PCD Web Server</title><style type="text/css">    *{font-family:arial;color:#036;font-size:10pt;}    body{background-color:#fff;margin:0px;}    table.infoBox{width:250px;border:1px solid #aaa;text-align:left;border-collapse:collapse
+[10.08.2018 11:11:22]
+ Failed to update PPOs!
+ HTTP code: 200
+[10.08.2018 11:11:23]
+ orderValues() failed!
+<html><head><title>Saia PCD Web Server</title><style type="text/css">    *{font-family:arial;color:#036;font-size:10pt;}    body{background-color:#fff;margin:0px;}    table.infoBox{width:250px;border:1px solid #aaa;text-align:left;border-collapse:collapse
+[10.08.2018 11:11:23]
+ Failed to update PPOs!
+ HTTP code: 200
+[10.08.2018 11:11:24]
+ orderValues() failed!
+<html><head><title>Saia PCD Web Server</title><style type="text/css">    *{font-family:arial;color:#036;font-size:10pt;}    body{background-color:#fff;margin:0px;}    table.infoBox{width:250px;border:1px solid #aaa;text-align:left;border-collapse:collapse
+[10.08.2018 11:11:24]
+ Failed to update PPOs!
+ HTTP code: 200
+[10.08.2018 11:11:25]
+ orderValues() failed!
+<html><head><title>Saia PCD Web Server</title><style type="text/css">    *{font-family:arial;color:#036;font-size:10pt;}    body{background-color:#fff;margin:0px;}    table.infoBox{width:250px;border:1px solid #aaa;text-align:left;border-collapse:collapse
+[10.08.2018 11:11:25]
+ Failed to update PPOs!
+ HTTP code: 200
+[10.08.2018 11:11:27]
+ orderValues() failed!
+<html><head><title>Saia PCD Web Server</title><style type="text/css">    *{font-family:arial;color:#036;font-size:10pt;}    body{background-color:#fff;margin:0px;}    table.infoBox{width:250px;border:1px solid #aaa;text-align:left;border-collapse:collapse
+[10.08.2018 11:11:27]
+ Failed to update PPOs!
+ HTTP code: 200
+[10.08.2018 11:11:28]
+ orderValues() failed!
+<html><head><title>Saia PCD Web Server</title><style type="text/css">    *{font-family:arial;color:#036;font-size:10pt;}    body{background-color:#fff;margin:0px;}    table.infoBox{width:250px;border:1px solid #aaa;text-align:left;border-collapse:collapse
+[10.08.2018 11:11:28]
+ Failed to update PPOs!
+ HTTP code: 200
+[10.08.2018 11:11:29]
+ orderValues() failed!
+<html><head><title>Saia PCD Web Server</title><style type="text/css">    *{font-family:arial;color:#036;font-size:10pt;}    body{background-color:#fff;margin:0px;}    table.infoBox{width:250px;border:1px solid #aaa;text-align:left;border-collapse:collapse
+[10.08.2018 11:11:29]
+ Failed to update PPOs!
+ HTTP code: 200
+[10.08.2018 11:11:31]
+ orderValues() failed!
+<html><head><title>Saia PCD Web Server</title><style type="text/css">    *{font-family:arial;color:#036;font-size:10pt;}    body{background-color:#fff;margin:0px;}    table.infoBox{width:250px;border:1px solid #aaa;text-align:left;border-collapse:collapse
+[10.08.2018 11:11:31]
+ Failed to update PPOs!
+ HTTP code: 200
+[10.08.2018 11:11:32]
+ orderValues() failed!
+<html><head><title>Saia PCD Web Server</title><style type="text/css">    *{font-family:arial;color:#036;font-size:10pt;}    body{background-color:#fff;margin:0px;}    table.infoBox{width:250px;border:1px solid #aaa;text-align:left;border-collapse:collapse
+[10.08.2018 11:11:32]
+ Failed to update PPOs!
+ HTTP code: 200
+[10.08.2018 11:11:33]
+ orderValues() failed!
+<html><head><title>Saia PCD Web Server</title><style type="text/css">    *{font-family:arial;color:#036;font-size:10pt;}    body{background-color:#fff;margin:0px;}    table.infoBox{width:250px;border:1px solid #aaa;text-align:left;border-collapse:collapse
+[10.08.2018 11:11:33]
+ Failed to update PPOs!
+ HTTP code: 200
+[10.08.2018 11:11:34]
+ orderValues() failed!
+<html><head><title>Saia PCD Web Server</title><style type="text/css">    *{font-family:arial;color:#036;font-size:10pt;}    body{background-color:#fff;margin:0px;}    table.infoBox{width:250px;border:1px solid #aaa;text-align:left;border-collapse:collapse
+[10.08.2018 11:11:34]
+ Failed to update PPOs!
+ HTTP code: 200
+[10.08.2018 11:11:36]
+ orderValues() failed!
+<html><head><title>Saia PCD Web Server</title><style type="text/css">    *{font-family:arial;color:#036;font-size:10pt;}    body{background-color:#fff;margin:0px;}    table.infoBox{width:250px;border:1px solid #aaa;text-align:left;border-collapse:collapse
+[10.08.2018 11:11:36]
+ Failed to update PPOs!
+ HTTP code: 200
+[10.08.2018 11:11:37]
+ orderValues() failed!
+<html><head><title>Saia PCD Web Server</title><style type="text/css">    *{font-family:arial;color:#036;font-size:10pt;}    body{background-color:#fff;margin:0px;}    table.infoBox{width:250px;border:1px solid #aaa;text-align:left;border-collapse:collapse
+[10.08.2018 11:11:37]
+ Failed to update PPOs!
+ HTTP code: 200
+[10.08.2018 11:11:38]
+ orderValues() failed!
+<html><head><title>Saia PCD Web Server</title><style type="text/css">    *{font-family:arial;color:#036;font-size:10pt;}    body{background-color:#fff;margin:0px;}    table.infoBox{width:250px;border:1px solid #aaa;text-align:left;border-collapse:collapse
+[10.08.2018 11:11:38]
+ Failed to update PPOs!
+ HTTP code: 200
+[10.08.2018 11:11:39]
+ orderValues() failed!
+<html><head><title>Saia PCD Web Server</title><style type="text/css">    *{font-family:arial;color:#036;font-size:10pt;}    body{background-color:#fff;margin:0px;}    table.infoBox{width:250px;border:1px solid #aaa;text-align:left;border-collapse:collapse
+[10.08.2018 11:11:39]
+ Failed to update PPOs!
+ HTTP code: 200
+[10.08.2018 11:11:41]
+ orderValues() failed!
+<html><head><title>Saia PCD Web Server</title><style type="text/css">    *{font-family:arial;color:#036;font-size:10pt;}    body{background-color:#fff;margin:0px;}    table.infoBox{width:250px;border:1px solid #aaa;text-align:left;border-collapse:collapse
+[10.08.2018 11:11:41]
+ Failed to update PPOs!
+ HTTP code: 200
+[10.08.2018 11:11:42]
+ orderValues() failed!
+<html><head><title>Saia PCD Web Server</title><style type="text/css">    *{font-family:arial;color:#036;font-size:10pt;}    body{background-color:#fff;margin:0px;}    table.infoBox{width:250px;border:1px solid #aaa;text-align:left;border-collapse:collapse
+[10.08.2018 11:11:42]
+ Failed to update PPOs!
+ HTTP code: 200
+[10.08.2018 11:11:43]
+ orderValues() failed!
+<html><head><title>Saia PCD Web Server</title><style type="text/css">    *{font-family:arial;color:#036;font-size:10pt;}    body{background-color:#fff;margin:0px;}    table.infoBox{width:250px;border:1px solid #aaa;text-align:left;border-collapse:collapse
+[10.08.2018 11:11:43]
+ Failed to update PPOs!
+ HTTP code: 200
+[10.08.2018 11:11:44]
+ orderValues() failed!
+<html><head><title>Saia PCD Web Server</title><style type="text/css">    *{font-family:arial;color:#036;font-size:10pt;}    body{background-color:#fff;margin:0px;}    table.infoBox{width:250px;border:1px solid #aaa;text-align:left;border-collapse:collapse
+[10.08.2018 11:11:44]
+ Failed to update PPOs!
+ HTTP code: 200
+[10.08.2018 11:11:46]
+ orderValues() failed!
+<html><head><title>Saia PCD Web Server</title><style type="text/css">    *{font-family:arial;color:#036;font-size:10pt;}    body{background-color:#fff;margin:0px;}    table.infoBox{width:250px;border:1px solid #aaa;text-align:left;border-collapse:collapse
+[10.08.2018 11:11:46]
+ Failed to update PPOs!
+ HTTP code: 200
+[10.08.2018 11:11:47]
+ orderValues() failed!
+<html><head><title>Saia PCD Web Server</title><style type="text/css">    *{font-family:arial;color:#036;font-size:10pt;}    body{background-color:#fff;margin:0px;}    table.infoBox{width:250px;border:1px solid #aaa;text-align:left;border-collapse:collapse
+[10.08.2018 11:11:47]
+ Failed to update PPOs!
+ HTTP code: 200
+[10.08.2018 11:11:48]
+ orderValues() failed!
+<html><head><title>Saia PCD Web Server</title><style type="text/css">    *{font-family:arial;color:#036;font-size:10pt;}    body{background-color:#fff;margin:0px;}    table.infoBox{width:250px;border:1px solid #aaa;text-align:left;border-collapse:collapse
+[10.08.2018 11:11:48]
+ Failed to update PPOs!
+ HTTP code: 200
+[10.08.2018 11:11:49]
+ orderValues() failed!
+<html><head><title>Saia PCD Web Server</title><style type="text/css">    *{font-family:arial;color:#036;font-size:10pt;}    body{background-color:#fff;margin:0px;}    table.infoBox{width:250px;border:1px solid #aaa;text-align:left;border-collapse:collapse
+[10.08.2018 11:11:49]
+ Failed to update PPOs!
+ HTTP code: 200
+Clear 1 images in cache, used 19780 bytes
+[10.08.2018 11:11:51]
+ orderValues() failed!
+<html><head><title>Saia PCD Web Server</title><style type="text/css">    *{font-family:arial;color:#036;font-size:10pt;}    body{background-color:#fff;margin:0px;}    table.infoBox{width:250px;border:1px solid #aaa;text-align:left;border-collapse:collapse
+[10.08.2018 11:11:51]
+ Failed to update PPOs!
+ HTTP code: 200
+Open Teq File: Start.teq
+[10.08.2018 11:11:52]
+ orderValues() failed!
+<html><head><title>Saia PCD Web Server</title><style type="text/css">    *{font-family:arial;color:#036;font-size:10pt;}    body{background-color:#fff;margin:0px;}    table.infoBox{width:250px;border:1px solid #aaa;text-align:left;border-collapse:collapse
+[10.08.2018 11:11:52]
+ Failed to update PPOs!
+ HTTP code: 200
+[10.08.2018 11:11:53]
+ orderValues() failed!
+<html><head><title>Saia PCD Web Server</title><style type="text/css">    *{font-family:arial;color:#036;font-size:10pt;}    body{background-color:#fff;margin:0px;}    table.infoBox{width:250px;border:1px solid #aaa;text-align:left;border-collapse:collapse
+[10.08.2018 11:11:53]
+ Failed to update PPOs!
+ HTTP code: 200
+[10.08.2018 11:11:55]
+ orderValues() failed!
+<html><head><title>Saia PCD Web Server</title><style type="text/css">    *{font-family:arial;color:#036;font-size:10pt;}    body{background-color:#fff;margin:0px;}    table.infoBox{width:250px;border:1px solid #aaa;text-align:left;border-collapse:collapse
+[10.08.2018 11:11:55]
+ Failed to update PPOs!
+ HTTP code: 200
+[10.08.2018 11:11:56]
+ orderValues() failed!
+<html><head><title>Saia PCD Web Server</title><style type="text/css">    *{font-family:arial;color:#036;font-size:10pt;}    body{background-color:#fff;margin:0px;}    table.infoBox{width:250px;border:1px solid #aaa;text-align:left;border-collapse:collapse
+[10.08.2018 11:11:56]
+ Failed to update PPOs!
+ HTTP code: 200
+[10.08.2018 11:11:57]
+ orderValues() failed!
+<html><head><title>Saia PCD Web Server</title><style type="text/css">    *{font-family:arial;color:#036;font-size:10pt;}    body{background-color:#fff;margin:0px;}    table.infoBox{width:250px;border:1px solid #aaa;text-align:left;border-collapse:collapse
+[10.08.2018 11:11:57]
+ Failed to update PPOs!
+ HTTP code: 200
+[10.08.2018 11:11:58]
+ orderValues() failed!
+<html><head><title>Saia PCD Web Server</title><style type="text/css">    *{font-family:arial;color:#036;font-size:10pt;}    body{background-color:#fff;margin:0px;}    table.infoBox{width:250px;border:1px solid #aaa;text-align:left;border-collapse:collapse
+[10.08.2018 11:11:58]
+ Failed to update PPOs!
+ HTTP code: 200
+[10.08.2018 11:12:00]
+ orderValues() failed!
+<html><head><title>Saia PCD Web Server</title><style type="text/css">    *{font-family:arial;color:#036;font-size:10pt;}    body{background-color:#fff;margin:0px;}    table.infoBox{width:250px;border:1px solid #aaa;text-align:left;border-collapse:collapse
+[10.08.2018 11:12:00]
+ Failed to update PPOs!
+ HTTP code: 200
+[10.08.2018 11:12:01]
+ orderValues() failed!
+<html><head><title>Saia PCD Web Server</title><style type="text/css">    *{font-family:arial;color:#036;font-size:10pt;}    body{background-color:#fff;margin:0px;}    table.infoBox{width:250px;border:1px solid #aaa;text-align:left;border-collapse:collapse
+[10.08.2018 11:12:01]
+ Failed to update PPOs!
+ HTTP code: 200
+[10.08.2018 11:12:02]
+ orderValues() failed!
+<html><head><title>Saia PCD Web Server</title><style type="text/css">    *{font-family:arial;color:#036;font-size:10pt;}    body{background-color:#fff;margin:0px;}    table.infoBox{width:250px;border:1px solid #aaa;text-align:left;border-collapse:collapse
+[10.08.2018 11:12:02]
+ Failed to update PPOs!
+ HTTP code: 200
+[10.08.2018 11:12:02]
+ Error -1:  Failed to download file:
+ cgi-bin/OrderValues.exe?192168001187_390_0+dummy+1000+PDP,,R2211,D
+[10.08.2018 11:12:02]
+ Failed to update PPOs!
+ HTTP code: -1
+Clear 1 images in cache, used 19780 bytes
+Clear Heap 3
+Clear Heap 4
+[10.08.2018 11:12:02]
+ Bye.
